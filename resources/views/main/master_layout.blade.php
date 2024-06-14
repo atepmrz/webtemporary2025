@@ -93,7 +93,7 @@
                     </div>
                 </div>
                 {{-- <a href="javascript:void(0)" class="nav-item nav-link">Karir</a> --}}
-                <a href="https://wa.me/087814523770/?text=Selamat Datang di Layanan Chatbot Prama Borma"
+                <a href="https://wa.me/6287814523770/?text="
                     target="_blank" class="nav-item nav-link btn btn-primary px-3"
                     style="border-radius: 10px;color:white">Member</a>
             </div>
@@ -202,43 +202,43 @@
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
             <p class="fw-medium text-uppercase text-primary mb-2">Promo Lainnya</p>
-            <h1 class="display-5 text-white mb-5">12.12 HARBOLNAS</h1>
+            <h1 class="display-5 text-white mb-5">Sudah Murah Banyak Hadiahnya</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-1.jpg" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Test Prama 1</h5>
+                    <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-2.jpg" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Test Prama 2</h5>
+                    <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-3.jpg" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Test Prama 3</h5>
+                    <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-4.jpg" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Test Prama 4</h5>
+                    <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-5.jpg" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Test Prama 5</h5>
+                    <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-6.jpg" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Test Prama 6</h5>
+                    <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
         </div>
