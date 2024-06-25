@@ -1,9 +1,9 @@
 <head>
     <meta charset="utf-8" />
-    <title>Prama Borma Toserba - Sudah Murah Banyak Hadiahnya</title>
+    <title>Prama Borma Toserba - Ramon - Sudah Murah Banyak Hadiahnya</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description"
-        content="sudah murah banyak hadiahnya.  sudah murah banyak promonya, sudah murah makin murah, Prama Borma menyediakan beragam produk kebutuhan sehari-hari dengan kualitas yang dapat diandalkan, lengkap, harga hemat, dan lokasi toko yang mudah dijangkau, 
+        content="toserba terlengkap dibandung. Sudah murah banyak hadiahnya. sudah murah banyak promonya, sudah murah makin murah, Prama Borma menyediakan beragam produk kebutuhan sehari-hari dengan kualitas yang dapat diandalkan, lengkap, harga hemat, dan lokasi toko yang mudah dijangkau, 
         Prama Borma Toserba, Toko Belanja Online Fashion Dan Supermarket Terlengkap Dari prama Group. prama adalah Toko Belanja Online dari prama Group, yang melayani kebutuhan masyarakat Indonesia dengan produk-produk pilihan seperti kebutuhan sehari-hari atau Supermarket, Produk Fresh Buah dan Sayur, Fashion Pria, Fashion Wanita, Keperluan Ibu Bayi dan Anak, Peralatan elektronik, Peralatan rumah tangga, Handphone, Audio Visual, Otomotif, Hobi Gaya Hidup, Rumah Dapur, Kesehatan dan Kecantikan. Prama Borma Toserba selalu menjamin kepuasan pelayanan kepada pelanggan yang terbaik termasuk dengan menawarkan beberapa pilihan pembayaran, sistem pengiriman &amp; pengambilan pesanan, layanan konsumen dan berbagai kemudahan lainnya. Flat ongkir atau biaya pengiriman dengan syarat tertentu, hingga layanan pesan antar Prama Borma Toserba yang memungkinkan pesanan diterima di hari yang sama juga merupakan fasilitas-fasilitas yang bisa didapat dengan berbelanja di Prama Borma Toserba, Sudah Murah Banyak Hadiahnya" />
     <meta name="keywords"
         content="Prama, Prama Borma, prama toserba, Prama Fresh, pramatoserba.co.id, Lebih Segar, Lebih Hemat, Lebih Dekat | Prama Toserba, Prama Borma supermarket, Prama Borma, lebih segar, resep masak sehat, lebih segar makanan, info hidup sehat, info sehat makanan, produk segar Penjualan, membeli segar, katalog promo hemat, makanan lezat, Sudah Murah Banyak Hadiahnya, prama online, Prama Borma Toserba,toserba bandung,

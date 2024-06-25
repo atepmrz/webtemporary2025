@@ -93,9 +93,8 @@
                     </div>
                 </div>
                 {{-- <a href="javascript:void(0)" class="nav-item nav-link">Karir</a> --}}
-                <a href="https://wa.me/6287814523770/?text="
-                    target="_blank" class="nav-item nav-link btn btn-primary px-3"
-                    style="border-radius: 10px;color:white">Member</a>
+                <a href="https://wa.me/6287814523770/?text=" target="_blank"
+                    class="nav-item nav-link btn btn-primary px-3" style="border-radius: 10px;color:white">Member</a>
             </div>
 
         </div>
@@ -156,7 +155,7 @@
                     <p class="mb-4"></p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
-                            <h1 class="display-2">25</h1>
+                            <h1 class="display-2">30</h1>
                             <h5 class="text-white">Years of</h5>
                             <h5 class="text-white">Experience</h5>
                         </div>
@@ -199,44 +198,43 @@
     <!-- About End -->
 
     <!-- Project Start -->
-    <div class="container-fluid bg-dark pt-5 my-5 px-0">
+    <div class="container-fluid bg-dark pt-0 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
-            <p class="fw-medium text-uppercase text-primary mb-2">Promo Lainnya</p>
-            <h1 class="display-5 text-white mb-5">Sudah Murah Banyak Hadiahnya</h1>
+            <h3 class="display-5 text-white mb-5">Promosi</h3>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-1.jpg" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/1.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-2.jpg" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/2.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-3.jpg" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/3.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-4.jpg" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/4.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-5.jpg" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/5.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Prama</h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-6.jpg" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/6.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Prama</h5>
                 </div>
@@ -244,6 +242,7 @@
         </div>
     </div>
     <!-- Project End -->
+
 
     <!-- Features Start -->
     <div class="container-xxl py-5">
