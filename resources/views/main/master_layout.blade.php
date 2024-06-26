@@ -437,17 +437,83 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <img class="img-fluid" src="{{ asset('img/lokasi/pbs.jpg') }}" alt="" />
+                        <img class="img-fluid" src="{{ asset('img/lokasi/bbb.jpg') }}" alt="" />
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                 <i class="fa fa-2x fa-share text-white"></i>
                             </div>
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                 style="height: 90px">
-                                <h5>Prama Babakan Sari</h5>
+                                <h5>Borma Buah Batu</h5>
                                 <span class="text-primary"></span>
                                 <div class="team-social">
-                                    <a href="https://wa.me/6282123766991/?text=" target="_blank">
+                                    <a href="https://wa.me/6282123767001/?text=" target="_blank">
+                                        <p class="text-white display-6 mb-0">Layar <i
+                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="{{ asset('img/lokasi/bcj.jpg') }}" alt="" />
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px">
+                                <h5>Borma Cijerah</h5>
+                                <span class="text-primary"></span>
+                                <div class="team-social">
+                                    <a href="https://wa.me/6282127416745/?text=" target="_blank">
+                                        <p class="text-white display-6 mb-0">Layar <i
+                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="{{ asset('img/lokasi/bck.jpg') }}" alt="" />
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px">
+                                <h5>Borma Cikutra</h5>
+                                <span class="text-primary"></span>
+                                <div class="team-social">
+                                    <a href="https://wa.me/6282123767002/?text=" target="_blank">
+                                        <p class="text-white display-6 mb-0">Layar <i
+                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="{{ asset('img/lokasi/bkk.jpg') }}" alt="" />
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px">
+                                <h5>Borma Kerkof</h5>
+                                <span class="text-primary"></span>
+                                <div class="team-social">
+                                    <a href="https://wa.me/6282123767004/?text=" target="_blank">
                                         <p class="text-white display-6 mb-0">Layar <i
                                                 class="fab fa-whatsapp display-6" style="color: green"></i></p>
                                     </a>
@@ -480,6 +546,93 @@
             </div>
             <br>
             <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="{{ asset('img/lokasi/pbs.jpg') }}" alt="" />
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px">
+                                <h5>Prama Babakan Sari</h5>
+                                <span class="text-primary"></span>
+                                <div class="team-social">
+                                    <a href="https://wa.me/6282123766991/?text=" target="_blank">
+                                        <p class="text-white display-6 mb-0">Layar <i
+                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="{{ asset('img/lokasi/pcp.jpg') }}" alt="" />
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px">
+                                <h5>Prama Ciparay</h5>
+                                <span class="text-primary"></span>
+                                <div class="team-social">
+                                    <a href="https://wa.me/6281313088967/?text=" target="_blank">
+                                        <p class="text-white display-6 mb-0">Layar <i
+                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="{{ asset('img/lokasi/fbr.jpg') }}" alt="" />
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px">
+                                <h5>Prama Fresh Burangrang</h5>
+                                <span class="text-primary"></span>
+                                <div class="team-social">
+                                    <a href="https://wa.me/6281223725553/?text=" target="_blank">
+                                        <p class="text-white display-6 mb-0">Layar <i
+                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <img class="img-fluid" src="{{ asset('img/lokasi/fgd.jpg') }}" alt="" />
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px">
+                                <h5>Prama Fresh Garuda</h5>
+                                <span class="text-primary"></span>
+                                <div class="team-social">
+                                    <a href="https://wa.me/6281322386181/?text=" target="_blank">
+                                        <p class="text-white display-6 mb-0">Layar <i
+                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <img class="img-fluid" src="{{ asset('img/lokasi/fmw.jpg') }}" alt="" />
@@ -522,30 +675,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="{{ asset('img/lokasi/fbr.jpg') }}" alt="" />
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style="height: 90px">
-                                <h5>Prama Fresh Burangrang</h5>
-                                <span class="text-primary"></span>
-                                <div class="team-social">
-                                    <a href="https://wa.me/6281223725553/?text=" target="_blank">
-                                        <p class="text-white display-6 mb-0">Layar <i
-                                                class="fab fa-whatsapp display-6" style="color: green"></i></p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
+
+
     <!-- Lokasi End -->
 
     <!-- Contact Start -->
