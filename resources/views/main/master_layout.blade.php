@@ -75,7 +75,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="javascript:void(0)" class="dropdown-item">Layanan Antar
+                        <a href="#loklayar" class="dropdown-item">Layanan Antar
                             (LAYAR)</a>
                         <a href="javascript:void(0)" class="dropdown-item">Customer Care</a>
                         <a href="javascript:void(0)" class="dropdown-item">Voucher</a>
@@ -411,7 +411,7 @@
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
                 <!-- <p class="fw-medium text-uppercase text-primary mb-2">Lokasi</p> -->
-                <h2 class="display-6 mb-5">Lokasi Prama Borma Group</h2>
+                <h2 class="display-6 mb-5" id="loklayar">Lokasi & Layar Prama Borma Group</h2>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
