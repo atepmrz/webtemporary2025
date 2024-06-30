@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('/oc', function () {
     $exitCode = Artisan::call('optimize:clear');
     echo '<script>
-        alert("Event, Views, Cache, Routes, Config, compiled clearedd")
+        alert("Event, Views, Cache, Routes, Config, compiled cleared")
     </script>';
 });
 Route::get('/cc', function () {
