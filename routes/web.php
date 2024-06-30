@@ -6,7 +6,6 @@ Route::get('/', function () {
     return view('main.master_layout');
 });
 
-
 //! /////////////////////  //////////////////////////////////////////////////////////  //////////////////////////////////////
 //! /////////////                    ///////////////////////                    ///  ////////////////////////////////////////
 //todo //////////   ///  /////////   ///////////////////////   //////////////   //  /////////////////////////////////////////
@@ -20,7 +19,7 @@ Route::get('/', function () {
 Route::get('/oc', function () {
     $exitCode = Artisan::call('optimize:clear');
     echo '<script>
-        alert("Event, Views, Cache, Routes, Config, compiled cleared")
+        alert("Event, Views, Cache, Routes, Config, compiled clearedd")
     </script>';
 });
 Route::get('/cc', function () {
