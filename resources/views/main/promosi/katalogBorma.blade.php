@@ -15,10 +15,7 @@
                 <div class="testimonial-item text-center">
                     <div class="position-relative">
                         <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
-                            src="{{ asset('img/promo/borma/juni/1.jpg') }}">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
+                            src="{{ asset('img/promo/borma/juli/1.jpg') }}">
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
                         <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
@@ -29,11 +26,10 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
+                    <div class="position-relative">
+                        <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
+                            src="{{ asset('img/promo/borma/juli/2.jpg') }}">
+
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
                         <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
@@ -44,11 +40,10 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
+                    <div class="position-relative">
+                        <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
+                            src="{{ asset('img/promo/borma/juli/3.jpg') }}">
+
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
                         <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
