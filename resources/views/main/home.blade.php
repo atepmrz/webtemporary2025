@@ -1,5 +1,10 @@
 @extends('main.master_layout')
 @section('konten')
+    <style>
+        .border-borma {
+            border-radius: 10px;
+        }
+    </style>
     <!-- Carousel Start -->
     <div class="container-fluid px-0">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -606,8 +611,8 @@
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <iframe class="w-100"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6975145640945!2d107.54925967500758!3d-6.926714217799714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e55dc4aea0ed%3A0xfe9f522010bed7aa!2sBORMA%20Toserba%20Gempol%20Sari!5e0!3m2!1sid!2sid!4v1719283344491!5m2!1sid!2sid"
-                            frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
+                            frameborder="0" style="min-height: 450px; border:0; border-radius:10px" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
                 <div class="row g-5">
@@ -645,33 +650,34 @@
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name"
-                                            placeholder="Your Name" style="border-radius: 5px">
+                                        <input type="text" class="form-control border-borma" id="name"
+                                            placeholder="Your Name">
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email"
-                                            placeholder="Your Email" style="border-radius: 5px">
+                                        <input type="email" class="form-control border-borma" id="email"
+                                            placeholder="Your Email">
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                            style="border-radius: 5px">
+                                        <input type="text" class="form-control border-borma" id="subject"
+                                            placeholder="Subject">
                                         <label for="subject">Subject</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                        <textarea class="form-control border-borma" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                         <label for="message">Message</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                                    <button class="btn btn-primary py-3 px-5 border-borma" type="submit">Send
+                                        Message</button>
                                 </div>
                             </div>
                         </form>
