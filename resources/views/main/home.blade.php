@@ -41,10 +41,12 @@
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/about-1.jpg" />
+                            <img class="img-fluid border border-5 border-warning" style="border-radius: 10px"
+                                src="img/about-1.jpg" />
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/about-2.jpg" />
+                            <img class="img-fluid border border-5 border-warning" style="border-radius: 10px"
+                                src="img/about-2.jpg" />
                         </div>
                     </div>
                 </div>
@@ -110,35 +112,35 @@
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/2.jpeg') }}" alt="" />
+                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/2.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/3.jpeg') }}" alt="" />
+                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/3.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/4.jpeg') }}" alt="" />
+                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/4.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/5.jpeg') }}" alt="" />
+                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/5.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/6.jpeg') }}" alt="" />
+                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/6.jpeg') }}" alt="" />
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
                     </h5>
@@ -155,7 +157,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="img/feature.jpg" alt="" />
+                        <img class="img-fluid w-100 border-borma" src="img/feature.jpg" alt="" />
                         <span
                             class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
                             style="width: 120px; height: 120px"></span>
@@ -632,20 +634,21 @@
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="name"
-                                            placeholder="Your Name">
+                                            placeholder="Your Name" style="border-radius: 5px">
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="email"
-                                            placeholder="Your Email">
+                                            placeholder="Your Email" style="border-radius: 5px">
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                            style="border-radius: 5px">
                                         <label for="subject">Subject</label>
                                     </div>
                                 </div>

@@ -1,4 +1,8 @@
 /********** Template CSS **********/
+
+.border-borma{
+    border-radius: 10px;
+}
 :root {
     --primary: #FF5E14;
     --secondary: #5F656F;

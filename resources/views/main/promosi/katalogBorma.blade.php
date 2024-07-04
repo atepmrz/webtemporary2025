@@ -5,6 +5,9 @@
     <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('lib/fancybox/fancybox.min.css') }}">
 
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Testimonial Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -12,49 +15,24 @@
                 <p class="fw-medium text-uppercase text-primary mb-7">Katalog prama borma</p>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center">
-                    <div class="position-relative">
-                        <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
-                            src="{{ asset('img/promo/borma/juli/1.jpg') }}">
+                @for ($x = 1; $x <= 10; $x++)
+                    <div class="testimonial-item text-center">
+                        <div class="position-relative">
+                            <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
+                                src="{{ asset('img/promo/borma/juli/' . $x . '.jpg') }}">
+                        </div>
                     </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="position-relative">
-                        <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
-                            src="{{ asset('img/promo/borma/juli/2.jpg') }}">
+                @endfor
 
-                    </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="position-relative">
-                        <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
-                            src="{{ asset('img/promo/borma/juli/3.jpg') }}">
 
-                    </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
             </div>
         </div>
+
+        <section>
+            <button class="position-relative top-80 start-50 translate-middle btn btn-danger" style="border-radius: 5px"><i
+                    class="fa fa-download"></i>
+                Download Katalog</button>
+        </section>
     </div>
     <!-- Testimonial End -->
 
