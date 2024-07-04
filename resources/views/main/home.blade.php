@@ -318,7 +318,8 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/bgp.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2 border-borma mb-2"
+                                src="{{ asset('img/lokasi/bgp.jpg') }}" alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -339,7 +340,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/bbb.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/bbb.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -360,7 +362,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/bcj.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/bcj.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -384,7 +387,8 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/bck.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/bck.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -405,7 +409,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/bkk.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/bkk.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -426,7 +431,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/pbj.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/pbj.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -450,7 +456,8 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/pbs.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/pbs.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -471,7 +478,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/pcp.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/pcp.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -492,7 +500,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/fbr.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/fbr.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -516,7 +525,8 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/fgd.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/fgd.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -537,7 +547,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/fmw.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/fmw.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -558,7 +569,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item">
-                            <img class="img-fluid" src="{{ asset('img/lokasi/fps.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2" src="{{ asset('img/lokasi/fps.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
