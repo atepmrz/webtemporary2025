@@ -46,11 +46,11 @@
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-5 border-warning" style="border-radius: 10px"
+                            <img class="img-fluid border border-5 border-warning" style="border-radius: 25px"
                                 src="img/about-1.jpg" />
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-5 border-warning" style="border-radius: 10px"
+                            <img class="img-fluid border border-5 border-warning" style="border-radius: 25px"
                                 src="img/about-2.jpg" />
                         </div>
                     </div>
@@ -117,37 +117,37 @@
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/2.jpeg') }}" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/2.jpeg') }}" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
+                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/3.jpeg') }}" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/3.jpeg') }}" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
+                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/4.jpeg') }}" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/4.jpeg') }}" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
+                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/5.jpeg') }}" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/5.jpeg') }}" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
+                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid border-borma" src="{{ asset('img/promoItem/6.jpeg') }}" alt="" />
+                <img class="img-fluid" src="{{ asset('img/promoItem/6.jpeg') }}" alt="" />
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: green"></i>
+                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
                     </h5>
                 </div>
             </a>
@@ -323,8 +323,8 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item">
-                            <img class="img-fluid border-borma mb-2 border-borma mb-2"
-                                src="{{ asset('img/lokasi/bgp.jpg') }}" alt="" />
+                            <img class="img-fluid border-borma mb-2 border-borma" src="{{ asset('img/lokasi/bgp.jpg') }}"
+                                alt="" />
                             <div class="d-flex">
                                 <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px">
                                     <i class="fa fa-2x fa-share text-white"></i>
@@ -335,8 +335,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282124639585/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -357,8 +357,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282123767001/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -379,8 +379,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282127416745/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -404,8 +404,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282123767002/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -426,8 +426,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282123767004/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -448,8 +448,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282123766990/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -473,8 +473,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282123766991/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -495,8 +495,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6281313088967/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -517,8 +517,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6281223725553/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -542,8 +542,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6281322386181/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -564,8 +564,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282164663838/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -586,8 +586,8 @@
                                     <span class="text-primary"></span>
                                     <div class="team-social">
                                         <a href="https://wa.me/6282117433790/?text=" target="_blank">
-                                            <p class="text-white display-6 mb-0">Layar <i
-                                                    class="fab fa-whatsapp display-6" style="color: green"></i></p>
+                                            <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
+                                                    style="color: green"></i></h3>
                                         </a>
                                     </div>
                                 </div>
@@ -610,7 +610,7 @@
                 <div class="row mb-5">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <iframe class="w-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6975145640945!2d107.54925967500758!3d-6.926714217799714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e55dc4aea0ed%3A0xfe9f522010bed7aa!2sBORMA%20Toserba%20Gempol%20Sari!5e0!3m2!1sid!2sid!4v1719283344491!5m2!1sid!2sid"
+                            src="https://www.google.com/maps/d/embed?mid=1KOO0-91xftJfMFYqxUlVylAE7TNIj1w&ehbc=2E312F&noprof=1"
                             frameborder="0" style="min-height: 450px; border:0; border-radius:10px" allowfullscreen=""
                             aria-hidden="false" tabindex="0"></iframe>
                     </div>

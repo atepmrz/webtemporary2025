@@ -18,7 +18,7 @@
                 @for ($x = 1; $x <= 10; $x++)
                     <div class="testimonial-item text-center">
                         <div class="position-relative">
-                            <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
+                            <img style="max-height: 600px; max-width:400px" class="img-fluid mx-auto mb-5"
                                 src="{{ asset('img/promo/borma/juli/' . $x . '.jpg') }}">
                         </div>
                     </div>

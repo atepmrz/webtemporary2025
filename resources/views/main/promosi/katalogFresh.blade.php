@@ -15,10 +15,10 @@
                 <p class="fw-medium text-uppercase text-primary mb-7">Katalog Prama Fresh</p>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                @for ($x = 1; $x <= 10; $x++)
+                @for ($x = 1; $x <= 8; $x++)
                     <div class="testimonial-item text-center">
                         <div class="position-relative">
-                            <img style="max-height: 400px; max-width:200px" class="img-fluid mx-auto mb-5"
+                            <img style="max-height: 600px; max-width:400px" class="img-fluid mx-auto mb-5"
                                 src="{{ asset('img/promo/fresh/juli/' . $x . '.jpg') }}">
                         </div>
                     </div>
