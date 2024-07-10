@@ -14,6 +14,30 @@ Route::get('/katPramaFresh', function () {
     return view('main.promosi.katalogFresh');
 });
 
+Route::get('/proGajian', function () {
+    return view('main.promosi.proGajian');
+});
+
+Route::get('/proPintar', function () {
+    return view('main.promosi.proPintar');
+});
+
+Route::get('/layar', function () {
+    return view('main.layanan.layar');
+});
+
+Route::get('/customerCare', function () {
+    return view('main.layanan.cusCare');
+});
+
+Route::get('/voucher', function () {
+    return view('main.layanan.voucher');
+});
+
+Route::get('/lokasi', function () {
+    return view('main.layanan.lokasi');
+});
+
 //! /////////////////////  //////////////////////////////////////////////////////////  //////////////////////////////////////
 //! /////////////                    ///////////////////////                    ///  ////////////////////////////////////////
 //todo //////////   ///  /////////   ///////////////////////   //////////////   //  /////////////////////////////////////////

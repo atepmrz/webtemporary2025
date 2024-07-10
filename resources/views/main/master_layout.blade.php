@@ -58,9 +58,9 @@
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('katPramaBorma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('katPramaFresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Promo Gajian 25/5</a>
+                        <a href="{{ url('/proGajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
+                        <a href="{{ url('/proPintar') }}" class="dropdown-item">Promo Pinter</a>
                         <a href="javascript:void(0)" class="dropdown-item">Promo JSM</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Promo Pintar</a>
                         <a href="javascript:void(0)" class="dropdown-item">Selaras</a>
                         <a href="javascript:void(0)" class="dropdown-item">Give Me Five</a>
                     </div>
@@ -78,11 +78,11 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="#loklayar" class="dropdown-item">Layanan Antar
+                        <a href="{{ url('/layar') }}" class="dropdown-item">Layanan Antar
                             (LAYAR)</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Customer Care</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Voucher</a>
-                        <a href="#lokasi" class="dropdown-item">Lokasi</a>
+                        <a href="{{ url('/customerCare') }}" class="dropdown-item">Customer Care</a>
+                        <a href="{{ url('/voucher') }}" class="dropdown-item">Voucher</a>
+                        <a href="{{ url('/lokasi') }}" class="dropdown-item">Lokasi</a>
                     </div>
                 </div>
 
@@ -95,7 +95,6 @@
                     </div>
                 </div>
             </div>
-
             <a href="https://wa.me/6287814523770/?text=" target="_blank"
                 class="btn btn-primary px-3 d-none d-lg-block d-md-block" style="border-radius: 8px;">Member</a>
         </div>
@@ -166,20 +165,6 @@
     </div>
     <!-- Footer End -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="btn-close fa-pull-right" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                    <img src="{{ asset('img/iklan/membercard.jpg') }}" alt="Iklan" class="img-fluid rounded" />
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark py-4">
         <div class="container text-center">
@@ -192,23 +177,12 @@
     </div>
     <!-- Copyright End -->
 
+
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a>
 
     @include('main.footer')
-
-    <script type="text/javascript">
-        $(window).on("load", function() {
-            $("#myModal").modal("show");
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(window).on("load", function() {
-            $("#myModal").modal("show");
-        });
-    </script>
 </body>
 
 </html>
