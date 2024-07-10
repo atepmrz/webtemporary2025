@@ -60,9 +60,9 @@
                         <a href="{{ url('katPramaFresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
                         <a href="{{ url('/proGajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
                         <a href="{{ url('/proPintar') }}" class="dropdown-item">Promo Pinter</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Promo JSM</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Selaras</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Give Me Five</a>
+                        <a href="{{ url('/proJsm') }}" class="dropdown-item">Promo JSM</a>
+                        <a href="{{ url('/proSelaras') }}" class="dropdown-item">Selaras</a>
+                        <a href="{{ url('/proGiveMeFive') }}" class="dropdown-item">Give Me Five</a>
                     </div>
                 </div>
 

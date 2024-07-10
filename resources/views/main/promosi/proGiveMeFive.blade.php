@@ -3,12 +3,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Promo JSM</h1>
+            <h1 class="display-3 text-white animated slideInRight">Give Me Five</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Promosi</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Promo JSM</li>
+                    <li class="breadcrumb-item active" aria-current="page">Selaras</li>
                 </ol>
             </nav>
         </div>
@@ -26,10 +26,9 @@
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4">
-                                    <h4>PROMO JSM (Jumat Sabtu Minggu)</h4>
-                                    <span>Akhir pekan ada promo di Prama Borma dan Prama Fresh? Iya, setiap akhir pekan ada
-                                        promo menarik yang super hemat di PROMO JSM (Jumat Sabtu Minggu). Belanja week end
-                                        semakin seru, murah dan pas di kantong. </span>
+                                    <h4>Give Me Five</h4>
+                                    <span>Belanja barang import lebih murah di PRAMA FRESH dengan DISKON 5% setiap hari
+                                        KAMIS untuk 5 kategori barang import. </span>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +36,7 @@
                 </div>
             </div>
             <div class="col-md wow fadeInUp">
-                <img class="img-fluid" src="" alt="Promo JSM">
+                <img class="img-fluid" src="{{ asset('img/promo/selaras.jpg') }}" alt="Promo Selaras">
             </div>
         </div>
     </section>

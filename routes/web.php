@@ -22,6 +22,18 @@ Route::get('/proPintar', function () {
     return view('main.promosi.proPintar');
 });
 
+Route::get('/proJsm', function () {
+    return view('main.promosi.proJsm');
+});
+
+Route::get('/proSelaras', function () {
+    return view('main.promosi.proSelaras');
+});
+
+Route::get('/proGiveMeFive', function () {
+    return view('main.promosi.proGiveMeFive');
+});
+
 Route::get('/layar', function () {
     return view('main.layanan.layar');
 });
