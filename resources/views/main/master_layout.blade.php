@@ -97,7 +97,7 @@
             </div>
 
             <a href="https://wa.me/6287814523770/?text=" target="_blank"
-                class="btn btn-primary px-3 d-none d-lg-block d-md-block" style="border-radius: 7px;">Member</a>
+                class="btn btn-primary px-3 d-none d-lg-block d-md-block" style="border-radius: 8px;">Member</a>
         </div>
     </nav>
     <!-- Navbar End -->
