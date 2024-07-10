@@ -7,7 +7,7 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem"></div>
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
 
@@ -49,6 +49,7 @@
         <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
@@ -57,9 +58,11 @@
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('katPramaBorma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('katPramaFresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
-                        <a href="{{ url('proGajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
-                        <a href="{{ url('proJsm') }}" class="dropdown-item">Promo JSM</a>
-                        <a href="{{ url('proPintar') }}" class="dropdown-item">Promo Pintar</a>
+                        <a href="javascript:void(0)" class="dropdown-item">Promo Gajian 25/5</a>
+                        <a href="javascript:void(0)" class="dropdown-item">Promo JSM</a>
+                        <a href="javascript:void(0)" class="dropdown-item">Promo Pintar</a>
+                        <a href="javascript:void(0)" class="dropdown-item">Selaras</a>
+                        <a href="javascript:void(0)" class="dropdown-item">Give Me Five</a>
                     </div>
                 </div>
 
@@ -83,7 +86,6 @@
                     </div>
                 </div>
 
-
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Kami</a>
                     <div class="dropdown-menu bg-light m-0">
@@ -92,11 +94,10 @@
                         <a href="javascript:void(0)" class="dropdown-item">Karir</a>
                     </div>
                 </div>
-                {{-- <a href="javascript:void(0)" class="nav-item nav-link">Karir</a> --}}
-                <a href="https://wa.me/6287814523770/?text=" target="_blank"
-                    class="nav-item nav-link btn btn-primary px-3" style="border-radius: 10px;color:white">Member</a>
             </div>
 
+            <a href="https://wa.me/6287814523770/?text=" target="_blank"
+                class="btn btn-primary px-3 d-none d-lg-block d-md-block" style="border-radius: 7px;">Member</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -183,10 +184,10 @@
     <div class="container-fluid copyright bg-dark py-4">
         <div class="container text-center">
             <p class="mb-2">Copyright &copy; 2024 <a class="fw-semi-bold" href="https://www.pramatoserba.co.id/"
-                    target="_blank">Prama Borma Group</a>, All Right Reserved.</p>
+                    target="_blank">Prama Borma Toserba Group</a>, All Rights Reserved.</p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Developed By <a class="fw-semi-bold" href="https://www.pramasolution.com/"
-                    target="_blank">pramasoftdev</a></p>
+            <p class="mb-0">Developed with <i class="bi bi-heart-fill text-danger"></i> By <a class="fw-semi-bold"
+                    href="https://www.pramasolution.com/" target="_blank">pramasoftdev</a></p>
         </div>
     </div>
     <!-- Copyright End -->

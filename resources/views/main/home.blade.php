@@ -46,11 +46,11 @@
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-5 border-warning" style="border-radius: 25px"
+                            <img class="img-fluid border border-3 border-primary" style="border-radius: 25px"
                                 src="img/about-1.jpg" />
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-5 border-warning" style="border-radius: 25px"
+                            <img class="img-fluid border border-3 border-primary" style="border-radius: 25px"
                                 src="img/about-2.jpg" />
                         </div>
                     </div>
@@ -103,58 +103,7 @@
     </div>
     <!-- About End -->
 
-    <!-- Project Start -->
-    <div class="container-fluid pt-0 my-5 px-0">
-        <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
-            <h1 class="display-5 mb-4">Promosi </h1>
-        </div>
-        <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/1.jpeg') }}" alt="" />
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/2.jpeg') }}" alt="" />
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/3.jpeg') }}" alt="" />
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/4.jpeg') }}" alt="" />
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/5.jpeg') }}" alt="" />
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{ asset('img/promoItem/6.jpeg') }}" alt="" />
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Add to Cart <i class="bi bi-cart" style="color: rgb(0, 180, 0)"></i>
-                    </h5>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- Project End -->
-
+    @include('main.partial.promosi')
 
     <!-- Features Start -->
     <div class="container-xxl py-5">
@@ -278,7 +227,7 @@
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="text-center border p-5">
                     <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">13</h5>
+                    <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">12</h5>
                     <span class="fs-5 fw-semi-bold text-white">Lokasi</span>
                 </div>
             </div>
@@ -318,7 +267,7 @@
             <div class="container">
                 <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
                     <!-- <p class="fw-medium text-uppercase text-primary mb-2">Lokasi</p> -->
-                    <h2 class="display-6 mb-5">Lokasi & Layar Prama Borma Group</h2>
+                    <h2 class="display-6 mb-5">Lokasi Prama Borma Group</h2>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
