@@ -37,7 +37,8 @@
                 </div>
             </div>
             <div class="col-md wow fadeInUp">
-                <img class="img-fluid" src="{{ asset('img/promo/selaras.jpg') }}" alt="Promo Selaras">
+                <img class="img-fluid" src="{{ asset('img/promo/selaras.jpg') }}" alt="Promo Selaras"
+                    style="border-radius: 15px;">
             </div>
         </div>
     </section>
