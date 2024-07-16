@@ -8,7 +8,7 @@
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Promosi</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Promo JSM</li>
+                    {{-- <li class="breadcrumb-item active" aria-current="page">Promo JSM</li> --}}
                 </ol>
             </nav>
         </div>

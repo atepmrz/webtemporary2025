@@ -56,8 +56,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Promosi</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="{{ url('katPramaBorma') }}" class="dropdown-item">Katalog Prama Borma</a>
-                        <a href="{{ url('katPramaFresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
+                        <a href="{{ url('/katPramaBorma') }}" class="dropdown-item">Katalog Prama Borma</a>
+                        <a href="{{ url('/katPramaFresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
                         <a href="{{ url('/proGajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
                         <a href="{{ url('/proPintar') }}" class="dropdown-item">Promo Pinter</a>
                         <a href="{{ url('/proJsm') }}" class="dropdown-item">Promo JSM</a>
@@ -70,8 +70,8 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Event</a>
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Kejutan Akhir Tahun</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Reguler</a>
+                        <a href="{{ url('/kat') }}" class="dropdown-item">Kejutan Akhir Tahun</a>
+                        <a href="{{ url('/reguler') }}" class="dropdown-item">Reguler</a>
                     </div>
                 </div>
 
@@ -90,8 +90,8 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Kami</a>
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('/visimisi') }}" class="dropdown-item">Prama Borma Group</a>
-                        <a href="javascript:void(0)" class="dropdown-item">CSR</a>
-                        <a href="javascript:void(0)" class="dropdown-item">Karir</a>
+                        <a href="{{ url('/csr') }}" class="dropdown-item">CSR</a>
+                        <a href="{{ url('/karir') }}" class="dropdown-item">Karir</a>
                     </div>
                 </div>
             </div>

@@ -54,10 +54,25 @@ Route::get('/pbb', function () {
     return view('main.event.pbb');
 });
 
+Route::get('/kat', function () {
+    return view('main.event.kat');
+});
+
+Route::get('/reguler', function () {
+    return view('main.event.reguler');
+});
+
 Route::get('/visimisi', function () {
     return view('main.tentang.pramaBorma');
 });
 
+Route::get('/csr', function () {
+    return view('main.tentang.csr');
+});
+
+Route::get('/karir', function () {
+    return view('main.tentang.karir');
+});
 //! /////////////////////  //////////////////////////////////////////////////////////  //////////////////////////////////////
 //! /////////////                    ///////////////////////                    ///  ////////////////////////////////////////
 //todo //////////   ///  /////////   ///////////////////////   //////////////   //  /////////////////////////////////////////
