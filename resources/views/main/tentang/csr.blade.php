@@ -14,20 +14,60 @@
     </div>
     <!-- Page Header End -->
 
-    {{-- <section id="visimisi">
+    <section id="karir">
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb1.jpg') }}" alt="Visi"
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/1.jpg') }}" alt="CSR 1"
                         style="border-radius: 15px">
                 </div>
             </div>
-            <div class="col-md wow">
-                <div class="wow fadeInUp" data-wow-delay="0.8s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb2.jpg') }}" alt="Visi"
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/2.jpg') }}" alt="CSR 2"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/3.jpg') }}" alt="CSR 3"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/4.jpg') }}" alt="CSR 4"
                         style="border-radius: 15px">
                 </div>
             </div>
         </div>
-    </section> --}}
+
+        <div class="row p-4 g-4">
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/5.jpg') }}" alt="CSR 1"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/6.jpg') }}" alt="CSR 2"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/7.jpg') }}" alt="CSR 3"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/csr/8.jpg') }}" alt="CSR 4"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+        </div>
+
+    </section>
 @endsection
