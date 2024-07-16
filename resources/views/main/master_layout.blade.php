@@ -69,7 +69,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Event</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="javascript:void(0)" class="dropdown-item">Prama Borma Berhadiah</a>
+                        <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah</a>
                         <a href="javascript:void(0)" class="dropdown-item">Kejutan Akhir Tahun</a>
                         <a href="javascript:void(0)" class="dropdown-item">Reguler</a>
                     </div>
@@ -89,7 +89,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Kami</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="javascript:void(0)" class="dropdown-item">Prama Borma Group</a>
+                        <a href="{{ url('/visimisi') }}" class="dropdown-item">Prama Borma Group</a>
                         <a href="javascript:void(0)" class="dropdown-item">CSR</a>
                         <a href="javascript:void(0)" class="dropdown-item">Karir</a>
                     </div>
