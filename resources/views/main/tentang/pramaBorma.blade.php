@@ -16,17 +16,19 @@
     <!-- Page Header End -->
 
     <section id="visimisi">
-        <div class="row p-4 g-4">
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/visimisi/visi.jpg') }}" alt="Visi"
-                        style="border-radius: 15px; max-height:360px">
+        <div class="container">
+            <div class="row p-5 g-4">
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/visimisi/visi.jpg') }}" alt="Visi"
+                            style="border-radius: 15px; max-height:310px">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md wow">
-                <div class="wow fadeInUp" data-wow-delay="0.8s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/visimisi/misi.jpg') }}" alt="Visi"
-                        style="border-radius: 15px; max-height:360px">
+                <div class="col-md wow">
+                    <div class="wow fadeInUp" data-wow-delay="0.8s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/visimisi/misi.jpg') }}" alt="Visi"
+                            style="border-radius: 15px; max-height:310px">
+                    </div>
                 </div>
             </div>
         </div>

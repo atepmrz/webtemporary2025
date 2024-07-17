@@ -10,9 +10,16 @@
             </div>
         @endfor
     </div>
-    <section>
-        <button class="position-relative top-80 start-50 translate-middle btn btn-danger" style="border-radius: 5px"><i
-                class="fa fa-download"></i>
-            Download Katalog</button>
+    <section id="donwload">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-offset-6">
+                    <a href="{{ url('/pdf/juli/mailerPrama.pdf') }}" class="btn btn-danger text-center"
+                        style="border-radius: 5px"><i class="fa fa-download"></i>
+                        Download Katalog
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 @endsection
