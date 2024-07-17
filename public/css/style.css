@@ -617,7 +617,7 @@ h6,
 .testimonial-carousel .owl-nav {
     position: absolute;
     width: 350px;
-    top: 20px;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
