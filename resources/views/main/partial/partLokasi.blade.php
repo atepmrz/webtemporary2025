@@ -1,6 +1,6 @@
     <!-- Lokasi Start -->
     <div id="lokasi">
-        <div class="container-fluid pt-2">
+        <div class="container-fluid pt-4">
             <div class="container-fluid">
                 <div class="row pb-5">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
