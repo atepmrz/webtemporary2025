@@ -1,9 +1,8 @@
     <!-- Lokasi Start -->
     <div id="lokasi">
-        <br>
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row mb-5">
+        <div class="container-fluid pt-2">
+            <div class="container-fluid">
+                <div class="row pb-5">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <iframe class="w-100"
                             src="https://www.google.com/maps/d/embed?mid=1KOO0-91xftJfMFYqxUlVylAE7TNIj1w&ehbc=2E312F&noprof=1"
