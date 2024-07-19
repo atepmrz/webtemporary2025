@@ -15,46 +15,48 @@
     <!-- Page Header End -->
 
     <section id="karir">
-        <div class="row p-4 g-4">
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/1.jpg') }}" alt="Loker 1"
-                        style="border-radius: 15px">
+        <a href="https://www.instagram.com/rekrutmenbormacj/" target="_blank">
+            <div class="row p-4 g-4">
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/karir/1.jpg') }}" alt="Loker 1"
+                            style="border-radius: 15px">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/karir/2.jpg') }}" alt="Loker 2"
+                            style="border-radius: 15px">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/karir/3.jpg') }}" alt="Loker 3"
+                            style="border-radius: 15px">
+                    </div>
                 </div>
             </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/2.jpg') }}" alt="Loker 2"
-                        style="border-radius: 15px">
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/3.jpg') }}" alt="Loker 3"
-                        style="border-radius: 15px">
-                </div>
-            </div>
-        </div>
 
-        <div class="row p-4 g-4">
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.6s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker 1"
-                        style="border-radius: 15px">
+            <div class="row p-4 g-4">
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker 1"
+                            style="border-radius: 15px">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/karir/5.jpg') }}" alt="Loker 2"
+                            style="border-radius: 15px">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <img class="img-fluid" src="{{ asset('img/tentangkami/karir/6.jpg') }}" alt="Loker 3"
+                            style="border-radius: 15px">
+                    </div>
                 </div>
             </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.6s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/5.jpg') }}" alt="Loker 2"
-                        style="border-radius: 15px">
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.6s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/6.jpg') }}" alt="Loker 3"
-                        style="border-radius: 15px">
-                </div>
-            </div>
-        </div>
+        </a>
     </section>
 @endsection

@@ -8,6 +8,20 @@
         #members #kotak:hover {
             background-color: rgb(0, 223, 223);
         }
+
+        .video-container {
+            max-width: 100%;
+            /* Set a pixel value instead if no parent container*/
+            margin: 0 auto;
+            /* Center the container */
+        }
+
+        .video-container video {
+            width: 100%;
+            /* Fill the available width */
+            height: auto;
+            /* Adjust height automatically */
+        }
     </style>
     <!-- Carousel Start -->
     <div class="container-fluid px-0">
@@ -46,15 +60,18 @@
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-3">
                 <div class="col-lg-6">
-                    <div class="row gx-3 h-100">
+                    <div class="row gx-5 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-3 border-primary" style="border-radius: 25px"
-                                src="img/about-1.jpg" />
+                            {{-- <img class="img-fluid border border-3 border-primary" style="border-radius: 25px"
+                                src="img/about-1.jpg" /> --}}
+                            <video width="100%" controls>
+                                <source src="{{ asset('video/pbb.mp4') }}" type="video/mp4">
+                            </video>
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-3 border-primary" style="border-radius: 25px"
+                            <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
                                 src="img/about-2.jpg" />
                         </div>
                     </div>
