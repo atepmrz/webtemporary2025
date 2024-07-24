@@ -64,9 +64,9 @@
                 <div class="col-lg-6">
                     <div class="row gx-5 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            {{-- <img class="img-fluid border border-3 border-primary" style="border-radius: 25px"
+                            {{-- <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
                                 src="img/about-1.jpg" /> --}}
-                            <video width="100%" controls>
+                            <video width="100%" height="410px" controls>
                                 <source src="{{ asset('video/pbb.mp4') }}" type="video/mp4">
                             </video>
                         </div>
@@ -125,6 +125,7 @@
     <!-- About End -->
 
     @include('main.partial.partPromosi')
+    @include('main.partial.partPromoSeasonal')
 
     <!-- Features Start -->
     <div class="container-xxl py-5">
