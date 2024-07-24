@@ -18,14 +18,16 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Borma Gempol</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282124639585/?text=" target="_blank">
+                                    <a href="https://wa.me/6282124639585/?text=" target="_blank">
+                                        <h5>Borma Gempol</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
+
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -40,14 +42,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Borma Buah Batu</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282123767001/?text=" target="_blank">
+                                    <a href="https://wa.me/6282123767001/?text=" target="_blank">
+                                        <h5>Borma Buah Batu</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -62,14 +64,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Borma Cijerah</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282127416745/?text=" target="_blank">
+                                    <a href="https://wa.me/6282127416745/?text=" target="_blank">
+                                        <h5>Borma Cijerah</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -87,14 +89,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Borma Cikutra</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282123767002/?text=" target="_blank">
+                                    <a href="https://wa.me/6282123767002/?text=" target="_blank">
+                                        <h5>Borma Cikutra</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -109,14 +111,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Borma Kerkof</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282123767004/?text=" target="_blank">
+                                    <a href="https://wa.me/6282123767004/?text=" target="_blank">
+                                        <h5>Borma Kerkof</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -131,14 +133,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Prama Banjaran</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282123766990/?text=" target="_blank">
+                                    <a href="https://wa.me/6282123766990/?text=" target="_blank">
+                                        <h5>Prama Banjaran</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -156,14 +158,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Prama Babakan Sari</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282123766991/?text=" target="_blank">
+                                    <a href="https://wa.me/6282123766991/?text=" target="_blank">
+                                        <h5>Prama Babakan Sari</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -178,14 +180,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Prama Ciparay</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6281313088967/?text=" target="_blank">
+                                    <a href="https://wa.me/6281313088967/?text=" target="_blank">
+                                        <h5>Prama Ciparay</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -200,14 +202,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Prama Fresh Burangrang</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6281223725553/?text=" target="_blank">
+                                    <a href="https://wa.me/6281223725553/?text=" target="_blank">
+                                        <h5>Prama Fresh Burangrang</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -225,14 +227,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Prama Fresh Garuda</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6281322386181/?text=" target="_blank">
+                                    <a href="https://wa.me/6281322386181/?text=" target="_blank">
+                                        <h5>Prama Fresh Garuda</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -247,14 +249,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Prama Fresh Mekarwangi</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282164663838/?text=" target="_blank">
+                                    <a href="https://wa.me/6282164663838/?text=" target="_blank">
+                                        <h5>Prama Fresh Mekarwangi</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -269,14 +271,14 @@
                                 </div>
                                 <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                     style="height: 90px">
-                                    <h5>Prama Fresh Perintis</h5>
-                                    <span class="text-primary"></span>
-                                    <div class="team-social">
-                                        <a href="https://wa.me/6282117433790/?text=" target="_blank">
+                                    <a href="https://wa.me/6282117433790/?text=" target="_blank">
+                                        <h5>Prama Fresh Perintis</h5>
+                                        <span class="text-primary"></span>
+                                        <div class="team-social">
                                             <h3 class="text-white mb-0">Layar <i class="fab fa-whatsapp"
                                                     style="color: green"></i></h3>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
