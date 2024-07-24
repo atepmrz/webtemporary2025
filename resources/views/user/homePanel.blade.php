@@ -223,7 +223,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
-                                                    <h6 class="mb-0">Ramon</h6>
+                                                    <h6 class="mb-0">Irsan</h6>
                                                     <small class="text-muted">Admin</small>
                                                 </div>
                                             </div>
@@ -282,7 +282,7 @@
                             <div class="col-md-12 col-lg-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title mb-1">Congratulations Ramon! 🎉</h4>
+                                        <h4 class="card-title mb-1">Congratulations Irsan! 🎉</h4>
                                         <p class="pb-0">Best seller of the month</p>
                                         <h4 class="text-primary mb-1">$42.8k</h4>
                                         <p class="mb-2 pb-1">78% of target 🚀</p>
