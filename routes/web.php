@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MpanelController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -73,6 +74,12 @@ Route::get('/csr', function () {
 Route::get('/karir', function () {
     return view('main.tentang.karir');
 });
+
+Route::get('/mpanel', [MpanelController::class, 'index']);
+Route::post('/homePanel', [MpanelController::class, 'login']);
+
+
+
 //! /////////////////////  //////////////////////////////////////////////////////////  //////////////////////////////////////
 //! /////////////                    ///////////////////////                    ///  ////////////////////////////////////////
 //todo //////////   ///  /////////   ///////////////////////   //////////////   //  /////////////////////////////////////////
