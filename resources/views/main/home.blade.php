@@ -295,7 +295,7 @@
                 <div class="modal-body">
                     <button type="button" class="btn-close fa-pull-right" data-bs-dismiss="modal"
                         aria-label="Close"></button>
-                    <img src="{{ asset('img/iklan/membercard.jpg') }}" alt="Iklan" class="img-fluid rounded" />
+                    <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
                 </div>
             </div>
         </div>
