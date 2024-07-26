@@ -28,19 +28,22 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/slideshow/pbb.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    <img src="{{ asset('img/slideshow/1.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/kbkb.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    <img src="{{ asset('img/slideshow/2.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/mewarnai.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    <img src="{{ asset('img/slideshow/3.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/icecream.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    <img src="{{ asset('img/slideshow/4.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/layar.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('img/slideshow/6.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -64,15 +67,15 @@
                 <div class="col-lg-6">
                     <div class="row gx-5 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            {{-- <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
-                                src="img/about-1.jpg" /> --}}
-                            <video width="100%" height="410px" controls>
+                            <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
+                                src="img/about-1.jpeg" />
+                            {{-- <video width="100%" height="410px" controls>
                                 <source src="{{ asset('video/pbb.mp4') }}" type="video/mp4">
-                            </video>
+                            </video> --}}
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                             <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
-                                src="img/about-2.jpg" />
+                                src="img/about-2.jpeg" />
                         </div>
                     </div>
                 </div>
