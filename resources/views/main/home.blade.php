@@ -60,6 +60,31 @@
     </div>
     <!-- Carousel End -->
 
+    <!-- Page Header Start -->
+    <div class="container-fluid pt-1 my-3 px-0">
+        <div class="text-center mx-auto mt-2 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
+            <h1 class="display-5 mb-4">Pemenang Prama Borma Berhadiah 2024</h1>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <section id="pbb">
+        <div class="row p-4 g-4">
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="{{ asset('img/event/pbb1.jpg') }}" alt="pbb"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+            <div class="col-md wow">
+                <div class="wow fadeInUp" data-wow-delay="0.8s">
+                    <img class="img-fluid" src="{{ asset('img/event/pbb2.jpg') }}" alt="pbb"
+                        style="border-radius: 15px">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
