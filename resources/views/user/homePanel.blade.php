@@ -8,7 +8,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Login Marketing Panel</title>
+    <title>Marketing Panel</title>
 
     <meta name="description" content="" />
 
@@ -304,7 +304,8 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="card-title m-0 me-2">Transactions</h5>
+                                            <h5 class="card-title m-0 me-2">Ini Cuma Contoh Doank pak Irsan, bukan data
+                                                asli</h5>
                                             <div class="dropdown">
                                                 <button class="btn p-0" type="button" id="transactionID"
                                                     data-bs-toggle="dropdown" aria-haspopup="true"
