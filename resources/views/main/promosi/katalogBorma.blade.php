@@ -3,7 +3,7 @@
     <section id="promo">
         <div class="container pt-3">
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                @for ($x = 1; $x <= 10; $x++)
+                @for ($x = 1; $x <= 16; $x++)
                     <div class="testimonial-item align-items-center text-center">
                         <div class="position-relative">
                             <img style="max-height: 600px; max-width:400px" class="img-fluid mx-auto mb-5"
@@ -54,7 +54,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-offset-5">
-                    <a href="{{ url('/pdf/juli/mailerPrama.pdf') }}" class="btn btn-danger text-center"
+                    <a href="{{ url('/pdf/agustus/mailerPramaBorma.pdf') }}" class="btn btn-danger text-center"
                         style="border-radius: 5px"><i class="fa fa-download"></i>
                         Download Katalog
                     </a>

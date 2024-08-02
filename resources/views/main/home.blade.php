@@ -36,9 +36,9 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/3.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/4.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div>
+                </div> --}}
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
@@ -93,14 +93,14 @@
                     <div class="row gx-5 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
                             <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
-                                src="img/about-1.jpeg" />
+                                src="img/about-1.jpg" />
                             {{-- <video width="100%" height="410px" controls>
                                 <source src="{{ asset('video/pbb.mp4') }}" type="video/mp4">
                             </video> --}}
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                             <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
-                                src="img/about-2.jpeg" />
+                                src="img/about-2.jpg" />
                         </div>
                     </div>
                 </div>

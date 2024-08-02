@@ -2,7 +2,7 @@
 @section('konten')
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
+        <div class="container py-3">
             <h1 class="display-3 text-white animated slideInRight">Karir</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
@@ -17,43 +17,73 @@
     <section id="karir">
         <div class="row p-4 g-4">
             <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/1.jpg') }}" alt="Loker 1"
                         style="border-radius: 15px">
                 </div>
+                <br>
+                <a href="https://bit.ly/RekrutmenPramaBorma-Ags2024" target="_blank" class="text-center lead"
+                    data-wow-delay="0.1s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
             </div>
             <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/2.jpg') }}" alt="Loker 2"
                         style="border-radius: 15px">
                 </div>
+                <br>
+                <a href="https://bit.ly/RekrutmenPramaHO-Juli2024" target="_blank" class="text-center lead"
+                    data-wow-delay="0.2s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
             </div>
             <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <div class="wow fadeInUp" data-wow-delay="0.3s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/3.jpg') }}" alt="Loker 3"
                         style="border-radius: 15px">
                 </div>
+                <br>
+                <a href="https://bit.ly/RekrutmenIntern-Juli24" target="_blank" class="text-center lead"
+                    data-wow-delay="0.3s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
             </div>
         </div>
 
         <div class="row p-4 g-4">
             <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.6s">
+                <div class="wow fadeInUp" data-wow-delay="0.4s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker 1"
                         style="border-radius: 15px">
                 </div>
+                <br>
+                <a href="https://bit.ly/RekrutmenIntern-Juli24" target="_blank" class="text-center lead"
+                    data-wow-delay="0.4s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
             </div>
             <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.6s">
+                <div class="wow fadeInUp" data-wow-delay="0.5s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/5.jpg') }}" alt="Loker 2"
                         style="border-radius: 15px">
                 </div>
+                <br>
+                <a href="https://bit.ly/RekrutmenPramaHO-Juli2024" target="_blank" class="text-center lead"
+                    data-wow-delay="0.5s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
             </div>
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.6s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/6.jpg') }}" alt="Loker 3"
                         style="border-radius: 15px">
                 </div>
+                <br>
+                <a href="https://bit.ly/RekrutmenPramaHO-April2024" target="_blank" class="text-center lead"
+                    data-wow-delay="0.6s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
             </div>
         </div>
 
