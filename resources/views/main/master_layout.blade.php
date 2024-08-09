@@ -56,6 +56,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Promosi</a>
                     <div class="dropdown-menu bg-light m-0">
+                        {{-- <a href="{{ url('/borongHabis') }}" class="dropdown-item">Borong Habis</a> --}}
                         <a href="{{ url('/katPramaBorma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('/katPramaFresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
                         <a href="{{ url('/proGajian') }}" class="dropdown-item">Promo Gajian 25/5</a>

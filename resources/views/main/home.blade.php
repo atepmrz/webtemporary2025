@@ -36,15 +36,15 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/3.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                {{-- <div class="carousel-item">
+                <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/4.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div> --}}
+                </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/6.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div>
+                </div> --}}
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
@@ -153,6 +153,7 @@
     <!-- About End -->
 
     @include('main.partial.partPromosi')
+    @include('main.partial.partBestDeal')
     @include('main.partial.partPromoSeasonal')
 
     <!-- Features Start -->
