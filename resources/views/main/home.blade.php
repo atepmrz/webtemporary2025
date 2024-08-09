@@ -152,7 +152,7 @@
     </div>
     <!-- About End -->
 
-    @include('main.partial.partPromosi')
+    {{-- @include('main.partial.partPromosi') --}}
     @include('main.partial.partBestDeal')
     @include('main.partial.partPromoSeasonal')
 

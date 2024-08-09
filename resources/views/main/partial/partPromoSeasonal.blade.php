@@ -28,11 +28,11 @@
                             <div class="service-detail">
                                 <div class="service-title">
                                     <hr class="w-25">
-                                    <h3 class="mb-0">Semarak Kemerdekaan</h3>
+                                    <h3 class="mb-0">Borong Habis</h3>
                                     <hr class="w-25">
                                 </div>
                             </div>
-                            <a class="btn btn-light" href="">Mabell</a>
+                            <a class="btn btn-light" href="">Aneka Elektronik</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -44,11 +44,11 @@
                             <div class="service-detail">
                                 <div class="service-title">
                                     <hr class="w-25">
-                                    <h3 class="mb-0">Semarak Kemerdekaan</h3>
+                                    <h3 class="mb-0">Borong Habis</h3>
                                     <hr class="w-25">
                                 </div>
                             </div>
-                            <a class="btn btn-light" href="">Pino Ice Cup</a>
+                            <a class="btn btn-light" href="">Aneka Buku Bacaan</a>
                         </div>
                     </div>
                 </div>

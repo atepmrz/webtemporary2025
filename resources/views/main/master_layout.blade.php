@@ -153,7 +153,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
-                    <p>Dapatkan informasi promo, berita, dan program menarik lainnya dari Prama Borma Cijerah Group</p>
+                    <p>Dapatkan informasi promo, berita, dan program menarik lainnya dari Prama Borma Toserba Group</p>
                     <div class="position-relative w-100">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your email" />

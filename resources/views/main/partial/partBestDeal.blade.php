@@ -6,7 +6,7 @@
 <!-- Best Deals -->
 <div class="container-fluid pt-0 my-3 px-0">
     <div class="text-center mx-auto mt-2 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
-        <h1 class="display-5 mb-4">Best Deals</h1>
+        <h1 class="display-5 mb-4">Promosi Best Deals</h1>
     </div>
     <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
 
