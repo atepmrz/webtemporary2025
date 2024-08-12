@@ -14,7 +14,7 @@
     </div>
     <!-- Page Header End -->
 
-    {{-- <section id="visimisi">
+    {{-- <section id="visimisi" class="container-fluid">
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">

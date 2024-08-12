@@ -1,5 +1,5 @@
     <!-- Layar Start -->
-    <section id="layar">
+    <section id="layar" class="container-fluid">
         <br>
         <div class="container-xxl py-3">
             <div class="container">

@@ -68,7 +68,7 @@
     </div>
     <!-- Page Header End -->
 
-    <section id="pbb">
+    <section id="pbb" class="container-fluid">
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">
@@ -86,7 +86,7 @@
     </section>
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-3">
                 <div class="col-lg-6">
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     <div class="row pt-2">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 mt-3">
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-envelope-open text-white"></i>
@@ -134,7 +134,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 mt-3">
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-phone-alt text-white"></i>
@@ -157,7 +157,7 @@
     @include('main.partial.partPromoSeasonal')
 
     <!-- Features Start -->
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

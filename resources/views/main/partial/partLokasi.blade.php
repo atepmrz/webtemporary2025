@@ -1,5 +1,5 @@
     <!-- Lokasi Start -->
-    <div id="lokasi">
+    <div id="lokasi" class="container-fluid">
         <div class="container-fluid pt-4">
             <div class="container-fluid">
                 <div class="row pb-5">
@@ -16,7 +16,7 @@
                         <h1 class="display-6 mb-4">Jika Anda Memiliki Pertanyaan, Jangan Ragu Untuk Menghubungi Kami
                         </h1>
                         <div class="row g-4">
-                            <div class="col-6">
+                            <div class="col-sm-6 mt-3">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
                                         <i class="fa fa-phone-alt text-white"></i>
@@ -27,7 +27,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-sm-6 mt-3">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
                                         <i class="fa fa-envelope text-white"></i>

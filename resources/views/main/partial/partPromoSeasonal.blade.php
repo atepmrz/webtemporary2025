@@ -1,5 +1,5 @@
     <!-- Service Start -->
-    <section id="seasonal">
+    <section id="seasonal" class="container-fluid">
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row gy-5 gx-4">

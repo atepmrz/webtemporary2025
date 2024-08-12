@@ -1,6 +1,6 @@
 @extends('main.master_layout')
 @section('konten')
-    <section id="promo">
+    <section id="promo" class="container-fluid">
         <div class="container pt-3">
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 @for ($x = 1; $x <= 16; $x++)
@@ -50,7 +50,7 @@
     </section> --}}
     <!-- Carousel End -->
 
-    <section id="donwload">
+    <section id="donwload" class="container-fluid">
         <div class="container">
             <div class="row text-center">
                 <div class="col-offset-5">

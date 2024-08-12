@@ -15,7 +15,7 @@
     </div>
     <!-- Page Header End -->
 
-    <section id="visimisi">
+    <section id="visimisi" class="container-fluid">
         <div class="container">
             <div class="row p-5 g-4">
                 <div class="col-md">

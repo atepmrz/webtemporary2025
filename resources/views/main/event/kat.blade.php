@@ -14,13 +14,13 @@
     </div>
     <!-- Page Header End -->
 
-    <section id="kat">
+    <section id="kat" class="container-fluid">
         <div class="p-5 wow fadeInUp align-items-center text-center" data-wow-delay="0.8s">
             <img class="img-fluid" src="{{ asset('img/event/kat.jpg') }}" alt="Visi" style="border-radius: 15px">
         </div>
     </section>
 
-    {{-- <section id="visimisi">
+    {{-- <section id="kat" class="container-fluid">
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">

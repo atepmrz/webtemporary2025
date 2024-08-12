@@ -6,7 +6,7 @@
 <body>
     <!-- Spinner Start -->
     <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center container-fluid">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
@@ -110,11 +110,10 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-1"></i>PT HARJA GUNATAMA LESTARI </p>
-                    <p>Komplek
-                        Setrasari Mall II, Jl. Terusan Prof. Dr. Ir Sutami A-7, Sukagalih, Kec. Sukajadi, Kota Bandung,
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-1"></i>PT TRIPUTRA KARYA LESTARI </p>
+                    <p>Komplek Setrasari Mall Blok B-4 No.98, Kel Sukagalih, Kec. Sukajadi, Kota Bandung,
                         Jawa Barat 40163</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(022) 2010612</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0811 235 605</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@pramatoserba.co.id</p>
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2"
