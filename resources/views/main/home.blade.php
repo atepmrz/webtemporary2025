@@ -264,21 +264,21 @@
                 </div>
                 <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                     <div id="kotak" class="text-center border p-5">
-                        <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
+                        <i class="fa fa-users fa-3x text-white mb-3"></i>
                         <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">130000</h5>
                         <span class="fs-5 fw-semi-bold text-white">Members</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
                     <div id="kotak" class="text-center border p-5">
-                        <i class="fa fa-users fa-3x text-white mb-3"></i>
-                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">99570</h5>
-                        <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
+                        <i class="fa fa-store fa-3x text-white mb-3"></i>
+                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">1957</h5>
+                        <span class="fs-5 fw-semi-bold text-white">Mitra Usaha</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                     <div id="kotak" class="text-center border p-5">
-                        <i class="fa fa-check-double fa-3x text-white mb-3"></i>
+                        <i class="fa fa-map-marker-alt fa-3x text-white mb-3"></i>
                         <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">12</h5>
                         <span class="fs-5 fw-semi-bold text-white">Lokasi</span>
                     </div>
