@@ -31,6 +31,7 @@
                     {{-- <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a> --}}
                 </div>
             </div>
+
             <div class="col-lg-6 text-end">
                 <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
                     <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Hubungi kami:</span>
@@ -175,12 +176,18 @@
                     href="https://www.pramasolution.com/" target="_blank">pramasoftdev</a></p>
         </div>
     </div>
+
     <!-- Copyright End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top mb-5"><i
             class="bi bi-arrow-up"></i></a>
+    <!-- Chat WA -->
+    <a href="https://wa.me/6287814523770/?text=" target="_blank"
+        class="btn btn-lg btn-success btn-lg-square rounded-circle"
+        style="position: fixed; bottom:20px; right:30px"><i class="bi bi-whatsapp"></i></a>
+
+
 
     @include('main.footer')
 </body>
