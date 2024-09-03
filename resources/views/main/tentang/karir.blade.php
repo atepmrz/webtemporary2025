@@ -22,7 +22,7 @@
                         style="border-radius: 15px">
                 </div>
                 <br>
-                <a href="https://bit.ly/RekrutmenPramaBorma-Ags2024" target="_blank" class="text-center lead"
+                <a href="https://bit.ly/RekrutmenPramaBorma-Sep2024" target="_blank" class="text-center lead"
                     data-wow-delay="0.1s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
