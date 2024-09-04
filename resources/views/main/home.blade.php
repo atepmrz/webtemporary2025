@@ -33,12 +33,12 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/2.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/3.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/4.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div>
+                </div> --}}
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
@@ -61,14 +61,14 @@
     <!-- Carousel End -->
 
     <!-- Page Header Start -->
-    <div class="container-fluid pt-1 my-3 px-0">
+    {{-- <div class="container-fluid pt-1 my-3 px-0">
         <div class="text-center mx-auto mt-2 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
             <h1 class="display-5 mb-4">Pemenang Prama Borma Berhadiah 2024</h1>
         </div>
-    </div>
+    </div> --}}
     <!-- Page Header End -->
 
-    <section id="pbb" class="container-fluid">
+    {{-- <section id="pbb" class="container-fluid">
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- About Start -->
     <div class="container-fluid py-5">
@@ -152,8 +152,8 @@
     </div>
     <!-- About End -->
 
-    {{-- @include('main.partial.partPromosi') --}}
-    @include('main.partial.partBestDeal')
+    @include('main.partial.partPromosi')
+    {{-- @include('main.partial.partBestDeal') --}}
     @include('main.partial.partPromoSeasonal')
 
     <!-- Features Start -->
