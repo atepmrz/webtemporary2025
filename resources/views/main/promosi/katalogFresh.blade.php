@@ -3,11 +3,11 @@
     <section id="promo" class="container-fluid">
         <div class="container pt-3">
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                @for ($x = 1; $x <= 7; $x++)
+                @for ($x = 1; $x <= 12; $x++)
                     <div class="testimonial-item align-items-center text-center">
                         <div class="position-relative">
                             <img style="max-height: 600px; max-width:400px" class="img-fluid mx-auto mb-5"
-                                src="{{ asset('img/promo/fresh/juli/' . $x . '.jpg') }}">
+                                src="{{ asset('img/promo/fresh/' . $x . '.jpg') }}">
                         </div>
                     </div>
                 @endfor
