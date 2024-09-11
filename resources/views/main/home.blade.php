@@ -265,7 +265,7 @@
                 <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                     <div id="kotak" class="text-center border p-5">
                         <i class="fa fa-users fa-3x text-white mb-3"></i>
-                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">130000</h5>
+                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">144000</h5>
                         <span class="fs-5 fw-semi-bold text-white">Members</span>
                     </div>
                 </div>
