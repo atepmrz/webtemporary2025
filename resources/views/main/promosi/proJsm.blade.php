@@ -32,6 +32,15 @@
                                         semakin seru, murah dan pas di kantong. </span>
                                 </div>
                             </div>
+                            <div class="d-flex mt-3">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h4>Member Day</h4>
+                                    <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
