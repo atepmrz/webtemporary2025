@@ -13,8 +13,10 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
-                        <h1 class="display-6 mb-4">Jika Anda Memiliki Pertanyaan, Jangan Ragu Untuk Menghubungi Kami
-                        </h1>
+                        <h3 class="mb-4">Terima kasih sudah menjadi pelanggan setia <span class="text-primary">Prama
+                                Borma Toserba</span>, bila
+                            anda memerlukan bantuan, jangan ragu untuk menghubungi kami
+                        </h3>
                         <div class="row g-4">
                             <div class="col-sm-6 mt-3">
                                 <div class="d-flex">
@@ -71,7 +73,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary py-3 px-5 border-borma" type="submit">Send
+                                    <button class="btn btn-primary py-3 px-5 border-borma" type="submit"><i
+                                            class="bi bi-send"></i> Send
                                         Message</button>
                                 </div>
                             </div>
