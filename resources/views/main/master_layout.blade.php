@@ -184,7 +184,7 @@
         style="margin-bottom: 100px"><i class="bi bi-arrow-up"></i></a>
     <!-- Cart -->
     <a href="{{ url('/layar') }}" class="btn btn-lg btn-warning btn-lg-square rounded-circle"
-        style="position: fixed; bottom:75px; right:30px"><i class="bi bi-cart"></i></a>
+        style="position: fixed; bottom:75px; right:30px"><i class="bi bi-cart4"></i></a>
     <!-- Chat WA -->
     <a href="https://wa.me/6287814523770/?text=" target="_blank"
         class="btn btn-lg btn-success btn-lg-square rounded-circle"
