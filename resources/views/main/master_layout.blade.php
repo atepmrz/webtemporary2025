@@ -190,8 +190,6 @@
         class="btn btn-lg btn-success btn-lg-square rounded-circle"
         style="position: fixed; bottom:20px; right:30px"><i class="bi bi-whatsapp"></i></a>
 
-
-
     @include('main.footer')
 </body>
 
