@@ -42,11 +42,11 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                <div class="carousel-item">
-                    {{-- <video width="100%" height="500px" controls>
+                {{-- <div class="carousel-item">
+                    <video width="100%" height="500px" controls>
                         <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
-                    </video> --}}
-                </div>
+                    </video>
+                </div> --}}
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
