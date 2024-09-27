@@ -3,7 +3,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Kejutan Akhir Tahun</h1>
+            <h1 class="display-3 text-white animated slideInRight">Mekanisme program KAT 2024</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -14,26 +14,70 @@
     </div>
     <!-- Page Header End -->
 
-    <section id="kat" class="container-fluid">
-        <div class="p-5 wow fadeInUp align-items-center text-center" data-wow-delay="0.8s">
-            <img class="img-fluid" src="{{ asset('img/event/kat.jpg') }}" alt="Visi" style="border-radius: 15px">
-        </div>
-    </section>
-
-    {{-- <section id="kat" class="container-fluid">
+    <section id="voucher" class="container-fluid">
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb1.jpg') }}" alt="Visi"
-                        style="border-radius: 15px">
+                    <div class="row gy-4">
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4 mt-2">
+                                    <h4>Member Aktif</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4 mt-2">
+                                    <h4>Min pembelanjaan 75.000 (berlaku kelipatan) akan mendapatkan 1 kupon digital</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4 mt-2">
+                                    <h4>Periode program 01 oktober - 31 desember 2024</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4 mt-2">
+                                    <h4>Pengundian di tanggal 18 Januari 2025</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4 mt-2">
+                                    <h4>Pengumuman pemenang di tanggal 25 Januari 2025</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
-            <div class="col-md wow">
-                <div class="wow fadeInUp" data-wow-delay="0.8s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb2.jpg') }}" alt="Visi"
-                        style="border-radius: 15px">
-                </div>
+            <div class="col-md wow fadeInUp">
+                <img class="img-fluid" src="{{ asset('img/event/kat.jpg') }}" alt="Kejutan Akhir Tahun"
+                    style="border-radius: 15px">
             </div>
         </div>
-    </section> --}}
+    </section>
 @endsection
