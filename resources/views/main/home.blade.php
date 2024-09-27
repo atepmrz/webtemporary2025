@@ -327,7 +327,8 @@
                 <div class="modal-body">
                     <button type="button" class="btn-close fa-pull-right" data-bs-dismiss="modal"
                         aria-label="Close"></button>
-                    <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
+                    <a href="{{ url('kat') }}"><img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan"
+                            class="img-fluid rounded" /></a>
                 </div>
             </div>
         </div>
