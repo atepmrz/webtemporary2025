@@ -22,7 +22,7 @@
                         style="border-radius: 15px">
                 </div>
                 <br>
-                <a href="https://bit.ly/RekrutmenPramaBorma-Sep2024" target="_blank" class="text-center lead"
+                <a href="https://bit.ly/RekrutmenPramaBorma-SM2024" target="_blank" class="text-center lead"
                     data-wow-delay="0.1s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
@@ -33,14 +33,29 @@
                         style="border-radius: 15px">
                 </div>
                 <br>
-                <a href="https://bit.ly/RekrutmenPramaHO-Juli2024" target="_blank" class="text-center lead"
+                <a href="https://bit.ly/RekrutmenPramaBorma-SPV2024" target="_blank" class="text-center lead"
                     data-wow-delay="0.2s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
             <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.3s">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/3.jpg') }}" alt="Loker 3"
+                        style="border-radius: 15px">
+                </div>
+                <br>
+                <a href="https://bit.ly/RekrutmenPramaBorma-Sep2024" target="_blank" class="text-center lead"
+                    data-wow-delay="0.2s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row p-4 g-4">
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker Magang IT"
                         style="border-radius: 15px">
                 </div>
                 <br>
@@ -49,12 +64,9 @@
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
-        </div>
-
-        <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.4s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker 1"
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/5.jpg') }}" alt="Loker Frontend"
                         style="border-radius: 15px">
                 </div>
                 <br>
@@ -63,20 +75,10 @@
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/5.jpg') }}" alt="Loker 2"
-                        style="border-radius: 15px">
-                </div>
-                <br>
-                <a href="https://bit.ly/RekrutmenPramaHO-Juli2024" target="_blank" class="text-center lead"
-                    data-wow-delay="0.5s">
-                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
-                </a>
-            </div>
+
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.6s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/6.jpg') }}" alt="Loker 3"
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/6.jpg') }}" alt="Loker Backend"
                         style="border-radius: 15px">
                 </div>
                 <br>
