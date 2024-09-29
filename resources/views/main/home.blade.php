@@ -330,6 +330,7 @@
                     <a href="{{ url('kat') }}"><img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan"
                             class="img-fluid rounded" /></a>
                 </div>
+                <a href="{{ url('kat') }}" class="h6 text-end mx-3">INFO LENGKAP KLIK DI SINI </a>
             </div>
         </div>
     </div>
