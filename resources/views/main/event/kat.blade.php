@@ -26,6 +26,7 @@
                                 </div>
                                 <div class="ms-4 mt-2">
                                     <h4>Member Aktif</h4>
+                                    <span>Daftar gratis sampai akhir tahun 2024</span>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +36,9 @@
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4 mt-2">
-                                    <h4>Min pembelanjaan 75.000 (berlaku kelipatan) akan mendapatkan 1 kupon digital</h4>
+                                    <h4>Belanja 75.000</h4>
+                                    <span>Min pembelanjaan 75.000 (berlaku kelipatan) akan mendapatkan 1 kupon
+                                        digital</span>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +48,8 @@
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4 mt-2">
-                                    <h4>Periode program 01 oktober - 31 desember 2024</h4>
+                                    <h4>Periode</h4>
+                                    <span>Periode program 01 oktober - 31 desember 2024</span>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +59,8 @@
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4 mt-2">
-                                    <h4>Pengundian di tanggal 18 Januari 2025</h4>
+                                    <h4>Cek Kupon</h4>
+                                    <span>Melalui Chatbot di nomor layanan prama borma : 0878-1452-3770</span>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +70,17 @@
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4 mt-2">
-                                    <h4>Pengumuman pemenang di tanggal 25 Januari 2025</h4>
+                                    <h4>Pengundian di tanggal <span class="text-danger">18 Januari 2025</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4 mt-2">
+                                    <h4>Pengumuman pemenang di tanggal <span class="text-danger">25 Januari 2025</span></h4>
                                 </div>
                             </div>
                         </div>
