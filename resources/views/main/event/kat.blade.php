@@ -24,7 +24,7 @@
                                 <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <div class="ms-4 mt-2">
+                                <div class="ms-4">
                                     <h4>Member Aktif</h4>
                                     <span>Daftar gratis sampai akhir tahun 2024</span>
                                 </div>
@@ -35,7 +35,7 @@
                                 <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <div class="ms-4 mt-2">
+                                <div class="ms-4">
                                     <h4>Belanja 75.000</h4>
                                     <span>Min pembelanjaan 75.000 (berlaku kelipatan) akan mendapatkan 1 kupon
                                         digital</span>
@@ -47,7 +47,7 @@
                                 <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <div class="ms-4 mt-2">
+                                <div class="ms-4">
                                     <h4>Periode</h4>
                                     <span>Periode program 01 oktober - 31 desember 2024</span>
                                 </div>
@@ -58,7 +58,7 @@
                                 <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <div class="ms-4 mt-2">
+                                <div class="ms-4">
                                     <h4>Cek Kupon</h4>
                                     <span>Melalui Chatbot di nomor layanan prama borma : 0878-1452-3770</span>
                                 </div>
