@@ -61,7 +61,7 @@
                         <a href="{{ url('/kat-pramaborma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('/kat-pramafresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
                         <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
-                        <a href="{{ url('/promo-fashion') }}" class="dropdown-item">Promo JSM</a>
+                        <a href="{{ url('/promo-fashion') }}" class="dropdown-item">Promo Fashion</a>
                         <a href="{{ url('/promo-gajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
                         <a href="{{ url('/promo-pintar') }}" class="dropdown-item">Promo Pinter</a>
                         <a href="{{ url('/promo-selaras') }}" class="dropdown-item">Selaras</a>
