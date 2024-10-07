@@ -7,31 +7,31 @@ Route::get('/', function () {
     return view('main.home');
 });
 
-Route::get('/katPramaBorma', function () {
+Route::get('/kat-pramaborma', function () {
     return view('main.promosi.katalogBorma');
 });
 
-Route::get('/katPramaFresh', function () {
+Route::get('/kat-pramafresh', function () {
     return view('main.promosi.katalogFresh');
 });
 
-Route::get('/proGajian', function () {
+Route::get('/promo-gajian', function () {
     return view('main.promosi.proGajian');
 });
 
-Route::get('/proPintar', function () {
+Route::get('/promo-pintar', function () {
     return view('main.promosi.proPintar');
 });
 
-Route::get('/proJsm', function () {
+Route::get('/promo-jsm', function () {
     return view('main.promosi.proJsm');
 });
 
-Route::get('/proSelaras', function () {
+Route::get('/promo-selaras', function () {
     return view('main.promosi.proSelaras');
 });
 
-Route::get('/proGiveMeFive', function () {
+Route::get('/promo-givemefive', function () {
     return view('main.promosi.proGiveMeFive');
 });
 
