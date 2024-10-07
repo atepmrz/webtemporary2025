@@ -26,7 +26,8 @@
                                 </div>
                                 <div class="ms-4">
                                     <h4>Member Aktif</h4>
-                                    <span>Daftar gratis sampai akhir tahun 2024</span>
+                                    <span>Daftar gratis sampai akhir tahun 2024 <a href="https://wa.me/6287814523770/?text="
+                                            target="_blank">&nbsp; 👉 Link Daftar Member Gratis</a></span>
                                 </div>
                             </div>
                         </div>
