@@ -18,13 +18,14 @@
     <section id="voucher" class="container-fluid">
         <div class="row p-4 g-4">
             <div class="col-md wow fadeInUp">
-                <video width="100%" controls>
+                <video width="100%" controls style="width: 500px; height:500px">
                     <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
                 </video>
             </div>
             <div class="col-md wow fadeInUp">
-                <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpg') }}" alt="Promo JSM"
-                    style="border-radius: 15px;">
+                <video width="100%" controls style="width: 500px; height:500px">
+                    <source src="{{ asset('video/fashion1.mp4') }}" type="video/mp4">
+                </video>
             </div>
         </div>
     </section>
