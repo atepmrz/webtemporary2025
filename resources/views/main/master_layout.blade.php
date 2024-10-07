@@ -73,7 +73,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Event</a>
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah</a>
-                        <a href="{{ url('/kat') }}" class="dropdown-item">Kejutan Akhir Tahun</a>
+                        <a href="{{ url('/kat') }}" class="dropdown-item">Kejutan Akhir Tahun 2024</a>
                         <a href="{{ url('/reguler') }}" class="dropdown-item">Reguler</a>
                     </div>
                 </div>
