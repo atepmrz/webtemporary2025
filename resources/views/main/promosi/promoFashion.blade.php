@@ -16,7 +16,7 @@
     <!-- Page Header End -->
 
     <section id="voucher" class="container-fluid" style="background-color:#C69A59 ">
-        <div class="row p-4 g-4">
+        <div class="row p-4 g-4 text-center">
             <div class="col-md-6 wow fadeInUp">
                 <video class="rounded2" width="100%" controls style="width: 500px; height:500px">
                     <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
