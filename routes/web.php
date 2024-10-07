@@ -15,6 +15,14 @@ Route::get('/kat-pramafresh', function () {
     return view('main.promosi.katalogFresh');
 });
 
+Route::get('/promo-jsm', function () {
+    return view('main.promosi.proJsm');
+});
+
+Route::get('/promo-fashion', function () {
+    return view('main.promosi.promoFashion');
+});
+
 Route::get('/promo-gajian', function () {
     return view('main.promosi.proGajian');
 });
@@ -23,9 +31,7 @@ Route::get('/promo-pintar', function () {
     return view('main.promosi.proPintar');
 });
 
-Route::get('/promo-jsm', function () {
-    return view('main.promosi.proJsm');
-});
+
 
 Route::get('/promo-selaras', function () {
     return view('main.promosi.proSelaras');
