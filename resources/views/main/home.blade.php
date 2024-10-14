@@ -33,15 +33,15 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/2.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                {{-- <div class="carousel-item">
+                <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/3.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/4.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div> --}}
-                <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
+                {{-- <div class="carousel-item">
+                    <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
+                </div> --}}
                 {{-- <div class="carousel-item">
                     <video width="100%" height="500px" controls>
                         <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
