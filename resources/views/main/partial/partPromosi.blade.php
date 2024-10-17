@@ -6,11 +6,11 @@
 <!-- Promosi -->
 <div class="container-fluid pt-0 my-3 px-0">
     <div class="text-center mx-auto mt-2 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
-        <h1 class="display-5 mb-4">Promosi <span class="text-primary">September</span> </h1>
+        <h1 class="display-5 mb-4">Promosi <span class="text-primary">{{ date('F') }}</span> </h1>
     </div>
     <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
 
-        @for ($x = 1; $x <= 13; $x++)
+        @for ($x = 1; $x <= 14; $x++)
             <a class="project-item pb-4 px-3" href="{{ url('/layar') }}"><br>
                 <img class="img-fluid rounded2" src="{{ asset('img/promo/items/' . $x . '.jpg') }}" alt="" />
                 <div class="project-title">
