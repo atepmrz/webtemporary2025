@@ -117,6 +117,8 @@
                     <p>Komplek Setrasari Mall Blok B-4 No.98, Kel Sukagalih, Kec. Sukajadi, Kota Bandung,
                         Jawa Barat 40163</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0811 235 605</p>
+                    {{-- <p class="mb-2"><i class="fa fa-clock me-3"></i>{{ date('H:i') }}
+                        (UTC +07:00)</p> --}}
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@pramatoserba.co.id</p>
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2"

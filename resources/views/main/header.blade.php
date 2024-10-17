@@ -1,4 +1,7 @@
 <head>
+    @php
+        date_default_timezone_set('Asia/Jakarta');
+    @endphp
     <meta charset="utf-8" />
     <title>Prama Borma Toserba - Sudah Murah Banyak Hadiahnya</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
