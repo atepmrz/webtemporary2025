@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="col-md wow fadeInUp">
-                <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpg') }}" alt="Promo JSM"
+                <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpeg') }}" alt="Promo JSM"
                     style="border-radius: 15px;">
             </div>
         </div>
@@ -64,7 +64,7 @@
 
             @for ($x = 1; $x <= 8; $x++)
                 <a class="project-item pb-4 px-3" href="{{ url('/layar') }}"><br>
-                    <img class="img-fluid rounded2" src="{{ asset('img/promo/jsm/jsm' . $x . '.jpg') }}" alt="" />
+                    <img class="img-fluid rounded2" src="{{ asset('img/promo/jsm/jsm' . $x . '.jpeg') }}" alt="" />
                     <div class="project-title">
                         <button class="btn btn-light rounded-4 mb-0 text-primary lead">Beli Sekarang <i class="bi bi-cart"
                                 style="color: rgb(0, 180, 0)"></i>
