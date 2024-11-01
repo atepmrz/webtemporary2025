@@ -39,9 +39,9 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/4.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                {{-- <div class="carousel-item">
+                <div class="carousel-item">
                     <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div> --}}
+                </div>
                 {{-- <div class="carousel-item">
                     <video width="100%" height="500px" controls>
                         <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
@@ -330,7 +330,7 @@
                     <a href="{{ url('kat') }}"><img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan"
                             class="img-fluid rounded" /></a>
                 </div>
-                <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1">INFO LENGKAP KLIK DI SINI </a>
+                <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1">>>> INFO LENGKAP KLIK DI SINI </a>
             </div>
         </div>
     </div>
