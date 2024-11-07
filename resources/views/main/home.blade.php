@@ -28,20 +28,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/slideshow/1.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    <img src="{{ asset('img/banner/banner1.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/2.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/3.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/4.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/slideshow/5.jpg') }}" class="d-block w-100" alt="Image Slide">
-                </div>
+                @for ($x = 2; $x <= 5; $x++)
+                    <div class="carousel-item">
+                        <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    </div>
+                @endfor
                 {{-- <div class="carousel-item">
                     <video width="100%" height="500px" controls>
                         <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
