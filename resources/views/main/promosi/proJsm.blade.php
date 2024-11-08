@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="col-md wow fadeInUp">
-                <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpeg') }}" alt="Promo JSM"
+                <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpg') }}" alt="Promo JSM"
                     style="border-radius: 15px;">
             </div>
         </div>
@@ -62,9 +62,9 @@
 
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
 
-            @for ($x = 1; $x <= 5; $x++)
+            @for ($x = 1; $x <= 6; $x++)
                 <a class="project-item pb-4 px-3" href="{{ url('/layar') }}"><br>
-                    <img class="img-fluid rounded2" src="{{ asset('img/promo/jsm/jsm' . $x . '.jpeg') }}" alt="" />
+                    <img class="img-fluid rounded2" src="{{ asset('img/promo/jsm/jsm' . $x . '.jpg') }}" alt="" />
                     <div class="project-title">
                         <button class="btn btn-light rounded-4 mb-0 text-primary lead">Beli Sekarang <i class="bi bi-cart"
                                 style="color: rgb(0, 180, 0)"></i>
