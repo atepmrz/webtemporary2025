@@ -30,7 +30,7 @@
                 <div class="carousel-item active">
                     <img src="{{ asset('img/banner/banner1.jpg') }}" class="d-block w-100" alt="Image Slide">
                 </div>
-                @for ($x = 2; $x <= 5; $x++)
+                @for ($x = 2; $x <= 4; $x++)
                     <div class="carousel-item">
                         <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
                     </div>
