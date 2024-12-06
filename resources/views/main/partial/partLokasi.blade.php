@@ -24,7 +24,7 @@
                                         <i class="fa fa-phone-alt text-white"></i>
                                     </div>
                                     <div class="ms-3">
-                                        <h6>Call Us</h6>
+                                        <h6>Call</h6>
                                         <span>+62 878 1452 3770</span>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@
                                         <i class="fa fa-envelope text-white"></i>
                                     </div>
                                     <div class="ms-3">
-                                        <h6>Mail Us</h6>
+                                        <h6>Email</h6>
                                         <span>info@pramatoserba.co.id</span>
                                     </div>
                                 </div>
@@ -49,14 +49,14 @@
                                     <div class="form-floating">
                                         <input type="text" class="form-control border-borma" id="name"
                                             placeholder="Your Name">
-                                        <label for="name">Your Name</label>
+                                        <label for="name">Nama</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="email" class="form-control border-borma" id="email"
                                             placeholder="Your Email">
-                                        <label for="email">Your Email</label>
+                                        <label for="email">Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -74,8 +74,7 @@
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary py-3 px-5 border-borma" type="submit"><i
-                                            class="bi bi-send"></i> Send
-                                        Message</button>
+                                            class="bi bi-send"></i> Send Message</button>
                                 </div>
                             </div>
                         </form>
