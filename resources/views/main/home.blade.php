@@ -35,11 +35,11 @@
                         <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
                     </div>
                 @endfor
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <video width="1400px" height="500px" controls>
                         <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
                     </video>
-                </div>
+                </div> --}}
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
