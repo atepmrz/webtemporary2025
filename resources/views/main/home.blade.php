@@ -314,7 +314,7 @@
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md" style="border-radius: 10px">
+        <div class="modal-dialog modal-md" style="border-radius: 10px;">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-body">
