@@ -35,11 +35,11 @@
                         <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
                     </div>
                 @endfor
-                {{-- <div class="carousel-item">
-                    <video width="100%" height="500px" controls>
-                        <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
+                <div class="carousel-item">
+                    <video width="1400px" height="500px" controls>
+                        <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
                     </video>
-                </div> --}}
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
@@ -320,10 +320,16 @@
                 <div class="modal-body">
                     <button type="button" class="btn-close fa-pull-right" data-bs-dismiss="modal"
                         aria-label="Close"></button>
-                    <a href="{{ url('kat') }}"><img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan"
-                            class="img-fluid rounded" /></a>
+                    <a href="{{ url('kat') }}">
+                        <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
+                    </a>
+
+                    <video class="img-fluid rounded" width="100%" height="500px" controls>
+                        <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
+                    </video>
+
                 </div>
-                <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1">>>> INFO LENGKAP KLIK DI SINI </a>
+                {{-- <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1">>>> INFO LENGKAP KLIK DI SINI </a> --}}
             </div>
         </div>
     </div>
