@@ -14,20 +14,38 @@
     </div>
     <!-- Page Header End -->
 
-    {{-- <section id="visimisi" class="container-fluid">
-        <div class="row p-4 g-4">
+    <section id="karir" class="container-fluid">
+        <div class="row p-4 g-3">
             <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb1.jpg') }}" alt="Visi"
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{{ asset('img/event/reguler/event1.jpeg') }}" alt="Event 1"
                         style="border-radius: 15px">
                 </div>
+                <br>
             </div>
-            <div class="col-md wow">
-                <div class="wow fadeInUp" data-wow-delay="0.8s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb2.jpg') }}" alt="Visi"
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{{ asset('img/event/reguler/event2.jpeg') }}" alt="Event 2"
                         style="border-radius: 15px">
                 </div>
+                <br>
             </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{{ asset('img/event/reguler/event3.jpeg') }}" alt="Event 3"
+                        style="border-radius: 15px">
+                </div>
+                <br>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{{ asset('img/event/reguler/event4.jpeg') }}" alt="Event 4"
+                        style="border-radius: 15px">
+                </div>
+                <br>
+            </div>
+
         </div>
-    </section> --}}
+
+    </section>
 @endsection
