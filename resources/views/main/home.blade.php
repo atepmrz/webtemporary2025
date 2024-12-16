@@ -324,9 +324,9 @@
                         <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
                     </a>
 
-                    <video class="img-fluid rounded" width="100%" height="500px" controls>
+                    {{-- <video class="img-fluid rounded" width="100%" height="500px" controls>
                         <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
-                    </video>
+                    </video> --}}
 
                 </div>
                 {{-- <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1">>>> INFO LENGKAP KLIK DI SINI </a> --}}
