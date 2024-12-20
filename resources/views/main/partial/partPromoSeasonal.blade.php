@@ -44,11 +44,11 @@
                             <div class="service-detail">
                                 <div class="service-title">
                                     <hr class="w-25">
-                                    <h3 class="mb-0">Promo Pino</h3>
+                                    <h3 class="mb-0">Promo Joyday</h3>
                                     <hr class="w-25">
                                 </div>
                             </div>
-                            <a class="btn btn-light" href="">Promo Pino</a>
+                            <a class="btn btn-light" href="">Promo Joyday</a>
                         </div>
                     </div>
                 </div>
