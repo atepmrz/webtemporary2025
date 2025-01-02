@@ -22,7 +22,7 @@
                         style="border-radius: 15px">
                 </div>
                 <br>
-                <a href="https://bit.ly/RekrutmenPramaBorma-Des24" target="_blank" class="text-center lead"
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
                     data-wow-delay="0.1s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
@@ -33,7 +33,7 @@
                         style="border-radius: 15px">
                 </div>
                 <br>
-                <a href="https://bit.ly/RekrutmenPramaBorma-Staff24" target="_blank" class="text-center lead"
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
                     data-wow-delay="0.1s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
@@ -44,7 +44,7 @@
                         style="border-radius: 15px">
                 </div>
                 <br>
-                <a href="https://bit.ly/RekrutmenPramaBorma-Staff24" target="_blank" class="text-center lead"
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
                     data-wow-delay="0.2s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
@@ -59,7 +59,7 @@
                         style="border-radius: 15px">
                 </div>
                 <br>
-                <a href="https://bit.ly/RekrutmenPramaBorma-Des2024" target="_blank" class="text-center lead"
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
                     data-wow-delay="0.3s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
