@@ -5,50 +5,50 @@
                 <div class="row gy-5 gx-4">
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
-                            <img class="img-fluid" src="{{ asset('img/seasonal/1.jpeg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('img/seasonal/1.jpg') }}" alt="">
                             <div class="service-img">
-                                <img class="img-fluid" src="{{ asset('img/seasonal/1.jpeg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('img/seasonal/1.jpg') }}" alt="">
                             </div>
                             <div class="service-detail">
                                 <div class="service-title">
                                     <hr class="w-25">
-                                    <h3 class="mb-0">Promo JSM</h3>
+                                    <h3 class="mb-0">Promo Fashion</h3>
                                     <hr class="w-25">
                                 </div>
                             </div>
-                            <a class="btn btn-light" href="{{ url('/promo-jsm') }}">Promo JSM</a>
+                            <a class="btn btn-light" href="{{ url('/promo-jsm') }}">Promo Fashion</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
-                            <img class="img-fluid" src="{{ asset('img/seasonal/2.jpeg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('img/seasonal/2.jpg') }}" alt="">
                             <div class="service-img">
-                                <img class="img-fluid" src="{{ asset('img/seasonal/2.jpeg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('img/seasonal/2.jpg') }}" alt="">
                             </div>
                             <div class="service-detail">
                                 <div class="service-title">
                                     <hr class="w-25">
-                                    <h3 class="mb-0">Grill Party</h3>
+                                    <h3 class="mb-0">Promo Fashion</h3>
                                     <hr class="w-25">
                                 </div>
                             </div>
-                            <a class="btn btn-light" href="">Grill Party</a>
+                            <a class="btn btn-light" href="">Promo Fashion</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
-                            <img class="img-fluid" src="{{ asset('img/seasonal/3.jpeg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('img/seasonal/3.jpg') }}" alt="">
                             <div class="service-img">
-                                <img class="img-fluid" src="{{ asset('img/seasonal/3.jpeg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('img/seasonal/3.jpg') }}" alt="">
                             </div>
                             <div class="service-detail">
                                 <div class="service-title">
                                     <hr class="w-25">
-                                    <h3 class="mb-0">Grill Party</h3>
+                                    <h3 class="mb-0">Promo Fashion</h3>
                                     <hr class="w-25">
                                 </div>
                             </div>
-                            <a class="btn btn-light" href="">Grill Party</a>
+                            <a class="btn btn-light" href="">Promo Fashion</a>
                         </div>
                     </div>
                 </div>
