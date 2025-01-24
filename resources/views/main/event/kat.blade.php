@@ -16,7 +16,7 @@
 
     <section id="voucher" class="container-fluid">
         <div class="row p-4 g-4">
-            <div class="col-md">
+            {{-- <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row gy-4">
                         <div class="col-12">
@@ -89,9 +89,17 @@
 
                     </div>
                 </div>
+            </div> --}}
+            <div class="col-md wow fadeInUp">
+                <img class="img-fluid" src="{{ asset('img/event/kat1.jpg') }}" alt="Kejutan Akhir Tahun"
+                    style="border-radius: 15px">
             </div>
             <div class="col-md wow fadeInUp">
-                <img class="img-fluid" src="{{ asset('img/event/kat.jpg') }}" alt="Kejutan Akhir Tahun"
+                <img class="img-fluid" src="{{ asset('img/event/kat2.jpg') }}" alt="Kejutan Akhir Tahun"
+                    style="border-radius: 15px">
+            </div>
+            <div class="col-md wow fadeInUp">
+                <img class="img-fluid" src="{{ asset('img/event/kat3.jpg') }}" alt="Kejutan Akhir Tahun"
                     style="border-radius: 15px">
             </div>
         </div>
