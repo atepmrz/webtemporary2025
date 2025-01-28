@@ -87,15 +87,15 @@
                 <div class="col-lg-6">
                     <div class="row gx-5 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary" style="border-radius: 10px;"
-                                src="img/about-1.jpg" />
+                            <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary"
+                                style="border-radius: 10px;" src="img/about-1.jpg" />
                             {{-- <video width="100%" controls>
                                 <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
                             </video> --}}
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary" style="border-radius: 10px"
-                                src="img/about-2.jpg" />
+                            <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary"
+                                style="border-radius: 10px" src="img/about-2.jpg" />
                         </div>
                     </div>
                 </div>
