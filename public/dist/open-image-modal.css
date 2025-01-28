@@ -1,0 +1,83 @@
+/* The Modal (background) */
+#open-image-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000000000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Body */
+#open-image-modal .modal-body {
+/*  padding: 2px 16px;*/
+  padding: 20px;
+}
+
+/*#open-image-modal .modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+#open-image-modal .modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}*/
+
+/* Modal Content */
+#open-image-modal .open-image-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+
+#open-image-modal .open-image-modal-content.animate {
+  animation-name: openImageModal_animatetop;
+  animation-duration: 0.4s;
+}
+
+@keyframes openImageModal_animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+/* Modal Content/Box */
+#open-image-modal .open-image-modal-content {
+  background-color: #fefefe;
+  margin: 1% auto; /* 1% from the top and centered */
+/*  padding: 20px;*/
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+#open-image-modal .open-image-modal-close {
+  color: #aaa;
+  cursor: pointer;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  z-index: 1000000;
+  position: relative;
+}
+
+#open-image-modal .open-image-modal-close:hover,
+#open-image-modal .open-image-modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
