@@ -92,24 +92,27 @@
             </div> --}}
             <div class="col-md wow fadeInUp">
                 <img class="img-fluid" src="{{ asset('img/event/kat1.jpg') }}" alt="Kejutan Akhir Tahun"
-                    style="border-radius: 15px" onclick="openImageModal.show({
-		img: this,
-		animate: true
-	})">
+                    style="border-radius: 15px"
+                    onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
             </div>
             <div class="col-md wow fadeInUp">
                 <img class="img-fluid" src="{{ asset('img/event/kat2.jpg') }}" alt="Kejutan Akhir Tahun"
-                    style="border-radius: 15px" onclick="openImageModal.show({
-		img: this,
-		animate: true
-	})">
+                    style="border-radius: 15px"
+                    onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
             </div>
             <div class="col-md wow fadeInUp">
                 <img class="img-fluid" src="{{ asset('img/event/kat3.jpg') }}" alt="Kejutan Akhir Tahun"
-                    style="border-radius: 15px" onclick="openImageModal.show({
-		img: this,
-		animate: true
-	})">
+                    style="border-radius: 15px"
+                    onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
             </div>
         </div>
 
