@@ -1,5 +1,6 @@
 @extends('main.master_layout')
 @section('konten')
+    <link href="{{ asset('dist/open-image-modal.css') }}" rel="stylesheet" />
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-3">
@@ -19,33 +20,45 @@
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/1.jpg') }}" alt="Loker 1"
-                        style="border-radius: 15px">
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
                 </div>
                 <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
-                    data-wow-delay="0.1s">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.1s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.2s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/2.jpg') }}" alt="Loker 2"
-                        style="border-radius: 15px">
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
                 </div>
                 <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
-                    data-wow-delay="0.1s">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.1s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.2s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/3.jpg') }}" alt="Loker 3"
-                        style="border-radius: 15px">
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
                 </div>
                 <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
-                    data-wow-delay="0.2s">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.2s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
@@ -56,18 +69,26 @@
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.3s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker Magang IT"
-                        style="border-radius: 15px">
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
                 </div>
                 <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform" target="_blank" class="text-center lead"
-                    data-wow-delay="0.3s">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT_YbzoMpbAM4bDyWw43-9Ur2At98KlizbJojQ1gDd3b3E8A/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.3s">
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.4s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/5.jpg') }}" alt="Loker Frontend"
-                        style="border-radius: 15px">
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
                 </div>
                 <br>
                 <a href="https://bit.ly/RekrutmenIntern-Juli24" target="_blank" class="text-center lead"
@@ -79,7 +100,11 @@
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.6s">
                     <img class="img-fluid" src="{{ asset('img/tentangkami/karir/6.jpg') }}" alt="Loker Backend"
-                        style="border-radius: 15px">
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
                 </div>
                 <br>
                 <a href="https://bit.ly/RekrutmenPramaHO-April2024" target="_blank" class="text-center lead"
@@ -89,5 +114,7 @@
             </div>
         </div>
 
+
+        <script src="{{ asset('dist/open-image-modal.js') }}"></script>
     </section>
 @endsection
