@@ -19,7 +19,103 @@
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/1.jpg') }}" alt="Loker 1"
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/7.jpg') }}" alt="Loker"
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
+                </div>
+                <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFqjQ-wKtv2oCSE3dHcMfZWz9dM4R68bg1xA6eyA0annFogA/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.1s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/8.jpg') }}" alt="Loker"
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
+                </div>
+                <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFqjQ-wKtv2oCSE3dHcMfZWz9dM4R68bg1xA6eyA0annFogA/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.1s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/9.jpg') }}" alt="Loker"
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
+                </div>
+                <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFqjQ-wKtv2oCSE3dHcMfZWz9dM4R68bg1xA6eyA0annFogA/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.2s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
+            </div>
+        </div>
+        {{-- ============================================================= --}}
+        <div class="row p-4 g-4">
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/10.jpg') }}" alt="Loker"
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
+                </div>
+                <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1NAmHa0AgmFLUGrkGcus0_UcnEgxaB3KY7N0MA3SN4BJihQ/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.1s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/11.jpg') }}" alt="Loker"
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
+                </div>
+                <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1NAmHa0AgmFLUGrkGcus0_UcnEgxaB3KY7N0MA3SN4BJihQ/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.1s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
+            </div>
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/12.jpg') }}" alt="Loker"
+                        style="border-radius: 15px"
+                        onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
+                </div>
+                <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1NAmHa0AgmFLUGrkGcus0_UcnEgxaB3KY7N0MA3SN4BJihQ/viewform"
+                    target="_blank" class="text-center lead" data-wow-delay="0.2s">
+                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                </a>
+            </div>
+        </div>
+        {{-- ============================================================= --}}
+        <div class="row p-4 g-4">
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/1.jpg') }}" alt="Loker"
                         style="border-radius: 15px"
                         onclick="openImageModal.show({
                     img: this,
@@ -34,7 +130,7 @@
             </div>
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.2s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/2.jpg') }}" alt="Loker 2"
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/2.jpg') }}" alt="Loker"
                         style="border-radius: 15px"
                         onclick="openImageModal.show({
                     img: this,
@@ -49,7 +145,7 @@
             </div>
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.2s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/3.jpg') }}" alt="Loker 3"
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/3.jpg') }}" alt="Loker"
                         style="border-radius: 15px"
                         onclick="openImageModal.show({
                     img: this,
@@ -62,13 +158,12 @@
                     <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
                 </a>
             </div>
-
         </div>
 
         <div class="row p-4 g-4">
             <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.3s">
-                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker Magang IT"
+                    <img class="img-fluid" src="{{ asset('img/tentangkami/karir/4.jpg') }}" alt="Loker magang IT"
                         style="border-radius: 15px"
                         onclick="openImageModal.show({
                     img: this,
