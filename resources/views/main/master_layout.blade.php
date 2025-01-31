@@ -3,13 +3,21 @@
 
 @include('main.header')
 
+<style>
+    #grab:hover {
+        background-image: url('{{ asset('img/grabmartOrange.png') }}');
+    }
+</style>
+
 <body>
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center container-fluid">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-    </div>
-    <!-- Spinner End -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center container-fluid">
+            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+        </div>
+        <!-- Spinner End -->
+
+       
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-light px-0">
@@ -111,7 +119,7 @@
     @yield('konten')
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div id="footer" class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -154,9 +162,10 @@
                     <h6 class="text-light">08:00 am - 22:00 pm</h6>
                     <p class="mb-1">Grab Mart</p>
                     <h6 class="text-light">08:00 am - 20:30 pm</h6>
-                    <a href="https://linktr.ee/pramabormagroup" target="_blank"><img
-                            src="{{ asset('img/grabmart.png') }}" alt="Grab Mart" style="max-width: 100px">
-                    </a>
+                    
+                        <a href="https://linktr.ee/pramabormagroup" target="_blank"><img src="{{ asset('img/grabmart.png') }}" onmouseover="this.src='{{ asset('img/grabmartOrange.png') }}';" onmouseout="this.src='{{ asset('img/grabmart.png') }}';" alt="Grab Mart" style="max-width: 100px"></a>
+                
+                            {{--     <img src="{{ asset('img/grabmart.png') }}" alt="Grab Mart" style="max-width: 100px"> --}}
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
