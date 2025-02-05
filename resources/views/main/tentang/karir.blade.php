@@ -57,11 +57,11 @@
                 })">
                 </div>
                 <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFqjQ-wKtv2oCSE3dHcMfZWz9dM4R68bg1xA6eyA0annFogA/viewform"
-                    target="_blank" class="text-center lead" data-wow-delay="0.2s">
-                    <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
-                </a>
-            </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFqjQ-wKtv2oCSE3dHcMfZWz9dM4R68bg1xA6eyA0annFogA/viewform"
+                        target="_blank" class="text-center lead" data-wow-delay="0.2s">
+                        <i class="bi bi-journal-text"></i> Kirim CV Lamaran disini
+                    </a>
+                </div>
         </div>
         {{-- ============================================================= --}}
         <div class="row p-4 g-4">
