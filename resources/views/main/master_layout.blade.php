@@ -16,9 +16,7 @@
             <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
         </div>
         <!-- Spinner End -->
-
-       
-
+        
     <!-- Topbar Start -->
     <div class="container-fluid bg-light px-0">
         <div class="row g-0 d-none d-lg-flex">
@@ -206,6 +204,20 @@
     <a href="https://wa.me/6287814523770/?text=" target="_blank"
         class="btn btn-lg btn-success btn-lg-square rounded-circle"
         style="position: fixed; bottom:20px; right:30px"><i class="bi bi-whatsapp"></i></a>
+
+
+    {{-- <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/67ad9b433a842732607e257f/1ijv2d0ic';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script> --}}
+
 
     @include('main.footer')
 </body>
