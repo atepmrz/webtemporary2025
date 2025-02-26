@@ -5,18 +5,18 @@
 
 <style>
     #grab:hover {
-        background-image: url('{{ asset('img/grabmartOrange.png') }}');
+        background-image: url('{{ asset(' img/grabmartOrange.png') }}');
     }
 </style>
 
 <body>
     <!-- Spinner Start -->
-        <div id="spinner"
-            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center container-fluid">
-            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-        </div>
-        <!-- Spinner End -->
-        
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center container-fluid">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
     <!-- Topbar Start -->
     <div class="container-fluid bg-light px-0">
         <div class="row g-0 d-none d-lg-flex">
@@ -134,14 +134,14 @@
                             href="https://www.facebook.com/pramafresh.id/?locale=id_ID" target="_blank"><i
                                 class="fab fa-facebook-f" title="Facebook"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.instagram.com/pramaborma_cj/" target="_blank"><i
-                                class="fab fa-instagram" title="Prama Borma"></i></a>
+                            href="https://www.instagram.com/pramaborma_cj/" target="_blank"><i class="fab fa-instagram"
+                                title="Prama Borma"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.instagram.com/pramafresh.id/" target="_blank"><i
-                                class="fab fa-instagram" title="Prama Fresh"></i></a>
+                            href="https://www.instagram.com/pramafresh.id/" target="_blank"><i class="fab fa-instagram"
+                                title="Prama Fresh"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.youtube.com/@pramabormacjtv6745" target="_blank"><i
-                                class="fab fa-youtube" title="Youtube"></i></a>
+                            href="https://www.youtube.com/@pramabormacjtv6745" target="_blank"><i class="fab fa-youtube"
+                                title="Youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -160,10 +160,14 @@
                     <h6 class="text-light">08:00 am - 22:00 pm</h6>
                     <p class="mb-1">Grab Mart</p>
                     <h6 class="text-light">08:00 am - 20:30 pm</h6>
-                    
-                        <a href="https://linktr.ee/pramabormagroup" target="_blank"><img src="{{ asset('img/grabmart.png') }}" onmouseover="this.src='{{ asset('img/grabmartOrange.png') }}';" onmouseout="this.src='{{ asset('img/grabmart.png') }}';" alt="Grab Mart" style="max-width: 100px"></a>
-                
-                            {{--     <img src="{{ asset('img/grabmart.png') }}" alt="Grab Mart" style="max-width: 100px"> --}}
+
+                    <a href="https://linktr.ee/pramabormagroup" target="_blank"><img
+                            src="{{ asset('img/grabmart.png') }}"
+                            onmouseover="this.src='{{ asset('img/grabmartOrange.png') }}';"
+                            onmouseout="this.src='{{ asset('img/grabmart.png') }}';" alt="Grab Mart"
+                            style="max-width: 100px"></a>
+
+                    {{-- <img src="{{ asset('img/grabmart.png') }}" alt="Grab Mart" style="max-width: 100px"> --}}
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
@@ -195,15 +199,15 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-        style="margin-bottom: 100px"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style="margin-bottom: 100px"><i
+            class="bi bi-arrow-up"></i></a>
     <!-- Cart -->
     <a href="{{ url('/layar') }}" class="btn btn-lg btn-warning btn-lg-square rounded-circle"
         style="position: fixed; bottom:75px; right:30px"><i class="bi bi-cart4"></i></a>
     <!-- Chat WA -->
     <a href="https://wa.me/6287814523770/?text=" target="_blank"
-        class="btn btn-lg btn-success btn-lg-square rounded-circle"
-        style="position: fixed; bottom:20px; right:30px"><i class="bi bi-whatsapp"></i></a>
+        class="btn btn-lg btn-success btn-lg-square rounded-circle" style="position: fixed; bottom:20px; right:30px"><i
+            class="bi bi-whatsapp"></i></a>
 
 
     {{-- <script type="text/javascript">
