@@ -308,22 +308,23 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-md" style="border-radius: 10px;">
+    <button type="button" class="btn-close fa-pull-right bg-primary" data-bs-dismiss="modal"
+        aria-label="Close"></button>
+    <div class="modal-dialog modal-md" style="border-radius: 15px;">
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-body">
-                <button type="button" class="btn-close fa-pull-right" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-                <a href="{{ url('kat') }}">
+
+                {{-- <a href="{{ url('kat') }}"> --}}
                     <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
-                </a>
+                    {{-- </a> --}}
 
                 {{-- <video class="img-fluid rounded" width="100%" height="500px" controls>
                     <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
                 </video> --}}
 
             </div>
-            <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1"> >>> <u> INFO PEMENANG KAT 2024 </u></a>
+            {{-- <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1"> >>> <u> INFO PEMENANG KAT 2024 </u></a> --}}
         </div>
     </div>
 </div>
