@@ -15,7 +15,7 @@
 /* Modal Body */
 #open-image-modal .modal-body {
 /*  padding: 2px 16px;*/
-  padding: 20px;
+  padding: 0px;
 }
 
 /*#open-image-modal .modal-header {
@@ -63,10 +63,10 @@
 
 /* The Close Button */
 #open-image-modal .open-image-modal-close {
-  color: #aaa;
+  color: orange;
   cursor: pointer;
   float: right;
-  font-size: 28px;
+  font-size: 45px;
   font-weight: bold;
   margin-right: 20px;
   margin-top: 10px;

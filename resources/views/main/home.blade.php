@@ -1,5 +1,6 @@
 @extends('main.master_layout')
 @section('konten')
+<link href="{{ asset('dist/open-image-modal.css') }}" rel="stylesheet" />
 <style>
     .border-borma {
         border-radius: 10px;
@@ -83,14 +84,20 @@
                 <div class="row gx-5 h-500">
                     <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
                         <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary"
-                            style="border-radius: 10px;" src="img/about-1.jpg" />
+                            style="border-radius: 10px;" src="img/about-1.jpg" onclick="openImageModal.show({
+                                img: this,
+                                animate: true
+                            })" />
                         {{-- <video width="100%" controls>
                             <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
                         </video> --}}
                     </div>
                     <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                         <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary"
-                            style="border-radius: 10px" src="img/about-2.jpg" />
+                            style="border-radius: 10px" src="img/about-2.jpg" onclick="openImageModal.show({
+                                img: this,
+                                animate: true
+                            })" />
                     </div>
                 </div>
             </div>
@@ -308,7 +315,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
-    <button type="button" class="btn-close fa-pull-right bg-primary" data-bs-dismiss="modal"
+    <button type="button" class="btn-close fa-pull-right bg-warning" data-bs-dismiss="modal"
         aria-label="Close"></button>
     <div class="modal-dialog modal-md" style="border-radius: 15px;">
         <!-- Modal content-->
@@ -335,4 +342,5 @@
             $("#myModal").modal("show");
         });
 </script>
+<script src="{{ asset('dist/open-image-modal.js') }}"></script>
 @endsection

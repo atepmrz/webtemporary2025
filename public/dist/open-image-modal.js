@@ -12,13 +12,14 @@ const openImageModal = {
 		let modal = document.getElementById("open-image-modal")
 		if (modal == null) {
 			let html = `<!-- The Modal -->
-			<div id="open-image-modal">
 
+			<div id="open-image-modal">
+                <div class="open-image-modal-header">
+						<span class="open-image-modal-close">&times;</span>
+				</div>
 				<!-- Modal content -->
 				<div class="open-image-modal-content ` + (animate ? 'animate' : '') + `">
-					<div class="open-image-modal-header">
-						<span class="open-image-modal-close">&times;</span>
-					</div>
+
 
 					<div class="modal-body">
 						<img src="` + src + `" style="width: 100%;" />
