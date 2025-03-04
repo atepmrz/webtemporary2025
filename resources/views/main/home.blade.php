@@ -331,7 +331,10 @@
                 </video> --}}
 
             </div>
-            {{-- <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1"> >>> <u> INFO PEMENANG KAT 2024 </u></a> --}}
+            <a href="{{ url('/pdf/mailerPramaBorma.pdf') }}" class="btn btn-danger text-center"
+                style="border-radius: 0px"><i class="fa fa-download"></i>
+                Download Katalog Edisi Ramadhan
+            </a>
         </div>
     </div>
 </div>

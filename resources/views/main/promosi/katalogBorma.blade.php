@@ -53,9 +53,9 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-offset-5">
-                <a href="{{ url('/pdf/mailerPramaFresh.pdf') }}" class="btn btn-danger text-center"
+                <a href="{{ url('/pdf/mailerPramaBorma.pdf') }}" class="btn btn-danger text-center"
                     style="border-radius: 5px"><i class="fa fa-download"></i>
-                    Download Katalog
+                    Download Katalog Prama Borma
                 </a>
             </div>
         </div>
