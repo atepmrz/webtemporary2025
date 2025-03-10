@@ -12,11 +12,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Promo JSM</h3>
+                                <h3 class="mb-0">Ketupat</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/promo-jsm') }}">Promo JSM</a>
+                        <a class="btn btn-light" href="{{ url('/promo-jsm') }}">Ketupat</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -28,11 +28,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Promo Fashion</h3>
+                                <h3 class="mb-0">Promo THR</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Promo Fashion</a>
+                        <a class="btn btn-light" href="">Promo THR</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -44,11 +44,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Promo Fashion</h3>
+                                <h3 class="mb-0">Promo THR</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Promo Fashion</a>
+                        <a class="btn btn-light" href="">Promo THR</a>
                     </div>
                 </div>
             </div>
