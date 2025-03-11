@@ -163,8 +163,7 @@
                     <span
                         class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
                         style="width: 120px; height: 120px"></span>
-                    <button type="button" class="btn-play" data-bs-toggle="modal"
-                        data-src="https://www.instagram.com/reel/C0lfA-aLdXT/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                    <button type="button" class="btn-play" data-bs-toggle="modal" data-src="#"
                         data-bs-target="#videoModal">
                         <span></span>
                     </button>
@@ -291,17 +290,22 @@
     aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content rounded-0">
-            <div class="modal-header bg-primary">
-                <h2 class="modal-title" id="exampleModalLabel">Prama Youtube</h2>
+            <div class="modal-header bg-danger">
+                <h2 class="modal-title text-white" id="exampleModalLabel"><i class="bi bi-youtube"></i> Prama Borma CJTV
+                </h2>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <!-- 16:9 aspect ratio -->
                 <div class="ratio ratio-16x9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0qLLXQDizDs?si=zS3Cz26XaZ-iMm7-"
-                        title="YouTube video player" frameborder="0"
+                    {{-- <iframe width="560" height="315" src="{{ asset('video/opening.mp4') }}"
+                        title="YouTube video player" frameborder="0" type="video/mp4"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen></iframe> --}}
+                    <video controls>
+                        <source src="{{ asset('video/opening.mp4') }}" type="video/mp4">
+                        Browser Anda tidak mendukung pemutar video.
+                    </video>
                 </div>
             </div>
         </div>
@@ -331,7 +335,7 @@
                 </video> --}}
 
             </div>
-            <a href="{{ url('/pdf/mailerPramaBorma.pdf') }}" class="btn btn-danger text-center"
+            <a href="{{ url('/pdf/mailerPramaSeasonal.pdf') }}" class="btn btn-danger text-center"
                 style="border-radius: 0px"><i class="fa fa-download"></i>
                 Download Katalog Edisi Ramadhan
             </a>
