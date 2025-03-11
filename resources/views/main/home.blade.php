@@ -83,7 +83,7 @@
             <div class="col-lg-6">
                 <div class="row gx-5 h-500">
                     <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                        <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary"
+                        <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
                             style="border-radius: 10px;" src="img/about-1.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
@@ -93,7 +93,7 @@
                         </video> --}}
                     </div>
                     <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                        <img href="{{ url('/promo-jsm') }}" class="img-fluid border border-3 border-primary"
+                        <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
                             style="border-radius: 10px" src="img/about-2.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
@@ -303,7 +303,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe> --}}
                     <video controls>
-                        <source src="{{ asset('video/opening.mp4') }}" type="video/mp4">
+                        <source src="{{ asset('/video/opening.mp4') }}" type="video/mp4">
                         Browser Anda tidak mendukung pemutar video.
                     </video>
                 </div>
@@ -312,7 +312,6 @@
     </div>
 </div>
 <!-- Video Modal End -->
-
 
 @include('main.partial.partLayar')
 @include('main.partial.partLokasi')
