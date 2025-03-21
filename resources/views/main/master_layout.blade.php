@@ -66,6 +66,9 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Promosi</a>
                     <div class="dropdown-menu bg-light m-0">
                         {{-- <a href="{{ url('/borongHabis') }}" class="dropdown-item">Borong Habis</a> --}}
+                        {{-- <a href="{{ url('/') }}" class="dropdown-item">Late Night Shopping</a>
+                        <a href="{{ url('/') }}" class="dropdown-item">Promo Mudik Seru</a>
+                        <a href="{{ url('/') }}" class="dropdown-item">Promo Kue & Sirup</a> --}}
                         <a href="{{ url('/kat-pramaborma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('/kat-pramafresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
                         <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
@@ -134,14 +137,14 @@
                             href="https://www.facebook.com/pramafresh.id/?locale=id_ID" target="_blank"><i
                                 class="fab fa-facebook-f" title="Facebook"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.instagram.com/pramaborma_cj/" target="_blank"><i
-                                class="fab fa-instagram" title="Prama Borma"></i></a>
+                            href="https://www.instagram.com/pramaborma_cj/" target="_blank"><i class="fab fa-instagram"
+                                title="Prama Borma"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.instagram.com/pramafresh.id/" target="_blank"><i
-                                class="fab fa-instagram" title="Prama Fresh"></i></a>
+                            href="https://www.instagram.com/pramafresh.id/" target="_blank"><i class="fab fa-instagram"
+                                title="Prama Fresh"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.youtube.com/@pramabormacjtv6745" target="_blank"><i
-                                class="fab fa-youtube" title="Youtube"></i></a>
+                            href="https://www.youtube.com/@pramabormacjtv6745" target="_blank"><i class="fab fa-youtube"
+                                title="Youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -199,15 +202,15 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-        style="margin-bottom: 100px"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style="margin-bottom: 100px"><i
+            class="bi bi-arrow-up"></i></a>
     <!-- Cart -->
     <a href="{{ url('/layar') }}" class="btn btn-lg btn-warning btn-lg-square rounded-circle"
         style="position: fixed; bottom:75px; right:30px"><i class="bi bi-cart4"></i></a>
     <!-- Chat WA -->
     <a href="https://wa.me/6287814523770/?text=HI saya mau pesan Minyak goreng, apakah ready?" target="_blank"
-        class="btn btn-lg btn-success btn-lg-square rounded-circle"
-        style="position: fixed; bottom:20px; right:30px"><i class="bi bi-whatsapp"></i></a>
+        class="btn btn-lg btn-success btn-lg-square rounded-circle" style="position: fixed; bottom:20px; right:30px"><i
+            class="bi bi-whatsapp"></i></a>
 
 
     {{-- <script type="text/javascript">
