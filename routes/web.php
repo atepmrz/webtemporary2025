@@ -7,6 +7,18 @@ Route::get('/', function () {
     return view('main.home');
 });
 
+Route::get('/lns', function () {
+    return view('main.event.promosi_seasonal.promoLns');
+});
+
+Route::get('/mudik-seru', function () {
+    return view('main.event.promosi_seasonal.promoMudik');
+});
+
+Route::get('/kue-sirup', function () {
+    return view('main.event.promosi_seasonal.promoKueSirup');
+});
+
 Route::get('/kat-pramaborma', function () {
     return view('main.promosi.katalogBorma');
 });
@@ -83,6 +95,8 @@ Route::get('/karir', function () {
 
 Route::get('/mpanel', [MpanelController::class, 'index']);
 Route::post('/homePanel', [MpanelController::class, 'login']);
+
+
 
 
 
