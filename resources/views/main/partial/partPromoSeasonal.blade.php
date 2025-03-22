@@ -16,7 +16,7 @@
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/') }}">Late Night</a>
+                        <a class="btn btn-light" href="{{ url('/lns') }}">Late Night</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -32,7 +32,7 @@
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Promo Mudik</a>
+                        <a class="btn btn-light" href="{{ url('/mudik-seru') }}">Promo Mudik</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -48,7 +48,7 @@
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Kue & Sirup</a>
+                        <a class="btn btn-light" href="{{ url("/kue-sirup") }}">Kue & Sirup</a>
                     </div>
                 </div>
             </div>
