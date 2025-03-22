@@ -1,6 +1,19 @@
 @extends('main.master_layout')
 @section('konten')
 <link href="{{ asset('dist/open-image-modal.css') }}" rel="stylesheet" />
+<style>
+    .button1 {
+        background-color: white;
+        color: black;
+        border: 2px solid #04AA6D;
+    }
+
+    .button1:hover {
+        background-color: white;
+        color: #04AA6D;
+    }
+</style>
+
 <!-- Page Header Start -->
 <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-3">
@@ -24,6 +37,11 @@
                     img: this,
                     animate: true
                     })">
+                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                    <button class="btn btn-light rounded-4 mb-0 text-success lead mt-3 button1">Order Now
+                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                    </button>
+                </a>
             </div>
     </div>
     @endfor
@@ -38,6 +56,11 @@
                     img: this,
                     animate: true
                     })">
+                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                    <button class="btn btn-light rounded-4 mb-0 text-success lead mt-3 button1">Order Now
+                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                    </button>
+                </a>
             </div>
     </div>
     @endfor
@@ -52,6 +75,11 @@
                     img: this,
                     animate: true
                     })">
+                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                    <button class="btn btn-light rounded-4 mb-0 text-success lead mt-3 button1">Order Now
+                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                    </button>
+                </a>
             </div>
     </div>
     @endfor
@@ -66,6 +94,11 @@
                     img: this,
                     animate: true
                     })">
+                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                    <button class="btn btn-light rounded-4 mb-0 text-success lead mt-3 button1">Order Now
+                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                    </button>
+                </a>
             </div>
     </div>
     @endfor
@@ -73,33 +106,41 @@
     </div>
     {{-- ============================================================= --}}
     <div class="row p-4 g-4">
-        @for ($x = 25; $x <= 30; $x++)
-        <div class="col-md">
+        @for ($x = 25; $x <= 30; $x++) <div class="col-md">
             <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <img class="img-fluid" src="{{ asset('img/promo/lns/lns'. $x . '.jpg') }}" alt="Late Night Shopping"
                     style="border-radius: 15px" onclick="openImageModal.show({
                     img: this,
                     animate: true
                     })">
+                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                    <button class="btn btn-light rounded-4 mb-0 text-success lead mt-3 button1">Order Now
+                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                    </button>
+                </a>
             </div>
-        </div>
-        @endfor
-        <br>
+    </div>
+    @endfor
+    <br>
     </div>
     {{-- ============================================================= --}}
     <div class="row p-4 g-4">
-        @for ($x = 31; $x <= 36; $x++)
-        <div class="col-md">
+        @for ($x = 31; $x <= 36; $x++) <div class="col-md">
             <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <img class="img-fluid" src="{{ asset('img/promo/lns/lns'. $x . '.jpg') }}" alt="Late Night Shopping"
                     style="border-radius: 15px" onclick="openImageModal.show({
                     img: this,
                     animate: true
                     })">
+                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                    <button class="btn btn-light rounded-4 mb-0 text-success lead mt-3 button1">Order Now
+                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                    </button>
+                </a>
             </div>
-        </div>
-        @endfor
-        <br>
+    </div>
+    @endfor
+    <br>
     </div>
     {{-- ============================================================= --}}
     <script src="{{ asset('dist/open-image-modal.js') }}"></script>
