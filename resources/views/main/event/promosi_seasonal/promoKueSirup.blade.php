@@ -4,7 +4,7 @@
 <!-- Page Header Start -->
 <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-3">
-        <h1 class="display-3 text-white animated slideInRight">Promosi Kue & Sirup</h1>
+        <h1 class="display-3 text-white animated slideInRight">Promo Kue & Sirup</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb animated slideInRight mb-0">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -17,7 +17,21 @@
 
 <section id="karir" class="container-fluid">
     <div class="row p-4 g-4">
-        @for ($x = 1; $x <= 6; $x++) <div class="col-md">
+        @for ($x = 1; $x <= 3; $x++) <div class="col-md">
+            <div class="wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid" src="{{ asset('img/promo/kuesirup/kue'. $x . '.jpg') }}"
+                    alt="Late Night Shopping" style="border-radius: 15px" onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                    })">
+            </div>
+    </div>
+    @endfor
+    <br>
+    </div>
+    {{-- ============================================================= --}}
+    <div class="row p-4 g-4">
+        @for ($x = 4; $x <= 6; $x++) <div class="col-md">
             <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <img class="img-fluid" src="{{ asset('img/promo/kuesirup/kue'. $x . '.jpg') }}"
                     alt="Late Night Shopping" style="border-radius: 15px" onclick="openImageModal.show({
