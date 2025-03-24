@@ -30,7 +30,7 @@
 
 <section id="karir" class="container-fluid">
     <div class="row p-4 g-4">
-        @for ($x = 1; $x <= 6; $x++) <div class="col-md">
+        @for ($x = 1; $x <= 6; $x++) <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <img class="img-fluid" src="{{ asset('img/promo/lns/lns'. $x . '.jpg') }}" alt="Late Night Shopping"
                     style="border-radius: 15px" onclick="openImageModal.show({
@@ -49,7 +49,7 @@
     </div>
     {{-- ============================================================= --}}
     <div class="row p-4 g-4">
-        @for ($x = 7; $x <= 12; $x++) <div class="col-md">
+        @for ($x = 7; $x <= 12; $x++) <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <img class="img-fluid" src="{{ asset('img/promo/lns/lns'. $x . '.jpg') }}" alt="Late Night Shopping"
                     style="border-radius: 15px" onclick="openImageModal.show({

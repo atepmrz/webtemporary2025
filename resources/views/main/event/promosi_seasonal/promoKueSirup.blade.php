@@ -29,7 +29,8 @@
 
 <section id="karir" class="container-fluid">
     <div class="row p-4 g-4">
-        @for ($x = 1; $x <= 3; $x++) <div class="col-md">
+        @for ($x = 1; $x <= 3; $x++)
+        <div class="col-md">
             <div class="wow fadeInUp" data-wow-delay="0.1s">
                 <img class="img-fluid" src="{{ asset('img/promo/kuesirup/kue'. $x . '.jpg') }}"
                     alt="Late Night Shopping" style="border-radius: 15px" onclick="openImageModal.show({
@@ -43,7 +44,7 @@
                         <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
                     </button>
                 </a>
-            </div>
+        </div>
     </div>
     @endfor
     <br>
