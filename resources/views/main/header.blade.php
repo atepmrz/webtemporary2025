@@ -4,6 +4,7 @@
     @endphp
     <meta charset="utf-8" />
     <title>Prama Borma Toserba - Sudah Murah Banyak Hadiahnya</title>
+    <meta name="google-site-verification" content="kt54VHufYoat6C8Cm9uMMPCm9QdDEOxAEZBVU-oWPJY" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description"
         content="Toserba terlengkap dibandung, sudah murah banyak hadiahnya, sudah murah banyak promonya, sudah murah makin murah, Prama Borma menyediakan beragam produk kebutuhan sehari-hari dengan kualitas yang dapat diandalkan, lengkap, harga hemat, dan lokasi toko yang mudah dijangkau,
