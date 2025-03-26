@@ -108,7 +108,7 @@
                         <a href="{{ url('/karir') }}" class="dropdown-item">Karir</a>
                     </div>
                 </div>
-                <a href="{{ url('/') }}" class="nav-item nav-link">Kerjasama</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFVGEmIb-PkFgrFPI3cXr6O4Ao-_3pM-5LVYgxz2oMZbF0iw/viewform?pli=1" target="_blank" class="nav-item nav-link">Kerjasama</a>
             </div>
             <a href="https://wa.me/6287814523770/?text=" target="_blank"
                 class="btn btn-primary px-3 d-none d-lg-block d-md-block" style="border-radius: 8px;">Daftar
