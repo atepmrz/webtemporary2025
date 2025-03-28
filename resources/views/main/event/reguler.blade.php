@@ -1,5 +1,6 @@
 @extends('main.master_layout')
 @section('konten')
+<link href="{{ asset('dist/open-image-modal.css') }}" rel="stylesheet" />
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -16,36 +17,19 @@
 
     <section id="karir" class="container-fluid">
         <div class="row p-4 g-3">
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="{{ asset('img/event/reguler/event1.jpeg') }}" alt="Event 1"
-                        style="border-radius: 15px">
+            @for ($x = 1; $x <=4; $x++)
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="{{ asset('img/event/reguler/resep'. $x .'.jpg') }}" alt="Demo Masak & Resep"
+                            style="border-radius: 15px" onclick="openImageModal.show({
+                                img: this,
+                                animate: true
+                                })">
+                    </div>
+                    <br>
                 </div>
-                <br>
-            </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="{{ asset('img/event/reguler/event2.jpeg') }}" alt="Event 2"
-                        style="border-radius: 15px">
-                </div>
-                <br>
-            </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="{{ asset('img/event/reguler/event3.jpeg') }}" alt="Event 3"
-                        style="border-radius: 15px">
-                </div>
-                <br>
-            </div>
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="{{ asset('img/event/reguler/event4.jpeg') }}" alt="Event 4"
-                        style="border-radius: 15px">
-                </div>
-                <br>
-            </div>
-
+            @endfor
         </div>
-
     </section>
+    <script src="{{ asset('dist/open-image-modal.js') }}"></script>
 @endsection

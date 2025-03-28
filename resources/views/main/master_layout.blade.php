@@ -86,7 +86,7 @@
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('/kat') }}" class="dropdown-item">Info Pemenang KAT 2024</a>
                         <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah</a>
-                        <a href="{{ url('/reguler') }}" class="dropdown-item">Reguler</a>
+                        <a href="{{ url('/reguler') }}" class="dropdown-item">Demo Masak & Resep</a>
                     </div>
                 </div>
 
