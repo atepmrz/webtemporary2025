@@ -1,7 +1,7 @@
 @extends('main.master_layout')
 @section('konten')
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-2 mb-0 wow fadeIn bg-warning" data-wow-delay="0.1s">
         <div class="container py-5">
             <h1 class="display-3 text-white animated slideInRight">Promo Fashion</h1>
             <nav aria-label="breadcrumb">

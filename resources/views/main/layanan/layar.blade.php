@@ -1,7 +1,7 @@
 @extends('main.master_layout')
 @section('konten')
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-0 mb-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-0 mb-0 wow fadeIn bg-warning" data-wow-delay="0.1s">
         <div class="container py-5 d-flex">
             <h1 class="display-3 text-white animated slideInRight">Layanan Antar</h1>
 
