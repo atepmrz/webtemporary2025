@@ -7,16 +7,20 @@ Route::get('/', function () {
     return view('main.home');
 });
 
+Route::get('/gebyar-lebaran', function () {
+    return view('main.promosi.promosi_seasonal.promoGebyarLebaran');
+});
+
 Route::get('/lns', function () {
-    return view('main.event.promosi_seasonal.promoLns');
+    return view('main.promosi.promosi_seasonal.promoLns');
 });
 
 Route::get('/mudik-seru', function () {
-    return view('main.event.promosi_seasonal.promoMudik');
+    return view('main.promosi.promosi_seasonal.promoMudik');
 });
 
 Route::get('/kue-sirup', function () {
-    return view('main.event.promosi_seasonal.promoKueSirup');
+    return view('main.promosi.promosi_seasonal.promoKueSirup');
 });
 
 Route::get('/kat-pramaborma', function () {

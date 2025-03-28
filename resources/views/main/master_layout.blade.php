@@ -66,6 +66,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Promosi</a>
                     <div class="dropdown-menu bg-light m-0">
                         {{-- <a href="{{ url('/borongHabis') }}" class="dropdown-item">Borong Habis</a> --}}
+                        <a href="{{ url('/gebyar-lebaran') }}" class="dropdown-item">Gebyar Lebaran</a>
                         <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
                         <a href="{{ url('/mudik-seru') }}" class="dropdown-item">Promo Mudik Seru</a>
                         <a href="{{ url('/kue-sirup') }}" class="dropdown-item">Promo Kue & Sirup</a>
