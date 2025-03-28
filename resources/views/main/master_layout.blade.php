@@ -66,12 +66,12 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Promosi</a>
                     <div class="dropdown-menu bg-light m-0">
                         {{-- <a href="{{ url('/borongHabis') }}" class="dropdown-item">Borong Habis</a> --}}
-                        <a href="{{ url('/lns') }}" class="dropdown-item">Late Night Shopping</a>
+                        <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
                         <a href="{{ url('/mudik-seru') }}" class="dropdown-item">Promo Mudik Seru</a>
                         <a href="{{ url('/kue-sirup') }}" class="dropdown-item">Promo Kue & Sirup</a>
                         <a href="{{ url('/kat-pramaborma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('/kat-pramafresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
-                        <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
+                        <a href="{{ url('/lns') }}" class="dropdown-item">Late Night Shopping</a>
                         <a href="{{ url('/promo-fashion') }}" class="dropdown-item">Promo Fashion</a>
                         <a href="{{ url('/promo-gajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
                         <a href="{{ url('/promo-pintar') }}" class="dropdown-item">Promo Pinter</a>
