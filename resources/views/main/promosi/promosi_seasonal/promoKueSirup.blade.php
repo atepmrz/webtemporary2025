@@ -30,46 +30,47 @@
 <section id="karir" class="container-fluid">
     <div class="row p-4 g-4">
         @for ($x = 1; $x <= 3; $x++)
-        <div class="col-md">
-            <div class="wow fadeInUp" data-wow-delay="0.1s">
-                <img class="img-fluid" src="{{ asset('img/promo/kuesirup/kue'. $x . '.jpg') }}"
-                    alt="Late Night Shopping" style="border-radius: 15px" onclick="openImageModal.show({
-                    img: this,
-                    animate: true
-                    })">
-                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
-                    <button class="btn btn-light rounded-4 mb-0 text-white lead bg-success mt-3 offset-3 button1">Order
-                        Via
-                        Whatsapp
-                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
-                    </button>
-                </a>
-        </div>
-    </div>
-    @endfor
-    <br>
+                <div class="col-md">
+                    <div class="wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="{{ asset('img/promo/kuesirup/kue'. $x . '.jpg') }}"
+                            alt="Late Night Shopping" style="border-radius: 15px" onclick="openImageModal.show({
+                            img: this,
+                            animate: true
+                            })">
+                        <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                            <button class="btn btn-light rounded-4 mb-0 text-white lead bg-success mt-3 offset-3 button1">Order
+                                Via
+                                Whatsapp
+                                <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                            </button>
+                        </a>
+                </div>
+            </div>
+        @endfor
+        <br>
     </div>
     {{-- ============================================================= --}}
     <div class="row p-4 g-4">
-        @for ($x = 4; $x <= 6; $x++) <div class="col-md">
-            <div class="wow fadeInUp" data-wow-delay="0.1s">
-                <img class="img-fluid" src="{{ asset('img/promo/kuesirup/kue'. $x . '.jpg') }}"
-                    alt="Late Night Shopping" style="border-radius: 15px" onclick="openImageModal.show({
-                    img: this,
-                    animate: true
-                    })">
-                <br>
-                <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
-                    <button class="btn btn-light rounded-4 mb-0 text-white lead bg-success mt-3 offset-3 button1">Order
-                        Via
-                        Whatsapp
-                        <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
-                    </button>
-                </a>
+        @for ($x = 4; $x <= 6; $x++)
+            <div class="col-md">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{{ asset('img/promo/kuesirup/kue'. $x . '.jpg') }}"
+                        alt="Late Night Shopping" style="border-radius: 15px" onclick="openImageModal.show({
+                        img: this,
+                        animate: true
+                        })">
+                    <br>
+                    <a class="project-item pb-4 px-3" href="{{ url('/layar') }}">
+                        <button class="btn btn-light rounded-4 mb-0 text-white lead bg-success mt-3 offset-3 button1">Order
+                            Via
+                            Whatsapp
+                                            <i class="bi bi-whatsapp" style="color: rgb(0, 180, 0)"></i>
+                        </button>
+                    </a>
+                </div>
             </div>
-    </div>
-    @endfor
-    <br>
+        @endfor
+        <br>
     </div>
     {{-- ============================================================= --}}
     <script src="{{ asset('dist/open-image-modal.js') }}"></script>

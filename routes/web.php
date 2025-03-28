@@ -10,6 +10,15 @@ Route::get('/', function () {
 Route::get('/gebyar-lebaran', function () {
     return view('main.promosi.promosi_seasonal.promoGebyarLebaran');
 });
+Route::get('/promo-nugget', function () {
+    return view('main.promosi.promosi_seasonal.promoNugget');
+});
+Route::get('/promo-double', function () {
+    return view('main.promosi.promosi_seasonal.promoDoubleDate');
+});
+Route::get('/promo-hampers', function () {
+    return view('main.promosi.promosi_seasonal.promoHampers');
+});
 
 Route::get('/lns', function () {
     return view('main.promosi.promosi_seasonal.promoLns');
