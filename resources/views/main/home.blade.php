@@ -335,9 +335,9 @@
         <div class="modal-content">
             <div class="modal-body">
 
-                {{-- <a href="{{ url('kat') }}"> --}}
+                <a href="{{ url('/promo-hampers') }}">
                     <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
-                    {{-- </a> --}}
+                </a>
 
                 {{-- <video class="img-fluid rounded" width="100%" height="500px" controls>
                     <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
