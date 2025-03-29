@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel11234556789101 + mongodb</title>
+    <title>Laravel112345567891012 + mongodb</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
