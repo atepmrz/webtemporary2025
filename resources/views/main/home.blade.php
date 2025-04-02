@@ -339,12 +339,7 @@
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-body">
-
-<<<<<<< HEAD
                 <a href="{{ url('/promo-hampers') }}">
-=======
-                    {{-- <a href="{{ url('kat') }}"> --}}
->>>>>>> d26f50bdb11b16abe70726818f614e647adef840
                     <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
                 </a>
 
