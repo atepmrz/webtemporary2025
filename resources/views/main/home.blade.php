@@ -32,15 +32,15 @@
                     <a href="{{ url('/gebyar-lebaran') }}"><img src="{{ asset('img/banner/banner1.jpg') }}"
                             class="d-block w-100" alt="Image Slide"></a>
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <a href="{{ url('/promo-nugget') }}"><img src="{{ asset('img/banner/banner2.jpg') }}"
                             class="d-block w-100" alt="Image Slide"></a>
                 </div>
                 <div class="carousel-item">
                     <a href="{{ url('/promo-hampers') }}"><img src="{{ asset('img/banner/banner3.jpg') }}"
                             class="d-block w-100" alt="Image Slide"></a>
-                </div>
-                @for ($x = 4; $x <= 5; $x++)
+                </div> --}}
+                @for ($x = 2; $x <= 3; $x++)
                     <div class="carousel-item">
                         <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
                     </div>
@@ -96,7 +96,7 @@
                     <div class="row gx-5 h-500">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
                             <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
-                                style="border-radius: 10px;" src="img/about-1.jpeg"
+                                style="border-radius: 10px;" src="img/about-1.jpg"
                                 onclick="openImageModal.show({
                                 img: this,
                                 animate: true
@@ -107,7 +107,7 @@
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                             <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
-                                style="border-radius: 10px" src="img/about-2.jpeg"
+                                style="border-radius: 10px" src="img/about-2.jpg"
                                 onclick="openImageModal.show({
                                 img: this,
                                 animate: true
