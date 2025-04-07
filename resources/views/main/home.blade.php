@@ -339,7 +339,7 @@
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-body">
-                <a href="{{ url('/double-date') }}">
+                <a href="{{ url('/promo-double') }}">
                     {{-- <a href="{{ url('kat') }}"> --}}
                     <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
                 </a>
