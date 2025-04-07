@@ -32,15 +32,15 @@
                     <a href="{{ url('/gebyar-lebaran') }}"><img src="{{ asset('img/banner/banner1.jpg') }}"
                             class="d-block w-100" alt="Image Slide"></a>
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <a href="{{ url('/promo-nugget') }}"><img src="{{ asset('img/banner/banner2.jpg') }}"
                             class="d-block w-100" alt="Image Slide"></a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{ url('/promo-nugget') }}"><img src="{{ asset('img/banner/banner2.jpg') }}"
+                    <a href="{{ url('/promo-hampers') }}"><img src="{{ asset('img/banner/banner3.jpg') }}"
                             class="d-block w-100" alt="Image Slide"></a>
-                </div>
-                @for ($x = 4; $x <= 5; $x++)
+                </div> --}}
+                @for ($x = 2; $x <= 3; $x++)
                     <div class="carousel-item">
                         <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
                     </div>
@@ -340,9 +340,9 @@
             <div class="modal-content">
                 <div class="modal-body">
                 <a href="{{ url('/promo-double') }}">
-                    {{-- <a href="{{ url('kat') }}"> --}}
                     <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
                 </a>
+
                     {{-- <video class="img-fluid rounded" width="100%" height="500px" controls>
                     <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
                 </video> --}}
