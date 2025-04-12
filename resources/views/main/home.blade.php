@@ -1,5 +1,6 @@
 @extends('main.master_layout')
 @section('konten')
+    <link href="{{ asset('dist/open-image-modal.css') }}" rel="stylesheet" />
     <style>
         .border-borma {
             border-radius: 10px;
@@ -28,18 +29,27 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/banner/banner1.jpg') }}" class="d-block w-100" alt="Image Slide">
+                    <a href="{{ url('/gebyar-lebaran') }}"><img src="{{ asset('img/banner/banner1.jpg') }}"
+                            class="d-block w-100" alt="Image Slide"></a>
                 </div>
-                @for ($x = 2; $x <= 4; $x++)
+                {{-- <div class="carousel-item">
+                    <a href="{{ url('/promo-nugget') }}"><img src="{{ asset('img/banner/banner2.jpg') }}"
+                            class="d-block w-100" alt="Image Slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="{{ url('/promo-hampers') }}"><img src="{{ asset('img/banner/banner3.jpg') }}"
+                            class="d-block w-100" alt="Image Slide"></a>
+                </div> --}}
+                @for ($x = 2; $x <= 3; $x++)
                     <div class="carousel-item">
                         <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
                     </div>
                 @endfor
                 {{-- <div class="carousel-item">
-                    <video width="1400px" height="500px" controls>
-                        <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
-                    </video>
-                </div> --}}
+            <video width="1400px" height="500px" controls>
+                <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
+            </video>
+        </div> --}}
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
@@ -57,45 +67,51 @@
 
     <!-- Page Header Start -->
     {{-- <div class="container-fluid pt-1 my-3 px-0">
-        <div class="text-center mx-auto mt-2 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
-            <h1 class="display-5 mb-4">Pemenang Prama Borma Berhadiah 2024</h1>
-        </div>
-    </div> --}}
+    <div class="text-center mx-auto mt-2 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
+        <h1 class="display-5 mb-4">Pemenang Prama Borma Berhadiah 2024</h1>
+    </div>
+</div> --}}
     <!-- Page Header End -->
 
     {{-- <section id="pbb" class="container-fluid">
-        <div class="row p-4 g-4">
-            <div class="col-md">
-                <div class="wow fadeInUp" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb1.jpg') }}" alt="pbb"
-                        style="border-radius: 15px">
-                </div>
-            </div>
-            <div class="col-md wow">
-                <div class="wow fadeInUp" data-wow-delay="0.8s">
-                    <img class="img-fluid" src="{{ asset('img/event/pbb2.jpg') }}" alt="pbb"
-                        style="border-radius: 15px">
-                </div>
+    <div class="row p-4 g-4">
+        <div class="col-md">
+            <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <img class="img-fluid" src="{{ asset('img/event/pbb1.jpg') }}" alt="pbb" style="border-radius: 15px">
             </div>
         </div>
-    </section> --}}
+        <div class="col-md wow">
+            <div class="wow fadeInUp" data-wow-delay="0.8s">
+                <img class="img-fluid" src="{{ asset('img/event/pbb2.jpg') }}" alt="pbb" style="border-radius: 15px">
+            </div>
+        </div>
+    </div>
+</section> --}}
 
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-3">
                 <div class="col-lg-6">
-                    <div class="row gx-5 h-100">
+                    <div class="row gx-5 h-500">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-3 border-primary" style="border-radius: 10px;"
-                                src="img/about-1.jpg" />
+                            <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
+                                style="border-radius: 10px;" src="img/about-1.jpg"
+                                onclick="openImageModal.show({
+                                img: this,
+                                animate: true
+                            })" />
                             {{-- <video width="100%" controls>
-                                <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
-                            </video> --}}
+                            <source src="{{ asset('video/batik.mp4') }}" type="video/mp4">
+                        </video> --}}
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid border border-3 border-primary" style="border-radius: 10px"
-                                src="img/about-2.jpg" />
+                            <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
+                                style="border-radius: 10px" src="img/about-2.jpg"
+                                onclick="openImageModal.show({
+                                img: this,
+                                animate: true
+                            })" />
                         </div>
                     </div>
                 </div>
@@ -161,8 +177,7 @@
                         <span
                             class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
                             style="width: 120px; height: 120px"></span>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.instagram.com/reel/C0lfA-aLdXT/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="#"
                             data-bs-target="#videoModal">
                             <span></span>
                         </button>
@@ -260,7 +275,7 @@
                 <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                     <div id="kotak" class="text-center border p-5">
                         <i class="fa fa-users fa-3x text-white mb-3"></i>
-                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">144000</h5>
+                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">169000</h5>
                         <span class="fs-5 fw-semi-bold text-white">Members</span>
                     </div>
                 </div>
@@ -274,7 +289,7 @@
                 <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                     <div id="kotak" class="text-center border p-5">
                         <i class="fa fa-map-marker-alt fa-3x text-white mb-3"></i>
-                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">12</h5>
+                        <h5 class="display-2 text-primary mb-0" data-toggle="counter-up">13</h5>
                         <span class="fs-5 fw-semi-bold text-white">Lokasi</span>
                     </div>
                 </div>
@@ -289,18 +304,23 @@
         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
-                <div class="modal-header bg-primary">
-                    <h2 class="modal-title" id="exampleModalLabel">Prama Youtube</h2>
+                <div class="modal-header bg-danger">
+                    <h2 class="modal-title text-white" id="exampleModalLabel"><i class="bi bi-youtube"></i> Prama Borma
+                        CJTV
+                    </h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/0qLLXQDizDs?si=zS3Cz26XaZ-iMm7-"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                        {{-- <iframe width="560" height="315" src="{{ asset('video/opening.mp4') }}"
+                        title="YouTube video player" frameborder="0" type="video/mp4"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe> --}}
+                        <video controls>
+                            <source src="{{ asset('/video/opening.mp4') }}" type="video/mp4">
+                            Browser Anda tidak mendukung pemutar video.
+                        </video>
                     </div>
                 </div>
             </div>
@@ -308,28 +328,30 @@
     </div>
     <!-- Video Modal End -->
 
-
     @include('main.partial.partLayar')
     @include('main.partial.partLokasi')
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md" style="border-radius: 10px;">
+        <button type="button" class="btn-close fa-pull-right bg-warning" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        <div class="modal-dialog modal-md" style="border-radius: 15px;">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-body">
-                    <button type="button" class="btn-close fa-pull-right" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                    <a href="{{ url('kat') }}">
-                        <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
-                    </a>
+                <a href="{{ url('/promo-double') }}">
+                    <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
+                </a>
 
-                    <video class="img-fluid rounded" width="100%" height="500px" controls>
-                        <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
-                    </video>
+                    {{-- <video class="img-fluid rounded" width="100%" height="500px" controls>
+                    <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
+                </video> --}}
 
                 </div>
-                {{-- <a href="{{ url('kat') }}" class="h6 text-end mx-3 mb-1">>>> INFO LENGKAP KLIK DI SINI </a> --}}
+                {{-- <a href="{{ url('/pdf/mailerPramaSeasonal.pdf') }}" class="btn btn-danger text-center"
+                    style="border-radius: 0px"><i class="fa fa-download"></i>
+                    Download Katalog Edisi Ramadhan
+                </a> --}}
             </div>
         </div>
     </div>
@@ -340,4 +362,5 @@
             $("#myModal").modal("show");
         });
     </script>
+    <script src="{{ asset('dist/open-image-modal.js') }}"></script>
 @endsection

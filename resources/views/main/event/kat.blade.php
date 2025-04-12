@@ -1,9 +1,10 @@
 @extends('main.master_layout')
 @section('konten')
+    <link href="{{ asset('dist/open-image-modal.css') }}" rel="stylesheet" />
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-2 mb-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-2 mb-0 wow fadeIn bg-primary" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Cara Ikutan KAT 2024</h1>
+            <h1 class="display-3 text-white animated slideInRight">Info Pemenang KAT 2024</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -13,10 +14,9 @@
         </div>
     </div>
     <!-- Page Header End -->
-
     <section id="voucher" class="container-fluid">
         <div class="row p-4 g-4">
-            <div class="col-md">
+            {{-- <div class="col-md">
                 <div class="wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row gy-4">
                         <div class="col-12">
@@ -89,11 +89,33 @@
 
                     </div>
                 </div>
+            </div> --}}
+            <div class="col-md wow fadeInUp">
+                <img class="img-fluid" src="{{ asset('img/event/kat1.jpg') }}" alt="Kejutan Akhir Tahun"
+                    style="border-radius: 15px"
+                    onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
             </div>
             <div class="col-md wow fadeInUp">
-                <img class="img-fluid" src="{{ asset('img/event/kat.jpg') }}" alt="Kejutan Akhir Tahun"
-                    style="border-radius: 15px">
+                <img class="img-fluid" src="{{ asset('img/event/kat2.jpg') }}" alt="Kejutan Akhir Tahun"
+                    style="border-radius: 15px"
+                    onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
+            </div>
+            <div class="col-md wow fadeInUp">
+                <img class="img-fluid" src="{{ asset('img/event/kat3.jpg') }}" alt="Kejutan Akhir Tahun"
+                    style="border-radius: 15px"
+                    onclick="openImageModal.show({
+                    img: this,
+                    animate: true
+                })">
             </div>
         </div>
+
+        <script src="{{ asset('dist/open-image-modal.js') }}"></script>
     </section>
 @endsection

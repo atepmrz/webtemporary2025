@@ -7,6 +7,31 @@ Route::get('/', function () {
     return view('main.home');
 });
 
+Route::get('/gebyar-lebaran', function () {
+    return view('main.promosi.promosi_seasonal.promoGebyarLebaran');
+});
+Route::get('/promo-nugget', function () {
+    return view('main.promosi.promosi_seasonal.promoNugget');
+});
+Route::get('/promo-double', function () {
+    return view('main.promosi.promosi_seasonal.promoDoubleDate');
+});
+Route::get('/promo-hampers', function () {
+    return view('main.promosi.promosi_seasonal.promoHampers');
+});
+
+Route::get('/lns', function () {
+    return view('main.promosi.promosi_seasonal.promoLns');
+});
+
+Route::get('/mudik-seru', function () {
+    return view('main.promosi.promosi_seasonal.promoMudik');
+});
+
+Route::get('/kue-sirup', function () {
+    return view('main.promosi.promosi_seasonal.promoKueSirup');
+});
+
 Route::get('/kat-pramaborma', function () {
     return view('main.promosi.katalogBorma');
 });
@@ -83,6 +108,8 @@ Route::get('/karir', function () {
 
 Route::get('/mpanel', [MpanelController::class, 'index']);
 Route::post('/homePanel', [MpanelController::class, 'login']);
+
+
 
 
 
