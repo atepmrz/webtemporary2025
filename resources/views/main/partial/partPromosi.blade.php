@@ -10,7 +10,7 @@
         </h1>
     </div>
     <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-        @for ($x = 1; $x <= 12; $x++)
+        @for ($x = 1; $x <= 19; $x++)
             <a class="project-item pb-4 px-3" href="{{ url('/layar') }}"><br>
                 <img class="img-fluid rounded2" src="{{ asset('img/promo/items/promo' . $x . '.jpg') }}" alt="" />
                 <div class="project-title">
