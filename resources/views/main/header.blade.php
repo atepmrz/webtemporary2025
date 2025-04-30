@@ -15,7 +15,9 @@
                 belanja online prama babakan sari,belanja online prama ciparay, belanja online prama bale endah,belanja online prama fresh mekar wangi,
                 belanja online prama fresh garuda, belanja online prama fresh perintis, belanja online prama fresh burangrang,
                 prama toserba, prama borma group, borma group" />
-
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <!-- Favicon -->
     <link href="{{ asset('img/bormaweb.ico') }}" rel="icon" />
 

@@ -32,23 +32,10 @@
                 <a href="{{ url('/pbb') }}"><img src="{{ asset('img/banner/banner1.jpg') }}" class="d-block w-100"
                         alt="Image Slide"></a>
             </div>
-            {{-- <div class="carousel-item">
-                <a href="{{ url('/promo-nugget') }}"><img src="{{ asset('img/banner/banner2.jpg') }}"
-                        class="d-block w-100" alt="Image Slide"></a>
-            </div>
-            <div class="carousel-item">
-                <a href="{{ url('/promo-hampers') }}"><img src="{{ asset('img/banner/banner3.jpg') }}"
-                        class="d-block w-100" alt="Image Slide"></a>
-            </div> --}}
             @for ($x = 2; $x <= 3; $x++) <div class="carousel-item">
                 <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
         </div>
         @endfor
-        {{-- <div class="carousel-item">
-            <video width="1400px" height="500px" controls>
-                <source src="{{ asset('video/natal.mp4') }}" type="video/mp4">
-            </video>
-        </div> --}}
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -86,13 +73,13 @@
 </section> --}}
 
 <!-- About Start -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-4">
     <div class="container">
         <div class="row g-3">
-            <div class="col-lg-6">
-                <div class="row gx-5 h-500">
+            <div class="col-lg-6 col-md-4 col-sm-2">
+                <div class="row gx-3 h-500">
                     <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                        <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
+                        <img href="{{ url('/') }}" class="img-fluid border-3 border-primary"
                             style="border-radius: 10px;" src="img/about-1.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
@@ -102,7 +89,7 @@
                         </video> --}}
                     </div>
                     <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                        <img href="{{ url('/promo-jsm') }}" class="img-fluid border-3 border-primary"
+                        <img href="{{ url('/') }}" class="img-fluid border-3 border-primary"
                             style="border-radius: 10px" src="img/about-2.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
@@ -110,17 +97,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <div class="col-lg-6 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                 <p class="fw-medium text-uppercase text-primary mb-2">Layanan</p>
                 <h1 class="display-5 mb-4">Fasilitas Kami</h1>
-                <p class="mb-4"></p>
+                
                 <div class="d-flex align-items-center mb-4">
-                    <div class="flex-shrink-0 bg-primary p-4">
+                    <div class="flex-shrink-0 bg-primary p-3">
                         <h1 class="display-2">30</h1>
                         <h5 class="text-white">Years of</h5>
                         <h5 class="text-white">Experience</h5>
                     </div>
-                    <div class="ms-4">
+                    <div class="ms-2">
                         <p><i class="fa fa-check text-primary me-2"></i>Supermarket</p>
                         <p><i class="fa fa-check text-primary me-2"></i>Fashion</p>
                         <p><i class="fa fa-check text-primary me-2"></i>Foodcourt</p>
@@ -129,7 +116,7 @@
                     </div>
                 </div>
                 <div class="row pt-2">
-                    <div class="col-sm-6 mt-3">
+                    <div class="col-sm-6 mt-1">
                         <div class="d-flex align-items-center">
                             <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                 <i class="fa fa-envelope-open text-white"></i>
@@ -313,7 +300,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe> --}}
                     <video controls>
-                        <source src="{{ asset('/video/opening.mp4') }}" type="video/mp4">
+                        <source src="{{ asset('video/opening.mp4') }}" type="video/mp4">
                         Browser Anda tidak mendukung pemutar video.
                     </video>
                 </div>

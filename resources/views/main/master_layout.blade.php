@@ -5,7 +5,7 @@
 
 <style>
     #grab:hover {
-        background-image: url('{{ asset(' img/grabmartOrange.png') }}');
+        background-image: url('{{ asset('img/grabmartOrange.png') }}');
     }
 </style>
 
