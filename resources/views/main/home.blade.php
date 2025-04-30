@@ -29,8 +29,8 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <a href="{{ url('/gebyar-lebaran') }}"><img src="{{ asset('img/banner/banner1.jpg') }}"
-                        class="d-block w-100" alt="Image Slide"></a>
+                <a href="{{ url('/pbb') }}"><img src="{{ asset('img/banner/banner1.jpg') }}" class="d-block w-100"
+                        alt="Image Slide"></a>
             </div>
             {{-- <div class="carousel-item">
                 <a href="{{ url('/promo-nugget') }}"><img src="{{ asset('img/banner/banner2.jpg') }}"
