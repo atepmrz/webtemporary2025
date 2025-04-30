@@ -70,11 +70,11 @@
                         <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
                         <a href="{{ url('/kat-pramaborma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('/kat-pramafresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
-                        <a href="{{ url('/promo-double') }}" class="dropdown-item">Promo Double Date</a>
+                        {{-- <a href="{{ url('/promo-double') }}" class="dropdown-item">Promo Double Date</a>
                         <a href="{{ url('/kue-sirup') }}" class="dropdown-item">Promo Kue & Sirup</a>
                         <a href="{{ url('/mudik-seru') }}" class="dropdown-item">Promo Mudik Seru</a>
                         <a href="{{ url('/gebyar-lebaran') }}" class="dropdown-item">Gebyar Lebaran</a>
-                        <a href="{{ url('/lns') }}" class="dropdown-item">Late Night Shopping</a>
+                        <a href="{{ url('/lns') }}" class="dropdown-item">Late Night Shopping</a> --}}
                         <a href="{{ url('/promo-fashion') }}" class="dropdown-item">Promo Fashion</a>
                         <a href="{{ url('/promo-gajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
                         <a href="{{ url('/promo-pintar') }}" class="dropdown-item">Promo Pinter</a>
@@ -111,7 +111,8 @@
                         <a href="{{ url('/karir') }}" class="dropdown-item">Karir</a>
                     </div>
                 </div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFVGEmIb-PkFgrFPI3cXr6O4Ao-_3pM-5LVYgxz2oMZbF0iw/viewform?pli=1" target="_blank" class="nav-item nav-link">Kerjasama</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFVGEmIb-PkFgrFPI3cXr6O4Ao-_3pM-5LVYgxz2oMZbF0iw/viewform?pli=1"
+                    target="_blank" class="nav-item nav-link">Kerjasama</a>
             </div>
             <a href="https://wa.me/6287814523770/?text=" target="_blank"
                 class="btn btn-primary px-3 d-none d-lg-block d-md-block" style="border-radius: 8px;">Daftar
