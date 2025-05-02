@@ -16,7 +16,7 @@
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/') }}">PBB</a>
+                        <a class="btn btn-light" href="{{ url('/pbb') }}">PBB</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -28,11 +28,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Promo Nugget</h3>
+                                <h3 class="mb-0">Prama Borma Berhadiah</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/promo-nugget') }}">Promo Nugget</a>
+                        <a class="btn btn-light" href="{{ url('/') }}">PBB</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -44,11 +44,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Hidup Sehat</h3>
+                                <h3 class="mb-0">Goreng Ikan & Seafood</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url("/kue-sirup") }}">Hidup Sehat</a>
+                        <a class="btn btn-light" href="{{ url("/") }}">Seafood</a>
                     </div>
                 </div>
 
