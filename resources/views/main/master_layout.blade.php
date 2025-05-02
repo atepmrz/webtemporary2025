@@ -5,7 +5,7 @@
 
 <style>
     #grab:hover {
-        background-image: url('{{ asset('img/grabmartOrange.png') }}');
+        background-image: url('{{ asset(' img/grabmartOrange.png') }}');
     }
 </style>
 
@@ -86,8 +86,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Event</a>
                     <div class="dropdown-menu bg-light m-0">
+                        <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah 2025</a>
                         <a href="{{ url('/kat') }}" class="dropdown-item">Info Pemenang KAT 2024</a>
-                        <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah</a>
                         <a href="{{ url('/reguler') }}" class="dropdown-item">Demo Masak & Resep</a>
                     </div>
                 </div>
