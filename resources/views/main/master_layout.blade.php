@@ -5,7 +5,7 @@
 
 <style>
     #grab:hover {
-        background-image: url('{{ asset('img/grabmartOrange.png') }}');
+        background-image: url('{{ asset(' img/grabmartOrange.png') }}');
     }
 </style>
 
@@ -66,10 +66,10 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Promosi</a>
                     <div class="dropdown-menu bg-light m-0">
                         {{-- <a href="{{ url('/borongHabis') }}" class="dropdown-item">Borong Habis</a> --}}
-                        <a href="{{ url('/promo-nugget') }}" class="dropdown-item">Promo Nugget Vaganza</a>
+                        {{-- <a href="{{ url('/promo-nugget') }}" class="dropdown-item">Promo Nugget Vaganza</a> --}}
                         <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
-                        <a href="{{ url('/kat-pramaborma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         <a href="{{ url('/kat-pramafresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
+                        <a href="{{ url('/kat-pramaborma') }}" class="dropdown-item">Katalog Prama Borma</a>
                         {{-- <a href="{{ url('/promo-double') }}" class="dropdown-item">Promo Double Date</a>
                         <a href="{{ url('/kue-sirup') }}" class="dropdown-item">Promo Kue & Sirup</a>
                         <a href="{{ url('/mudik-seru') }}" class="dropdown-item">Promo Mudik Seru</a>
@@ -86,8 +86,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Event</a>
                     <div class="dropdown-menu bg-light m-0">
+                        <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah 2025</a>
                         <a href="{{ url('/kat') }}" class="dropdown-item">Info Pemenang KAT 2024</a>
-                        <a href="{{ url('/pbb') }}" class="dropdown-item">Prama Borma Berhadiah</a>
                         <a href="{{ url('/reguler') }}" class="dropdown-item">Demo Masak & Resep</a>
                     </div>
                 </div>

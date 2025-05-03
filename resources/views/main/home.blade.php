@@ -32,7 +32,7 @@
                 <a href="{{ url('/pbb') }}"><img src="{{ asset('img/banner/banner1.jpg') }}" class="d-block w-100"
                         alt="Image Slide"></a>
             </div>
-            @for ($x = 2; $x <= 3; $x++) <div class="carousel-item">
+            @for ($x = 2; $x <= 2; $x++) <div class="carousel-item">
                 <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
         </div>
         @endfor
@@ -89,8 +89,8 @@
                         </video> --}}
                     </div>
                     <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                        <img href="{{ url('/') }}" class="img-fluid border-3 border-primary"
-                            style="border-radius: 10px" src="img/about-2.jpg" onclick="openImageModal.show({
+                        <img href="{{ url('/') }}" class="img-fluid border-3 border-primary" style="border-radius: 10px"
+                            src="img/about-2.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
                             })" />
@@ -100,7 +100,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                 <p class="fw-medium text-uppercase text-primary mb-2">Layanan</p>
                 <h1 class="display-5 mb-4">Fasilitas Kami</h1>
-                
+
                 <div class="d-flex align-items-center mb-4">
                     <div class="flex-shrink-0 bg-primary p-3">
                         <h1 class="display-2">30</h1>
