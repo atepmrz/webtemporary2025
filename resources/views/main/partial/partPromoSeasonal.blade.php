@@ -16,8 +16,8 @@
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="https://www.instagram.com/pramaborma_cj/" target="_blank">09 - 11
-                            Mei</a>
+                        <a class="btn btn-light" href="https://www.instagram.com/pramaborma_cj/" target="_blank">Borma
+                            Cijerah</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -29,11 +29,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Promo JSM</h3>
+                                <h3 class="mb-0">Prama Borma Berhadiah</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/promo-jsm') }}">Promo JSM</a>
+                        <a class="btn btn-light" href="{{ url('/pbb') }}">PBB</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
