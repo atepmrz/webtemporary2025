@@ -97,6 +97,7 @@
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('/layar') }}" class="dropdown-item">Layanan Antar
                             (LAYAR)</a>
+                        <a href="https://toko.pramatoserba.co.id/" target="_blank" class="dropdown-item">Toko Online</a>
                         <a href="{{ url('/customerCare') }}" class="dropdown-item">Customer Care</a>
                         <a href="{{ url('/voucher') }}" class="dropdown-item">Voucher</a>
                         <a href="{{ url('/lokasi') }}" class="dropdown-item">Lokasi</a>
