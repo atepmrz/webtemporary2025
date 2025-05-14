@@ -24,3 +24,80 @@
             $("#myModal").modal("show");
         });
 </script>
+<!-- Matiin Klik Kanan Inspect element -->
+<script type="text/javascript">
+    document.onmousedown = disableclick;
+    status = "Anda Tidak diperbolehkan Klik Kanan";
+
+    function disableclick(event) {
+        if (event.button == 2) {
+            alert(status);
+            return false;
+        }
+    }
+</script>
+<!-- Matiin page view source F12, Ctrl+Shift+i,Ctrl+Shift+j,Ctrl+U  -->
+<script type="text/javascript">
+    window.addEventListener("keydown", function(e) {
+        if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 73 || e.which == 80 || e
+                .which == 83 || e.which == 85 || e.which == 86 || e.keyCode == 154)) {
+            e.preventDefault()
+            alert("Anda tidak diperbolehkan Copy Paste Page Source");
+        }
+    });
+    document.keypress = function(e) {
+        if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 73 || e.which == 80 || e
+                .which == 83 || e.which == 85 || e.which == 86 || e.keyCode == 154)) {}
+        alert("Anda tidak diperbolehkan Klik Kanan / Inspect Element / Page Source");
+        return false
+
+    }
+</script>
+<script type="text/javascript">
+    document.onkeydown = function(e) {
+        e = e || window.event;
+        if (e.keyCode == 123 || e.keyCode == 18 || e.keyCode == 154) {
+            alert("Anda tidak diperbolehkan Klik Kanan / Inspect Element / Page Source");
+            return false
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    function copyToClipboard() {
+        // Create a "hidden" input
+        var aux = document.createElement("input");
+        // Assign it the value of the specified element
+        aux.setAttribute("value",
+            "Você não pode mais dar printscreen. Isto faz parte da nova medida de segurança do sistema.");
+        // Append it to the body
+        document.body.appendChild(aux);
+        // Highlight its content
+        aux.select();
+        // Copy the highlighted text
+        document.execCommand("copy");
+        // Remove it from the body
+        document.body.removeChild(aux);
+        alert("Anda Tidak diperbolehkan Printscreen / Screenshot.");
+    }
+
+    $(window).keyup(function(e) {
+        if (e.keyCode == 44) {
+            copyToClipboard();
+        }
+    });
+
+    // $(window).focus(function() {
+    //     $("body").show();
+    // }).blur(function() {
+    //     $("body").hide();
+    // });
+</script>
+
+<script type="text/javascript" src="https://pdfanticopy.com/noprint.js"></script>
+<script language="javascript">
+    var noPrint = true;
+    var noCopy = true;
+    var noScreenshot = true;
+    var autoBlur = true;
+</script>
