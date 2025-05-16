@@ -27,7 +27,7 @@
 <!-- Matiin Klik Kanan Inspect element -->
 <script type="text/javascript">
     document.onmousedown = disableclick;
-    status = "Anda Tidak diperbolehkan Klik Kanan";
+    status = "Forbidden";
 
     function disableclick(event) {
         if (event.button == 2) {
@@ -42,13 +42,13 @@
         if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 73 || e.which == 80 || e
                 .which == 83 || e.which == 85 || e.which == 86 || e.keyCode == 154)) {
             e.preventDefault()
-            alert("Anda tidak diperbolehkan Copy Paste Page Source");
+            alert("Forbidden");
         }
     });
     document.keypress = function(e) {
         if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 73 || e.which == 80 || e
                 .which == 83 || e.which == 85 || e.which == 86 || e.keyCode == 154)) {}
-        alert("Anda tidak diperbolehkan Klik Kanan / Inspect Element / Page Source");
+        alert("Forbidden");
         return false
 
     }
@@ -57,7 +57,7 @@
     document.onkeydown = function(e) {
         e = e || window.event;
         if (e.keyCode == 123 || e.keyCode == 18 || e.keyCode == 154) {
-            alert("Anda tidak diperbolehkan Klik Kanan / Inspect Element / Page Source");
+            alert("Forbidden");
             return false
         }
     }
@@ -69,7 +69,7 @@
         var aux = document.createElement("input");
         // Assign it the value of the specified element
         aux.setAttribute("value",
-            "Você não pode mais dar printscreen. Isto faz parte da nova medida de segurança do sistema.");
+            "Forbidden");
         // Append it to the body
         document.body.appendChild(aux);
         // Highlight its content
@@ -78,7 +78,7 @@
         document.execCommand("copy");
         // Remove it from the body
         document.body.removeChild(aux);
-        alert("Anda Tidak diperbolehkan Printscreen / Screenshot.");
+        alert("Forbidden");
     }
 
     $(window).keyup(function(e) {
