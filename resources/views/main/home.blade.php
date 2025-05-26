@@ -322,7 +322,7 @@
         <div class="modal-content">
             <div class="modal-body">
                 <a href="{{ url('/') }}">
-                    <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
+                    <img src="{{ asset('img/iklan/iduladha.jpeg') }}" alt="Iklan" class="img-fluid rounded" />
                 </a>
 
                 {{-- <video class="img-fluid rounded" width="100%" height="500px" controls>
