@@ -2,7 +2,6 @@
 <html lang="en">
 
 @include('main.header')
-@include('main.footer')
 
 <style>
     #grab:hover {
@@ -232,7 +231,7 @@
     </script> --}}
 
 
-
+    @include('main.footer')
 </body>
 
 </html>
