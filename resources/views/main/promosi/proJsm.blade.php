@@ -41,41 +41,29 @@
                                 <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
                             </div>
                         </div>
-                        {{-- <div class="d-flex mt-3">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                <i class="fa fa-check text-white"></i>
-                            </div>
-                            <div class="ms-4">
-                                <h4>Member Day</h4>
-                                <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
-                            </div>
-                        </div>
                         <div class="d-flex mt-3">
                             <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                 <i class="fa fa-check text-white"></i>
                             </div>
                             <div class="ms-4">
-                                <h4>Member Day</h4>
-                                <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
+                                <h4>📅 Berlaku hanya: Jumat – Sabtu – Minggu</h4>
+                                <p>🎉 Diskon Spesial untuk Produk Kebutuhan Harian</p>
+                                <p>🍗 Harga hemat untuk daging, ayam, dan bahan segar</p>
+                                <p>🥩 Harga spesial produk segar & sembako</p>
+                                <p>🧴 Promo menarik produk rumah tangga & perawatan tubuh</p>
+                                <p>🍪 Snack dan minuman favorit keluarga, harga hemat!</p>
+                                <p>📍 Kunjungi Borma Toserba terdekat</p>
+                                <p>🎁 Belanja hemat, isi rumah makin lengkap!</p>
                             </div>
                         </div>
-                        <div class="d-flex mt-3">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                <i class="fa fa-check text-white"></i>
-                            </div>
-                            <div class="ms-4">
-                                <h4>Member Day</h4>
-                                <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
-        {{-- <div class="col-md wow fadeInUp">
+        <div class="col-md wow fadeInUp">
             <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpg') }}" alt="Promo JSM"
                 style="border-radius: 15px;">
-        </div> --}}
+        </div>
     </div>
 </section>
 
