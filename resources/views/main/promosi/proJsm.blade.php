@@ -41,14 +41,41 @@
                                 <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
                             </div>
                         </div>
+                        {{-- <div class="d-flex mt-3">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Member Day</h4>
+                                <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Member Day</h4>
+                                <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Member Day</h4>
+                                <span>Belanja pakai Member, lebih murah dan banyak untungnya</span>
+                            </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md wow fadeInUp">
+        {{-- <div class="col-md wow fadeInUp">
             <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpg') }}" alt="Promo JSM"
                 style="border-radius: 15px;">
-        </div>
+        </div> --}}
     </div>
 </section>
 
