@@ -45,11 +45,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Prama Borma Berhadiah</h3>
+                                <h3 class="mb-0">Promo Pinter</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/pbb') }}">PBB</a>
+                        <a class="btn btn-light" href="{{ url('/pbb') }}">Promo Pinter</a>
                     </div>
                 </div>
             </div>
