@@ -68,15 +68,15 @@
                         {{-- <a href="{{ url('/borongHabis') }}" class="dropdown-item">Borong Habis</a> --}}
                         {{-- <a href="{{ url('/promo-nugget') }}" class="dropdown-item">Promo Nugget Vaganza</a> --}}
                         <a href="{{ url('/promo-jsm') }}" class="dropdown-item">Promo JSM</a>
-                        <a href="{{ url('/kat-pramafresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
                         <a href="{{ url('/kat-pramaborma') }}" class="dropdown-item">Katalog Prama Borma</a>
+                        <a href="{{ url('/kat-pramafresh') }}" class="dropdown-item">Katalog Prama Fresh</a>
                         {{-- <a href="{{ url('/promo-double') }}" class="dropdown-item">Promo Double Date</a>
                         <a href="{{ url('/kue-sirup') }}" class="dropdown-item">Promo Kue & Sirup</a>
                         <a href="{{ url('/mudik-seru') }}" class="dropdown-item">Promo Mudik Seru</a>
                         <a href="{{ url('/gebyar-lebaran') }}" class="dropdown-item">Gebyar Lebaran</a>
                         <a href="{{ url('/lns') }}" class="dropdown-item">Late Night Shopping</a> --}}
-                        <a href="{{ url('/promo-fashion') }}" class="dropdown-item">Promo Fashion</a>
                         <a href="{{ url('/promo-gajian') }}" class="dropdown-item">Promo Gajian 25/5</a>
+                        <a href="{{ url('/promo-fashion') }}" class="dropdown-item">Promo Fashion</a>
                         <a href="{{ url('/promo-pintar') }}" class="dropdown-item">Promo Pinter</a>
                         <a href="{{ url('/promo-selaras') }}" class="dropdown-item">Selaras</a>
                         <a href="{{ url('/promo-givemefive') }}" class="dropdown-item">Give Me Five</a>
