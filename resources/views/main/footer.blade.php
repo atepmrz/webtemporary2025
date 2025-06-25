@@ -25,7 +25,7 @@
         });
 </script>
 <!-- Matiin Klik Kanan Inspect element -->
-{{-- <script type="text/javascript">
+<script type="text/javascript">
     document.onmousedown = disableclick;
     status = "Forbidden";
 
@@ -37,7 +37,7 @@
     }
 </script>
 <!-- Matiin page view source F12, Ctrl+Shift+i,Ctrl+Shift+j,Ctrl+U  -->
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     window.addEventListener("keydown", function(e) {
         if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 73 || e.which == 80 || e
                 .which == 83 || e.which == 85 || e.which == 86 || e.keyCode == 154)) {
