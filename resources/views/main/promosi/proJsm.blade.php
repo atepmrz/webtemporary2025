@@ -60,9 +60,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md wow fadeInUp">
+        <div class="col-md wow fadeInUp text-end">
             <img class="img-fluid" src="{{ asset('img/promo/jsm/jsm1.jpeg') }}" alt="Promo JSM"
-                style="border-radius: 15px;">
+                style="border-radius: 15px; max-height:600px; max-width:600px;">
         </div>
     </div>
 </section>

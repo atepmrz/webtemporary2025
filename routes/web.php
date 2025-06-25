@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MpanelController;
+use App\Http\Controllers\PromoController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -41,10 +42,11 @@ Route::get('/kat-pramafresh', function () {
     return view('main.promosi.katalogFresh');
 });
 
-Route::get('/carnival', function () {
-    return view('main.promosi.proCarnival');
-});
+// Route::get('/carnival', function () {
+//     return view('main.promosi.proCarnival');
+// });
 
+Route::get('/promo-carnival', [PromoController::class, 'showPromoCarnival']);
 
 Route::get('/promo-jsm', function () {
     return view('main.promosi.proJsm');
@@ -54,9 +56,14 @@ Route::get('/promo-fashion', function () {
     return view('main.promosi.proFashion');
 });
 
-Route::get('/promo-gajian', function () {
-    return view('main.promosi.proGajian');
-});
+
+// Ini adalah route yang sebelumnya //
+// Route::get('/promo-gajian', function () {
+//     return view('main.promosi.proGajian');
+// });
+
+// Ini adalah route yang terbaru/fix //
+Route::get('/promo-gajian', [PromoController::class, 'showPromoGajian']);
 
 Route::get('/promo-pintar', function () {
     return view('main.promosi.proPintar');

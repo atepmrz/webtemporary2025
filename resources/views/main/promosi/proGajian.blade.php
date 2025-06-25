@@ -1,6 +1,6 @@
 @extends('main.master_layout')
 @section('konten')
-<!-- Page Header Start -->
+<!-- Page Header -->
 <div class="container-fluid page-header py-2 mb-0 wow fadeIn bg-warning" data-wow-delay="0.1s">
     <div class="container py-5">
         <h1 class="display-3 text-white animated slideInRight">Promo Gajian 25/5</h1>
@@ -12,8 +12,11 @@
         </nav>
     </div>
 </div>
-<!-- Page Header End -->
 
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 <style>
     .promo-card {
         position: relative;
@@ -23,11 +26,6 @@
         transition: all 0.3s ease;
         height: 400px;
         /* Ukuran tinggi yang lebih besar */
-    }
-
-    .promo-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     }
 
     .promo-card img {
@@ -55,11 +53,52 @@
         font-size: 12px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
-</style>
 
+    .owl-carousel-wrapper {
+        position: relative;
+    }
+
+    .custom-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        z-index: 20;
+        pointer-events: none;
+    }
+
+    .custom-nav button {
+        pointer-events: all;
+        background-color: rgba(255, 87, 34, 0.4);
+        /* oranye transparan */
+        border: none;
+        color: white;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        /* bayangan halus */
+        transition: all 0.3s ease;
+        backdrop-filter: blur(2px);
+        /* blur background sedikit */
+    }
+
+    .custom-nav button:hover {
+        background-color: rgba(255, 87, 34, 0.7);
+        /* lebih pekat saat hover */
+    }
+</style>
 <section id="voucher" class="container-fluid">
     <div class="row p-4 g-4">
-        <div class="col-md">
+        <!-- Text Section -->
+        <div class="col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.5s">
                 <div class="row gy-4">
                     <div class="col-12">
@@ -90,28 +129,65 @@
                 </div>
             </div>
         </div>
+
+        <!-- Carousel Section -->
         <div class="col-md-8 wow fadeInUp">
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="promo-card">
-                        <span class="promo-badge">HOT</span>
-                        <img src="{{ asset('img/promo/promogajian1.jpg') }}" alt="Promo 1">
-                    </div>
+            <div class="owl-carousel-wrapper">
+                <!-- Custom Buttons -->
+                <div class="custom-nav">
+                    <button id="customPrev"><i class="fa fa-chevron-left"></i></button>
+                    <button id="customNext"><i class="fa fa-chevron-right"></i></button>
                 </div>
-                <div class="col-md-4">
-                    <div class="promo-card">
-                        <span class="promo-badge">HOT</span>
-                        <img src="{{ asset('img/promo/promogajian2.jpg') }}" alt="Promo 2">
+                <div class="owl-carousel owl-theme">
+                    @foreach ($files as $file)
+                    <div class="item">
+                        <div class="promo-card">
+                            <span class="promo-badge">HOT</span>
+                            <a href="{{ url('/layar') }}">
+                                <img class="promo-card-img" src="{{ asset($file) }}" alt="Promo">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="promo-card">
-                        <span class="promo-badge">HOT</span>
-                        <img src="{{ asset('img/promo/promogajian3.jpg') }}" alt="Promo 3">
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Owl Carousel JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function() {
+            var owl = $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: false,
+                autoplay: true, // Tambahkan ini supaya autoplay
+                autoplayTimeout: 3000, // Durasi tiap slide (3 detik)
+                autoplayHoverPause: true, // Pause kalau hover
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    992: {
+                        items: 3
+                    }
+                }
+            });
+
+            $('#customPrev').click(function() {
+                owl.trigger('prev.owl.carousel');
+            });
+
+            $('#customNext').click(function() {
+                owl.trigger('next.owl.carousel');
+            });
+        });
+</script>
 @endsection

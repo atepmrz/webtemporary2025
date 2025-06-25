@@ -13,26 +13,19 @@
     </div>
 </div>
 <!-- Page Header End -->
-
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 <style>
     .promo-card {
         position: relative;
         overflow: hidden;
-        border-radius: 10px;
+        border-radius: 15px;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease;
         height: 470px;
-        max-width: auto-fit;
-        /* display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
-
-        /* padding: 10px; */
         /* Ukuran tinggi yang lebih besar */
-    }
-
-    .promo-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     }
 
     .promo-card img {
@@ -59,6 +52,47 @@
         font-weight: bold;
         font-size: 12px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .owl-carousel-wrapper {
+        position: relative;
+    }
+
+    .custom-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        z-index: 20;
+        pointer-events: none;
+    }
+
+    .custom-nav button {
+        pointer-events: all;
+        background-color: rgba(255, 87, 34, 0.4);
+        /* oranye transparan */
+        border: none;
+        color: white;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        /* bayangan halus */
+        transition: all 0.3s ease;
+        backdrop-filter: blur(2px);
+        /* blur background sedikit */
+    }
+
+    .custom-nav button:hover {
+        background-color: rgba(255, 87, 34, 0.7);
+        /* lebih pekat saat hover */
     }
 </style>
 
@@ -97,21 +131,23 @@
             </div>
         </div>
         <div class="col-md-8 wow fadeInUp">
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="promo-card">
-                        <img src="{{ asset('img/promo/carnival/carniv1.jpg') }}" alt="Promo Carnival 1">
-                    </div>
+            <div class="owl-carousel-wrapper">
+                <!-- Custom Buttons -->
+                <div class="custom-nav">
+                    <button id="customPrev"><i class="fa fa-chevron-left"></i></button>
+                    <button id="customNext"><i class="fa fa-chevron-right"></i></button>
                 </div>
-                <div class="col-md-4">
-                    <div class="promo-card">
-                        <img src="{{ asset('img/promo/carnival/carniv2.jpg') }}" alt="Promo Carnival 2">
+                <div class="owl-carousel owl-theme">
+                    @foreach ($files as $file)
+                    <div class="item">
+                        <div class="promo-card">
+                            <span class="promo-badge">HOT</span>
+                            <a href="{{ url('/layar') }}">
+                                <img class="promo-card-img" src="{{ asset($file) }}" alt="Promo">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="promo-card">
-                        <img src="{{ asset('img/promo/carnival/carniv4.jpg') }}" alt="Promo Carnival 3">
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
