@@ -2,7 +2,7 @@
 @section('konten')
 <!-- Page Header Start -->
 <div class="container-fluid page-header py-2 mb-0 wow fadeIn bg-warning" data-wow-delay="0.1s">
-    <div class="container py-5">
+    <div class="container py-4">
         <h1 class="display-3 text-white animated slideInRight">Promo JSM</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb animated slideInRight mb-0">

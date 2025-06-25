@@ -25,7 +25,6 @@ class PromoController extends Controller
                 }
             }
         }
-
         return view('main.promosi.proGajian', compact('files'));
     }
 
