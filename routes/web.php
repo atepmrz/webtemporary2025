@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('main.home');
-})->middleware('no.cache');
+});
+
 //
 Route::get('/gebyar-lebaran', function () {
     return view('main.promosi.promosi_seasonal.promoGebyarLebaran');
