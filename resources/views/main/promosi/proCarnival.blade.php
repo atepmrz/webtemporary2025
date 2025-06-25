@@ -88,7 +88,7 @@
                             <div class="ms-4">
                                 <h4>🎪 Bermain sepuasnya</h4>
                                 <span>🎊 Free Mandi Bola</span><br>
-                                {{-- <span>Free SABUN</span><br>
+                                {{-- <span>Free SABUN </span><br>
                                 <span>Free Mandi Bareng ATEP </span><br> --}}
                             </div>
                         </div>
