@@ -47,16 +47,10 @@ Route::get('/kat-pramafresh', function () {
 // });
 
 Route::get('/promo-carnival', [PromoController::class, 'showPromoCarnival']);
-
-Route::get('/promo-jsm', function () {
-    return view('main.promosi.proJsm');
-});
-
+Route::get('/promo-jsm', [PromoController::class, 'showPromoJSM']);
 Route::get('/promo-fashion', function () {
     return view('main.promosi.proFashion');
 });
-
-
 // Ini adalah route yang sebelumnya //
 // Route::get('/promo-gajian', function () {
 //     return view('main.promosi.proGajian');
