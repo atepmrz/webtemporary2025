@@ -10,15 +10,32 @@
         </h1>
     </div>
     <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-        @for ($x = 1; $x <= 4; $x++) <a class="project-item pb-4 px-3" href="{{ url('/layar') }}"><br>
-            <img class="img-fluid rounded2" src="{{ asset('img/promo/items/jsm' . $x . '.jpeg') }}" alt="" />
+        @php
+        $files = [];
+        $allowed_extensions = ['jpg', 'jpeg', 'png', 'svg'];
+        $directory = public_path('img/promo/items');
+
+        if (is_dir($directory)) {
+        $allFiles = scandir($directory);
+        foreach ($allFiles as $file) {
+        if ($file === '.' || $file === '..') continue;
+        $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+        if (in_array($ext, $allowed_extensions)) {
+        $files[] = 'img/promo/items/' . $file;
+        }
+        }
+        }
+        @endphp
+        @foreach ($files as $file )
+        <a class="project-item pb-4 px-3" href="{{ url('/layar') }}"><br>
+            <img class="img-fluid rounded2" src="{{ asset($file) }}" alt="Promo Items" />
             <div class="project-title">
                 <button class="btn btn-light rounded-4 mb-0 text-primary lead">Beli Sekarang <i class="bi bi-cart"
                         style="color: rgb(0, 180, 0)"></i>
                 </button>
             </div>
-            </a>
-            @endfor
+        </a>
+        @endforeach
     </div>
 </div>
 <!-- Project End -->
