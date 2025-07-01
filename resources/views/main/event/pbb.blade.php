@@ -20,8 +20,9 @@
 </script>
 
 <!-- Owl Carousel CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
 <style>
     .custom-nav {
@@ -69,7 +70,7 @@
     }
 
     .owl-carousel .item img {
-        max-height: 380px;
+        max-height: 580px;
         transition: transform 0.3s ease;
     }
 
@@ -88,19 +89,16 @@
 
     <!-- Banner full width -->
     <div class="mb-4">
-        <img 
-            src="{{ asset('img/event&news/pbb/banner1.jpg') }}" 
-            alt="PBB 2025 Banner" 
-            class="img-fluid w-100" 
-            style="max-height: 500px; object-fit: cover; cursor: pointer;"
-            onclick="openModal(this.src, this.alt)"
-        >
+        <img src="{{ asset('img/event&news/pbb/banner1.jpg') }}" alt="PBB 2025 Banner" class="img-fluid w-100"
+            style="max-height: 500px; object-fit: cover; cursor: pointer;">
+        {{-- onclick="openModal(this.src, this.alt)"> --}}
     </div>
 
     <!-- Teks Deskripsi -->
     <div class="container mb-5 px-3" style="max-width: 900px;">
         <p class="fs-5">
-            Belanja min <strong>225.000</strong> selama periode <strong>1 Mei - 30 Juni 2025</strong>, berkesempatan mendapatkan <strong>Hadiah Utama Umroh</strong> untuk 3 Member beruntung 🥳🤩
+            Belanja min <strong>225.000</strong> selama periode <strong>1 Mei - 30 Juni 2025</strong>, berkesempatan
+            mendapatkan <strong>Hadiah Utama Umroh</strong> untuk 3 Member beruntung 🥳🤩
         </p>
         <p class="fw-bold">🔥 Mekanisme:</p>
         <ul>
@@ -139,34 +137,31 @@
     <!-- Carousel Gambar -->
     <div class="owl-carousel-wrapper container position-relative mb-5">
         <div class="owl-carousel owl-theme">
-            @for ($i = 1; $i <= 16; $i++)
-                <div class="item p-2">
-                    <img 
-                        src="{{ asset('img/event/pbb/pbb' . $i . '.jpg') }}" 
-                        class="img-fluid rounded shadow" 
-                        alt="PBB Gambar {{ $i }}" 
-                        style="cursor: pointer;"
-                        onclick="openModal(this.src, this.alt)"
-                    >
-                </div>
-            @endfor
+            @for ($i = 1; $i <= 16; $i++) <div class="item p-2">
+                <img src="{{ asset('img/event&news/pbb/pbb' . $i . '.jpg') }}" class="img-fluid rounded shadow"
+                    alt="PBB Gambar {{ $i }}" style="cursor: pointer;">
+                {{-- onclick="openModal(this.src, this.alt)"> --}}
         </div>
-        <!-- Custom nav buttons -->
-        <button class="custom-nav custom-prev" id="customPrev">&lt;</button>
-        <button class="custom-nav custom-next" id="customNext">&gt;</button>
+        @endfor
     </div>
+    <!-- Custom nav buttons -->
+    <button class="custom-nav custom-prev" id="customPrev">&lt;</button>
+    <button class="custom-nav custom-next" id="customNext">&gt;</button>
+</div>
 </div>
 
 <!-- Modal Zoom Gambar -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent border-0">
-      <div class="modal-body p-0 position-relative">
-        <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img id="modalImage" src="" alt="" class="img-fluid rounded" style="width: 100%; max-height: 380px; object-fit: contain;">
-      </div>
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 position-relative">
+                <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <img id="modalImage" src="" alt="" class="img-fluid rounded"
+                    style="width: 100%; max-height: 380px; object-fit: contain;">
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <!-- Owl Carousel JS -->
