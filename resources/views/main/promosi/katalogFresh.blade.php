@@ -60,14 +60,15 @@
     <div class="container">
         <div class="slider">
             <div class="owl-carousel">
-                @for ($x = 1; $x <= 10; $x++) <div class="slider-card">
+                @foreach ($files as $file )
+                <div class="slider-card">
                     <div class="d-flex justify-content-center align-items-center mb-4">
-                        <img src="{{ asset('img/promo/fresh/' . $x . '.jpg') }}" alt="">
+                        <img src="{{ asset($file) }}" alt="">
                     </div>
+                </div>
+                @endforeach
             </div>
-            @endfor
         </div>
-    </div>
     </div>
 </section>
 

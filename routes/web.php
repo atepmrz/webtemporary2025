@@ -1,12 +1,12 @@
 <?php
 
+use App\Http\Controllers\EventController;
 use App\Http\Controllers\MpanelController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PromoController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('main.home');
-});
+Route::get('/', [PromoController::class, 'showBanner']);
 
 //
 Route::get('/gebyar-lebaran', function () {
@@ -34,13 +34,9 @@ Route::get('/kue-sirup', function () {
     return view('main.promosi.promosi_seasonal.promoKueSirup');
 });
 
-Route::get('/kat-pramaborma', function () {
-    return view('main.promosi.katalogBorma');
-});
 
-Route::get('/kat-pramafresh', function () {
-    return view('main.promosi.katalogFresh');
-});
+Route::get('/kat-pramaborma',[PromoController::class, 'showMailerBorma']);
+Route::get('/kat-pramafresh',[PromoController::class, 'showMailerFresh']);
 
 // Route::get('/carnival', function () {
 //     return view('main.promosi.proCarnival');
@@ -88,17 +84,35 @@ Route::get('/lokasi', function () {
     return view('main.layanan.lokasi');
 });
 
-Route::get('/pbb', function () {
-    return view('main.event.pbb');
-});
+// ini route yang baru //
+Route::get('/event', [EventController::class, 'index'])->name('event.index');
 
-Route::get('/kat', function () {
-    return view('main.event.kat');
-});
+Route::get('/event/resep', [EventController::class, 'resep'])->name('event.resep');
+Route::get('/event/icecream', [EventController::class, 'icecream'])->name('event.icecream');
+Route::get('/event/mewarnai', [EventController::class, 'mewarnai'])->name('event.mewarnai');
+Route::get('/event/pbb', [EventController::class, 'pbb'])->name('event.pbb');
+Route::get('/event/sasha', [EventController::class, 'sasha'])->name('event.sasha');
+// Route::get('/event/saporo', [EventController::class, 'saporo'])->name('event.saporo');
 
-Route::get('/reguler', function () {
-    return view('main.event.reguler');
-});
+//ini route News//
+Route::get('/news/donor', [NewsController::class, 'donor'])->name('news.donor');
+
+// sementara yang sebelumnya di off //
+// Route::get('/event', function () {
+//     return view('main.event.event');
+// });
+
+// Route::get('/pbb', function () {
+//     return view('main.event.pbb');
+// });
+
+// Route::get('/kat', function () {
+//     return view('main.event.kat');
+// });
+
+// Route::get('/reguler', function () {
+//     return view('main.event.reguler');
+// });
 
 Route::get('/visimisi', function () {
     return view('main.tentang.pramaBorma');
