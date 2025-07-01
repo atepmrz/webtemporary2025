@@ -7,6 +7,52 @@ use Illuminate\Http\Request;
 
 class PromoController extends Controller
 {
+    public function showBanner(){
+        return view('main.home');
+    }
+
+    public function showMailerBorma()
+    {
+        $files = [];
+        $allowed_extensions = ['jpg', 'jpeg', 'png', 'svg'];
+        $directory = public_path('img/promo/borma/');
+
+        if (is_dir($directory)) {
+            $allFiles = scandir($directory);
+
+            foreach ($allFiles as $file) {
+                if ($file === '.' || $file === '..') continue;
+
+                $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+                if (in_array($ext, $allowed_extensions)) {
+                    $files[] = 'img/promo/borma/' . $file;
+                }
+            }
+        }
+        return view('main.promosi.katalogBorma', compact('files'));
+    }
+
+    public function showMailerFresh()
+    {
+        $files = [];
+        $allowed_extensions = ['jpg', 'jpeg', 'png', 'svg'];
+        $directory = public_path('img/promo/fresh/');
+
+        if (is_dir($directory)) {
+            $allFiles = scandir($directory);
+
+            foreach ($allFiles as $file) {
+                if ($file === '.' || $file === '..') continue;
+
+                $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+                if (in_array($ext, $allowed_extensions)) {
+                    $files[] = 'img/promo/fresh/' . $file;
+                }
+            }
+        }
+        return view('main.promosi.katalogFresh', compact('files'));
+    }
+
     public function showPromoGajian()
     {
         $files = [];

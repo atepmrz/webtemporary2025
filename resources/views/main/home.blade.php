@@ -29,23 +29,38 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <a href="{{ url('/pbb') }}"><img src="{{ asset('img/banner/banner1.jpg') }}" class="d-block w-100"
+                <a href="{{ url('/') }}"><img src="{{ asset('img/banner/banner1.jpeg') }}" class="d-block w-100"
                         alt="Image Slide"></a>
             </div>
-            @for ($x = 2; $x <= 2; $x++) <div class="carousel-item">
-                <img src="{{ asset('img/banner/banner' . $x . '.jpg') }}" class="d-block w-100" alt="Image Slide">
+            <div class="carousel-item">
+                <a href="{{ url('/') }}"><img src="{{ asset('img/banner/banner2.jpeg') }}" class="d-block w-100"
+                        alt="Image Slide"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="{{ url('/') }}"><img src="{{ asset('img/banner/banner3.jpg') }}" class="d-block w-100"
+                        alt="Image Slide"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="{{ url('/') }}"><img src="{{ asset('img/banner/banner4.jpg') }}" class="d-block w-100"
+                        alt="Image Slide"></a>
+            </div>
+            {{-- @foreach ($files as $file )
+            <div class="carousel-item">
+                <img src="{{ asset($file) }}" class="d-block w-100" alt="Image Slide">
+            </div>
+            @endforeach --}}
         </div>
-        @endfor
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
 </div>
 <!-- Carousel End -->
 
@@ -80,7 +95,7 @@
                 <div class="row gx-3 h-500">
                     <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
                         <img href="{{ url('/') }}" class="img-fluid border-3 border-primary"
-                            style="border-radius: 10px;" src="img/about-1.jpeg" onclick="openImageModal.show({
+                            style="border-radius: 10px;" src="img/about-1.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
                             })" />
@@ -90,7 +105,7 @@
                     </div>
                     <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                         <img href="{{ url('/') }}" class="img-fluid border-3 border-primary" style="border-radius: 10px"
-                            src="img/about-2.jpeg" onclick="openImageModal.show({
+                            src="img/about-2.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
                             })" />
@@ -322,7 +337,7 @@
         <div class="modal-content">
             <div class="modal-body">
                 <a href="{{ url('/') }}">
-                    <img src="{{ asset('img/iklan/utama.jpeg') }}" alt="Iklan" class="img-fluid rounded" />
+                    <img src="{{ asset('img/iklan/utama.jpg') }}" alt="Iklan" class="img-fluid rounded" />
                 </a>
 
                 {{-- <video class="img-fluid rounded" width="100%" height="500px" controls>
