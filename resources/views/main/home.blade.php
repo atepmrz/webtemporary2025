@@ -80,7 +80,7 @@
                 <div class="row gx-3 h-500">
                     <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
                         <img href="{{ url('/') }}" class="img-fluid border-3 border-primary"
-                            style="border-radius: 10px;" src="img/about-1.jpeg" onclick="openImageModal.show({
+                            style="border-radius: 10px;" src="img/about-1.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
                             })" />
@@ -90,7 +90,7 @@
                     </div>
                     <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                         <img href="{{ url('/') }}" class="img-fluid border-3 border-primary" style="border-radius: 10px"
-                            src="img/about-2.jpeg" onclick="openImageModal.show({
+                            src="img/about-2.jpg" onclick="openImageModal.show({
                                 img: this,
                                 animate: true
                             })" />

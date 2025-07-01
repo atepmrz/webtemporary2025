@@ -44,11 +44,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Promo JSM</h3>
+                                <h3 class="mb-0">Promo PBB</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/promo-jsm') }}">Promo JSM</a>
+                        <a class="btn btn-light" href="{{ url('/pbb') }}">Promo PBB</a>
                     </div>
                 </div>
             </div>
