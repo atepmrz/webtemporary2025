@@ -7,8 +7,12 @@
         <h1 class="display-3 text-white animated slideInRight">Promo Fashion</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb animated slideInRight mb-0">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Promosi</a></li>
+                <li class="breadcrumb-item">
+                    <a href="{{ url('/') }}" class="text-white">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{{ url('/promo-fashion') }}" class="text-white">Promosi</a>
+                </li>
             </ol>
         </nav>
     </div>

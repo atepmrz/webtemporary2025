@@ -7,8 +7,12 @@
         <h1 class="display-3 text-white animated slideInRight">Karir</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb animated slideInRight mb-0">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Tentang Kami</a></li>
+                <li class="breadcrumb-item">
+                    <a href="{{ url('/') }}" class="text-white">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{{ url('/karir') }}" class="text-white">Tentang Kami</a>
+                </li>
             </ol>
         </nav>
     </div>

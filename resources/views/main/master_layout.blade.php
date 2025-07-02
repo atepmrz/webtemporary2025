@@ -69,15 +69,17 @@
                     <div class="dropdown-menu bg-light m-0">
                         {{-- <a href="{{ url('/borongHabis') }}" class="dropdown-item">Borong Habis</a> --}}
                         {{-- <a href="{{ url('/promo-nugget') }}" class="dropdown-item">Promo Nugget Vaganza</a> --}}
-                        <a href="{{ url('/promo-jsm') }}"
-                            class="dropdown-item {{ Request::is('promo-jsm') ? 'active' : '' }}">Promo JSM</a>
+
                         <a href="{{ url('/kat-pramaborma') }}"
                             class="dropdown-item {{ Request::is('kat-pramaborma') ? 'active' : '' }}">Katalog Prama
                             Borma</a>
                         <a href="{{ url('/kat-pramafresh') }}"
                             class="dropdown-item {{ Request::is('kat-pramafresh') ? 'active' : '' }}">Katalog Prama
                             Fresh</a>
-
+                        <a href="{{ url('/promo-jsm') }}"
+                            class="dropdown-item {{ Request::is('promo-jsm') ? 'active' : '' }}">Promo JSM</a>
+                        <a href="{{ url('/promo-carnival') }}"
+                            class="dropdown-item {{ Request::is('promo-carnival') ? 'active' : '' }}">Promo Carnival</a>
                         {{-- <a href="{{ url('/promo-double') }}" class="dropdown-item">Promo Double Date</a>
                         <a href="{{ url('/kue-sirup') }}" class="dropdown-item">Promo Kue & Sirup</a>
                         <a href="{{ url('/mudik-seru') }}" class="dropdown-item">Promo Mudik Seru</a>
@@ -120,8 +122,9 @@
                         <a href="{{ url('/layar') }}"
                             class="dropdown-item {{ Request::is('layar') ? 'active' : '' }}">Layanan Antar (LAYAR)</a>
                         <a href="https://toko.pramatoserba.co.id/" target="_blank" class="dropdown-item">Toko Online</a>
-                        <a href="{{ url('/customerCare') }}"
+                        {{-- <a href="{{ url('/customerCare') }}"
                             class="dropdown-item {{ Request::is('customerCare') ? 'active' : '' }}">Customer Care</a>
+                        --}}
                         <a href="{{ url('/voucher') }}"
                             class="dropdown-item {{ Request::is('voucher') ? 'active' : '' }}">Voucher</a>
                         <a href="{{ url('/lokasi') }}"

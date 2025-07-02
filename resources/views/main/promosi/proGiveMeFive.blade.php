@@ -6,8 +6,12 @@
         <h1 class="display-3 text-white animated slideInRight">Give Me Five</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb animated slideInRight mb-0">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Promosi</a></li>
+                <li class="breadcrumb-item">
+                    <a href="{{ url('/') }}" class="text-white">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{{ url('/promo-givemefive') }}" class="text-white">Promosi</a>
+                </li>
                 {{-- <li class="breadcrumb-item active" aria-current="page">Give Me Five</li> --}}
             </ol>
         </nav>
