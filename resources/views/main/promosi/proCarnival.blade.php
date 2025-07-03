@@ -100,7 +100,7 @@
     }
 </style>
 
-<section id="voucher" class="container-fluid">
+<section id="carnival" class="container-fluid">
     <div class="row p-4 g-4">
         <div class="col-md">
             <div class="wow fadeInUp" data-wow-delay="0.5s">
@@ -113,7 +113,7 @@
                             <div class="ms-4">
                                 <h4>🎪 LIBUR TELAH TIBA! Diskon GILA-GILAAN</h4>
                                 <span>🎁 Hadiah langsung – Games seru</span><br>
-                                <span>📆 Hanya sampai 6 Juli!</span><br>
+                                <span>📆 Berlaku selama bulan Juli!</span><br>
                                 <span>📍 Datang & Rayakan Belanja Meriahmu Sekarang!</span>
                             </div>
                         </div>
@@ -125,7 +125,9 @@
                             </div>
                             <div class="ms-4">
                                 <h4>🎪 Bermain sepuasnya</h4>
+                                <span>🎊 Kumpulkan 5 struk, dapatkan free 1x bermain</span><br>
                                 <span>🎊 Free Mandi Bola</span><br>
+                                <span>🎊 Main terus Diskon terus</span><br>
                                 {{-- <span>Free SABUN </span><br>
                                 <span>Free Mandi Bareng ATEP </span><br> --}}
                             </div>
@@ -148,9 +150,8 @@
                     <div class="item">
                         <div class="promo-card">
                             <span class="promo-badge">HOT</span>
-                            <a href="{{ url('/layar') }}">
-                                <img class="promo-card-img" src="{{ asset($file) }}" alt="Promo">
-                            </a>
+                            <img class="promo-card-img" src="{{ asset($file) }}" alt="Promo Carnival"
+                                onclick="openModal(this.src, this.alt)">
                         </div>
                     </div>
                     @endforeach
@@ -159,6 +160,19 @@
         </div>
     </div>
 </section>
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 position-relative">
+                <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <img id="modalImage" src="" alt="" class="img-fluid rounded"
+                    style="width: 100%; max-height:580px; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Owl Carousel JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -194,5 +208,15 @@
                 owl.trigger('next.owl.carousel');
             });
         });
+</script>
+
+<script>
+    function openModal(imgSrc, imgAlt) {
+            const modalImg = document.getElementById('modalImage');
+            const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+            modalImg.src = imgSrc;
+            modalImg.alt = imgAlt;
+            modal.show();
+        }
 </script>
 @endsection
