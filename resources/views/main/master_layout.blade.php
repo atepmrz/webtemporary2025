@@ -121,7 +121,8 @@
                     <div class="dropdown-menu bg-light m-0">
                         <a href="{{ url('/layar') }}"
                             class="dropdown-item {{ Request::is('layar') ? 'active' : '' }}">Layanan Antar (LAYAR)</a>
-                        <a href="https://toko.pramatoserba.co.id/" target="_blank" class="dropdown-item">Toko Online</a>
+                        <a href="javascript:void(0)" class="dropdown-item">Toko
+                            Online <span class="badge text-bg-warning">Coming Soon</span></a>
                         {{-- <a href="{{ url('/customerCare') }}"
                             class="dropdown-item {{ Request::is('customerCare') ? 'active' : '' }}">Customer Care</a>
                         --}}
