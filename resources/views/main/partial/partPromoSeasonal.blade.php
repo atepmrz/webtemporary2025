@@ -12,11 +12,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Free Mandi Bola</h3>
+                                <h3 class="mb-0">Lomba Mewarnai</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/promo-carnival') }}">Carnival</a>
+                        <a class="btn btn-light" href="{{ url('/event') }}">Mewarnai</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -28,11 +28,11 @@
                         <div class="service-detail">
                             <div class="service-title">
                                 <hr class="w-25">
-                                <h3 class="mb-0">Promo Gajian</h3>
+                                <h3 class="mb-0">Promo Carnival</h3>
                                 <hr class="w-25">
                             </div>
                         </div>
-                        <a class="btn btn-light" href="{{ url('/promo-gajian') }}">Gajian</a>
+                        <a class="btn btn-light" href="{{ url('/promo-carnival') }}">Carnival</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
