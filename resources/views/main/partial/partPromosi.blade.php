@@ -10,7 +10,7 @@
     </div>
     <div class="owl-carousel project-carousel">
         @foreach ($promoFinal as $promo)
-            <a class="project-item pb-4 px-3" href="{{ url('/layar?produk=' . urlencode($promo['nama'])) }}" target="_blank">
+            <a class="project-item pb-4 px-3" href="{{ url('/layar?produk=' . urlencode($promo['nama'])) }}">
                 <img class="img-fluid rounded2" src="{{ $promo['gambar'] }}" alt="Promo {{ $promo['nama'] }}" />
                 <div class="project-title">
                     <button class="btn btn-light rounded-4 text-primary lead">
