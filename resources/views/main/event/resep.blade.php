@@ -30,8 +30,9 @@
         <!-- Gambar di tengah -->
         <div class="row justify-content-center mb-4">
             <div class="col-md-6 d-flex justify-content-center">
-                <img src="{{ asset('img/event&news/resep/churros.jpg') }}" alt="Ice Cream Churros" class="img-fluid rounded shadow"
-                    style="max-height: 450px; cursor: pointer;" onclick="openModal(this.src, this.alt)">
+                <img src="{{ asset('img/event&news/resep/churros.jpg') }}" alt="Ice Cream Churros"
+                    class="img-fluid rounded shadow" style="max-height: 450px; cursor: pointer;"
+                    onclick="openModal(this.src, this.alt)">
             </div>
         </div>
 
@@ -77,6 +78,62 @@
             </ul>
         </div>
     </div>
+    <hr>
+    <h2 class="text-center mb-5">🌮 TACO DAGING & SAYUR 🌮</h2>
+
+    <!-- Gambar di tengah -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-6 d-flex justify-content-center">
+            <img src="{{ asset('img/event&news/resep/tacodagingsayur.jpg') }}" alt="Ice Cream Churros"
+                class="img-fluid rounded shadow" style="max-height: 450px; cursor: pointer;"
+                onclick="openModal(this.src, this.alt)">
+        </div>
+    </div>
+
+    <!-- Deskripsi dan resep -->
+    <div class="mb-5 px-3" style="max-width: 800px; margin: 0 auto;">
+        <p class="fs-5 fw-bold">Bahan:</p>
+        <ul>
+            <li>Kulit taco</li>
+            <li>250gr daging sapi giling</li>
+            <li>1 sdm minyak zaitun</li>
+            <li>2 siung bawang putih (haluskan)</li>
+            <li>½ buah bawang bombay (cacah kecil)</li>
+            <li>50gr pasta tomat</li>
+            <li>1 sdt bubuk cabai</li>
+            <li>3 sdm garam</li>
+            <li>1 buah tomat (potong kecil)</li>
+            <li>1 lembar daun lettuce</li>
+            <li>50gr keju cheddar (parut halus)</li>
+        </ul>
+
+        <p class="fs-5 fw-bold">Cara Membuat:</p>
+        <ol>
+            <li>Panaskan minyak pada wajan, tambahkan bombay dan bawang putih, lalu tumis hingga setengah matang. Masukkan
+                pasta tomat dan bubuk cabai.</li>
+            <li>Masukkan daging giling dan garam lalu masak hingga matang.</li>
+            <li>Masukkan daging pada lembaran taco. Hias dengan tomat, daun lettuce, dan keju cheddar yang sudah diparut.
+            </li>
+        </ol>
+        <p class="fs-5 fw-bold mt-4">Kontak & Media Sosial:</p>
+        <ul>
+            <li>Instagram: @pramaborma_cj</li>
+            <li>WhatsApp: 0822 1401 8470</li>
+            <li>Instagram: @pramafresh.id</li>
+        </ul>
+        <p>Bikin masakan yang bisa dimasak bareng anak yuk, biar bisa seru-seruan juga nih di dapur sambil merasakan proses
+            membuat makanan, jadi lebih seru dan pastinya jadi pengalaman menarik buat anak😉🥰</p>
+        <p>Dapatkan produk-produk lainnya hanya di cabang-cabang Prama Borma di bawah ini:</p>
+        <ul>
+            <li>📍 Prama Toserba Banjaran, Babakan Sari, Ciparay</li>
+            <li>📍 Borma Buah Batu, Cikutra, Cijerah, Kerkof, Gempol</li>
+            <li>📍 Prama Fresh Mekarwangi, Burangrang, Garuda, Perintis (Sarijadi)</li>
+            <li>📍 Tikma Soreang</li>
+        </ul>
+    </div>
+    </div>
+
+
 
     <!-- Modal Gambar Besar -->
     <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">

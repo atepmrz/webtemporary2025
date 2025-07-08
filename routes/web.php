@@ -6,7 +6,7 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PromoController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [PromoController::class, 'showBanner']);
+Route::get('/', [PromoController::class, 'showPromoHome']);
 
 //
 Route::get('/gebyar-lebaran', function () {
