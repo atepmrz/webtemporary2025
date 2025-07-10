@@ -41,4 +41,8 @@ class EventController extends Controller
     {
         return view('main.event.saporo'); // = views/main/event/saporo.blade.php
     }
+    public function donor()
+    {
+        return view('main.event.donor'); // = views/main/event/donor.blade.php
+    }
 }
