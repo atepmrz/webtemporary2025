@@ -48,11 +48,11 @@
     }
 
     .custom-prev {
-        left: -5px;
+        left: 5px;
     }
 
     .custom-next {
-        right: -5px;
+        right: 5px;
     }
 
     @media (max-width: 576px) {
@@ -183,7 +183,7 @@
             <!-- Sidebar -->
             <div class="col-lg-4">
                 <div class="sidebar-sticky">
-                    <h5 class="mb-3">Event Lainnya</h5>
+                    <h5 class="mb-3">Event & News Lainnya</h5>
 
                     <!-- Thumbnail 1 -->
                     <div class="card mb-3 border-0 shadow-sm">
