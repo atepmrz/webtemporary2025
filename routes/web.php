@@ -4,6 +4,7 @@ use App\Http\Controllers\EventController;
 use App\Http\Controllers\MpanelController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PromoController;
+use App\Http\Controllers\MessageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PromoController::class, 'showPromoHome']);
@@ -83,6 +84,9 @@ Route::get('/voucher', function () {
 Route::get('/lokasi', function () {
     return view('main.layanan.lokasi');
 });
+// route send message //
+Route::post('/send-message', [MessageController::class, 'store'])->name('send.message');
+
 
 // ini route yang baru //
 Route::get('/event', [EventController::class, 'index'])->name('event.index');

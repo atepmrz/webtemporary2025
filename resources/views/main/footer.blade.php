@@ -6,11 +6,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
 </script>
-<script src="{{ asset('public/lib/wow/wow.min.js') }}"></script>
-<script src="{{ asset('public/lib/easing/easing.min.js') }}"></script>
-<script src="{{ asset('public/lib/waypoints/waypoints.min.js') }}"></script>
-<script src="{{ asset('public/lib/owlcarousel/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('public/lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
 
 {{-- Reactjs --}}
 <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
