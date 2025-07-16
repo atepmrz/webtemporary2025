@@ -22,14 +22,20 @@ class PromoController extends Controller
             $allFiles = scandir($directory);
 
             foreach ($allFiles as $file) {
-                if ($file === '.' || $file === '..') continue;
+                if ($file === '.' || $file === '..') {
+                    continue;
+                }
 
                 $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
                 if (in_array($ext, $allowed_extensions)) {
                     $files[] = 'img/promo/borma/' . $file;
                 }
             }
+
+            natsort($files);
+            $files = array_values($files);
         }
+
         return view('main.promosi.katalogBorma', compact('files'));
     }
 
@@ -43,7 +49,9 @@ class PromoController extends Controller
             $allFiles = scandir($directory);
 
             foreach ($allFiles as $file) {
-                if ($file === '.' || $file === '..') continue;
+                if ($file === '.' || $file === '..') {
+                    continue;
+                }
 
                 $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
                 if (in_array($ext, $allowed_extensions)) {
@@ -64,7 +72,9 @@ class PromoController extends Controller
             $allFiles = scandir($directory);
 
             foreach ($allFiles as $file) {
-                if ($file === '.' || $file === '..') continue;
+                if ($file === '.' || $file === '..') {
+                    continue;
+                }
 
                 $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
                 if (in_array($ext, $allowed_extensions)) {
@@ -85,7 +95,9 @@ class PromoController extends Controller
             $allFiles = scandir($directory);
 
             foreach ($allFiles as $file) {
-                if ($file === '.' || $file === '..') continue;
+                if ($file === '.' || $file === '..') {
+                    continue;
+                }
 
                 $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
                 if (in_array($ext, $allowed_extensions)) {
@@ -107,7 +119,9 @@ class PromoController extends Controller
             $allFiles = scandir($directory);
 
             foreach ($allFiles as $file) {
-                if ($file === '.' || $file === '..') continue;
+                if ($file === '.' || $file === '..') {
+                    continue;
+                }
 
                 $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
                 if (in_array($ext, $allowed_extensions)) {
@@ -121,27 +135,22 @@ class PromoController extends Controller
 
     public function showPromoHome()
     {
-        $promoList = collect([
-            ['nama' => 'Apel Fuji, Enoki Mushroom, Pear, Tenderlion Slice, Sirloin Slice', 'file' => 'Apel Fuji, Enoki Mushroom, Pear, Tenderlion Slice, Sirloin Slice'],
-            ['nama' => 'Apel Pacific Rose, Queen, Apel Royal Gala', 'file' => 'Apel Pacific Rose, Queen, Apel Royal Gala'],
-            ['nama' => 'Cimory Eat Milk', 'file' => 'Cimory Eat Milk'],
-            ['nama' => 'Happy Egg Omega & Daily', 'file' => 'Happy Egg Omega & Daily'],
-            ['nama' => 'Joyday Double Scoop', 'file' => 'Joyday Double Scoop'],
-            ['nama' => 'Mabell Nugget Ayam 500gr', 'file' => 'Mabell Nugget Ayam 500gr'],
-            ['nama' => 'Mabell Single MB', 'file' => 'Mabell Single MB'],
-        ]);
+        $promoList = collect([['nama' => 'Apel Fuji, Enoki Mushroom, Pear, Tenderlion Slice, Sirloin Slice', 'file' => 'Apel Fuji, Enoki Mushroom, Pear, Tenderlion Slice, Sirloin Slice'], ['nama' => 'Apel Pacific Rose, Queen, Apel Royal Gala', 'file' => 'Apel Pacific Rose, Queen, Apel Royal Gala'], ['nama' => 'Cimory Eat Milk', 'file' => 'Cimory Eat Milk'], ['nama' => 'Happy Egg Omega & Daily', 'file' => 'Happy Egg Omega & Daily'], ['nama' => 'Joyday Double Scoop', 'file' => 'Joyday Double Scoop'], ['nama' => 'Mabell Nugget Ayam 500gr', 'file' => 'Mabell Nugget Ayam 500gr'], ['nama' => 'Mabell Single MB', 'file' => 'Mabell Single MB']]);
 
-        $promoFinal = $promoList->map(function ($promo) {
-            $extensions = ['.jpg', '.jpeg', '.png'];
-            foreach ($extensions as $ext) {
-                $path = 'img/promo/items/' . $promo['file'] . $ext;
-                if (file_exists(public_path($path))) {
-                    $promo['gambar'] = asset($path);
-                    return $promo;
+        $promoFinal = $promoList
+            ->map(function ($promo) {
+                $extensions = ['.jpg', '.jpeg', '.png'];
+                foreach ($extensions as $ext) {
+                    $path = 'img/promo/items/' . $promo['file'] . $ext;
+                    if (file_exists(public_path($path))) {
+                        $promo['gambar'] = asset($path);
+                        return $promo;
+                    }
                 }
-            }
-            return null;
-        })->filter()->values();
+                return null;
+            })
+            ->filter()
+            ->values();
 
         return view('main.home', compact('promoFinal'));
     }
