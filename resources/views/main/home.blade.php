@@ -161,6 +161,18 @@
 <!-- About End -->
 
 @include('main.partial.partPromosi')
+@push('styles')
+<link rel="stylesheet" href="{{ asset('css/promosi.css') }}">
+@endpush
+
+@push('scripts')
+<script>
+    window.promoModalData = @json($promoFinal);
+    window.confirmPromoRoute = "{{ route('select.store') }}";
+</script>
+<script src="{{ asset('js/promosi.js') }}"></script>
+@endpush
+{{-- @include('selectStore') --}}
 {{-- @include('main.partial.partBestDeal') --}}
 @include('main.partial.partPromoSeasonal')
 

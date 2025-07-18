@@ -8,6 +8,8 @@
         background-image: url('{{ asset(' img/grabmartOrange.png') }}');
     }
 </style>
+@yield('styles')
+    @stack('styles')
 
 <body>
     <!-- Spinner Start -->
@@ -79,7 +81,8 @@
                         <a href="{{ url('/promo-jsm') }}"
                             class="dropdown-item {{ Request::is('promo-jsm') ? 'active' : '' }}">Promo JSM</a>
                         <a href="{{ url('/promo-carnival') }}"
-                            class="dropdown-item {{ Request::is('promo-carnival') ? 'active' : '' }}">Promo Carnival</a>
+                            class="dropdown-item {{ Request::is('promo-carnival') ? 'active' : '' }}">Promo
+                            Carnival</a>
                         {{-- <a href="{{ url('/promo-double') }}" class="dropdown-item">Promo Double Date</a>
                         <a href="{{ url('/kue-sirup') }}" class="dropdown-item">Promo Kue & Sirup</a>
                         <a href="{{ url('/mudik-seru') }}" class="dropdown-item">Promo Mudik Seru</a>
@@ -157,6 +160,9 @@
     <!-- Navbar End -->
 
     @yield('konten')
+    @yield('scripts')
+    @stack('scripts')
+
 
     <!-- Footer Start -->
     <div id="footer" class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -176,14 +182,14 @@
                             href="https://www.facebook.com/pramafresh.id/?locale=id_ID" target="_blank"><i
                                 class="fab fa-facebook-f" title="Facebook"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.instagram.com/pramaborma_cj/" target="_blank"><i class="fab fa-instagram"
-                                title="Prama Borma"></i></a>
+                            href="https://www.instagram.com/pramaborma_cj/" target="_blank"><i
+                                class="fab fa-instagram" title="Prama Borma"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.instagram.com/pramafresh.id/" target="_blank"><i class="fab fa-instagram"
-                                title="Prama Fresh"></i></a>
+                            href="https://www.instagram.com/pramafresh.id/" target="_blank"><i
+                                class="fab fa-instagram" title="Prama Fresh"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2"
-                            href="https://www.youtube.com/@pramabormacjtv6745" target="_blank"><i class="fab fa-youtube"
-                                title="Youtube"></i></a>
+                            href="https://www.youtube.com/@pramabormacjtv6745" target="_blank"><i
+                                class="fab fa-youtube" title="Youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -241,15 +247,15 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style="margin-bottom: 100px"><i
-            class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+        style="margin-bottom: 100px"><i class="bi bi-arrow-up"></i></a>
     <!-- Cart -->
     <a href="{{ url('/layar') }}" class="btn btn-lg btn-warning btn-lg-square rounded-circle"
         style="position: fixed; bottom:75px; right:30px"><i class="bi bi-cart4"></i></a>
     <!-- Chat WA -->
     <a href="https://wa.me/6287814523770/?text=HI saya mau pesan Minyak goreng, apakah ready?" target="_blank"
-        class="btn btn-lg btn-success btn-lg-square rounded-circle" style="position: fixed; bottom:20px; right:30px"><i
-            class="bi bi-whatsapp"></i></a>
+        class="btn btn-lg btn-success btn-lg-square rounded-circle"
+        style="position: fixed; bottom:20px; right:30px"><i class="bi bi-whatsapp"></i></a>
 
 
     {{-- <script type="text/javascript">

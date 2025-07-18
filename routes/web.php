@@ -130,6 +130,14 @@ Route::get('/karir', function () {
     return view('main.tentang.karir');
 });
 
+// Mpanel Message //
+Route::post('/messages', [MessageController::class, 'store'])->name('send.message');
+Route::get('/message', [MessageController::class, 'index'])->name('messages.index');
+
+Route::get('/select-store', [PromoController::class, 'showSelectStore'])->name('select.store');
+
+
+
 Route::get('/mpanel', [MpanelController::class, 'index']);
 Route::post('/homePanel', [MpanelController::class, 'login']);
 

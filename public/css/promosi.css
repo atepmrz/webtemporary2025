@@ -1,0 +1,168 @@
+   .rounded2 {
+    border-radius: 10px;
+}
+
+.promo-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-modal-content {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.promo-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.promo-modal-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.promo-close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+    transition: color 0.2s;
+}
+
+.promo-close-btn:hover {
+    color: #333;
+}
+
+.promo-product-selection {
+    margin-bottom: 20px;
+}
+
+.promo-product-option {
+    margin-bottom: 12px;
+}
+
+.promo-product-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+}
+
+.promo-product-label:hover {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+}
+
+.promo-product-label input[type="radio"]:checked + .promo-product-info {
+    color: #2196f3;
+    font-weight: bold;
+}
+
+.promo-product-label input[type="radio"] {
+    margin-right: 15px;
+    transform: scale(1.2);
+}
+
+.promo-product-info {
+    flex: 1;
+    transition: all 0.2s;
+}
+
+.promo-product-name {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.promo-product-price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.promo-modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.promo-btn-modal {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.promo-btn-cancel {
+    background-color: #6c757d;
+    color: white;
+}
+
+.promo-btn-cancel:hover {
+    background-color: #5a6268;
+}
+
+.promo-btn-confirm {
+    background-color: #28a745;
+    color: white;
+}
+
+.promo-btn-confirm:hover {
+    background-color: #218838;
+}
+
+.promo-btn-confirm:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.promo-single-product-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.promo-single-product-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.promo-single-product-name {
+    font-size: 1.1em;
+    color: #666;
+}
+

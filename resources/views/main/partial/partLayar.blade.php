@@ -3,7 +3,7 @@
     $produkNama = $produk ? ucwords(str_replace('-', ' ', pathinfo($produk, PATHINFO_FILENAME))) : '';
     $pesanWA = $produkNama ? rawurlencode("Halo, saya ingin bertanya apakah stok *$produkNama* masih ada?") : '';
 
-    $cabang = [
+     $cabang = [
         ['nama' => 'Borma Gempol', 'wa' => '6282124639585', 'gambar' => 'bgp.jpg'],
         ['nama' => 'Borma Buah Batu', 'wa' => '6282123767001', 'gambar' => 'bbb.jpg'],
         ['nama' => 'Borma Cijerah', 'wa' => '6282127416745', 'gambar' => 'bcj.jpg'],
